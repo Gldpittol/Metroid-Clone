@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class GroundCheck : MonoBehaviour
 {
-    public bool canJump = false;
-    public GameObject player;
+    [HideInInspector] public bool canJump = false;
+    public static GroundCheck instance;
 
+    private void Awake()
+    {
+        instance = this;
+    }
     private void Update()
     {
-        transform.position = player.transform.position;
+        transform.position = CharacterMovement.instance.transform.position;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
