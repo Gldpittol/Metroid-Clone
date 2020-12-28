@@ -36,6 +36,15 @@ public class ZoomerScript : MonoBehaviour
         }
     }
 
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("PlayerBullet"))
+        {
+            Destroy(collision.gameObject);
+            Destroy(this.gameObject);
+        }
+    }
+
     public void MoveToTarget()
     {
         transform.position = Vector2.MoveTowards(transform.position, Target[i].transform.position, speed);
@@ -43,7 +52,7 @@ public class ZoomerScript : MonoBehaviour
 
     public void FindNewTarget()
     {
-        print("oi");
+
         if(isCyclic)
         {
             i += 1;

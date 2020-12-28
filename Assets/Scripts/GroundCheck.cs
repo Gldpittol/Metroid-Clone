@@ -14,7 +14,6 @@ public class GroundCheck : MonoBehaviour
     private void Update()
     {
         transform.position = CharacterMovement.instance.transform.position;
-        print(canJump);
     }
     private void OnTriggerStay2D(Collider2D collision)
     {

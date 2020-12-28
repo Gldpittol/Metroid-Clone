@@ -11,21 +11,49 @@ public class CameraScript : MonoBehaviour
 
     public Transform player;
 
+    public Transform newCameraPosition;
+    public float cameraTransitionSpeed;
+
     
     void Update()
     {
-        float tempX;
-        float tempY;
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            if(GameController.instance.canCameraMove)
+            StartCoroutine(MoveCameraCutscene());
+        }
 
-        tempX = player.position.x;
-        tempY = player.position.y;
 
-        if (player.position.x >= maxX) tempX = maxX;
-        if (player.position.x <= minX) tempX = minX;
-        if (player.position.y >= maxY) tempY = maxY;
-        if (player.position.y <= minY) tempY = minY;
+        if(GameController.instance.canCameraMove)
+        {
+            float tempX;
+            float tempY;
 
-        Vector3 temp = new Vector3(tempX, tempY, -10) ;
-        transform.position = temp;
+            tempX = player.position.x;
+            tempY = player.position.y;
+
+            if (player.position.x >= maxX) tempX = maxX;
+            if (player.position.x <= minX) tempX = minX;
+            if (player.position.y >= maxY) tempY = maxY;
+            if (player.position.y <= minY) tempY = minY;
+
+            Vector3 temp = new Vector3(tempX, tempY, -10);
+            transform.position = temp;
+        }
+    }
+
+    public IEnumerator MoveCameraCutscene()
+    {
+        GameController.instance.canCameraMove = false;
+        yield return new WaitForSeconds(1f);
+        while(transform.position != newCameraPosition.position)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, newCameraPosition.position, cameraTransitionSpeed);
+            yield return null;
+        }
+
+
+        //GameController.instance.canCameraMove = true;
+        yield return null;
     }
 }
