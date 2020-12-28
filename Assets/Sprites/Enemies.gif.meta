@@ -1,22 +1,46 @@
 fileFormatVersion: 2
-guid: 958f5447a393ea946b57e07efcba3840
+guid: 03b2d87810133fa458210a3a28f09b50
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9074545809240991072
-    second: IMG_1203_0
+      213: 2192450021786810173
+    second: Enemies_0
   - first:
-      213: -1937473132083377979
-    second: IMG_1203_1
+      213: -7537196482120660328
+    second: Enemies_1
   - first:
-      213: 5730909721042594772
-    second: IMG_1203_2
+      213: -860468679390908754
+    second: Enemies_2
   - first:
-      213: 4067559658841054752
-    second: IMG_1203_3
+      213: -7945901444079236628
+    second: Enemies_3
   - first:
-      213: 1765515914699357885
-    second: IMG_1203_4
+      213: -8421458170528590454
+    second: Enemies_4
+  - first:
+      213: -1147401495359466748
+    second: Enemies_5
+  - first:
+      213: 8414478535512612329
+    second: Enemies_6
+  - first:
+      213: 3714015224569861163
+    second: Enemies_7
+  - first:
+      213: -7844560889915226194
+    second: Enemies_8
+  - first:
+      213: 3238148290902272003
+    second: Enemies_0
+  - first:
+      213: -2483509046945711081
+    second: Enemies_6
+  - first:
+      213: 4628952910135950435
+    second: Enemies_7
+  - first:
+      213: -6706167972155945416
+    second: Enemies_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -46,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -57,10 +81,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -138,13 +162,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_1203_0
+      name: Enemies_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 80
-        height: 128
+        x: 28
+        y: 307
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 065a1d1a5534fed70800000000000000
-      internalID: 9074545809240991072
+      spriteID: 308a441d6b630fc20800000000000000
+      internalID: 3238148290902272003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IMG_1203_1
+      name: Enemies_6
       rect:
         serializedVersion: 2
-        x: 80
-        y: 256
-        width: 80
-        height: 128
+        x: 47
+        y: 307
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,71 +197,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c88e489376bc15e0800000000000000
-      internalID: -1937473132083377979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_1203_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 80
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4dba3921708488f40800000000000000
-      internalID: 5730909721042594772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_1203_3
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 128
-        width: 80
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02e1ee775ffd27830800000000000000
-      internalID: 4067559658841054752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IMG_1203_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 80
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbe34fcce5f508810800000000000000
-      internalID: 1765515914699357885
+      spriteID: 71cf4541eadc88dd0800000000000000
+      internalID: -2483509046945711081
       vertices: []
       indices: 
       edges: []
