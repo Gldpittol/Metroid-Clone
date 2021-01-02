@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class ZoomerScript : MonoBehaviour
 {
-    [TextArea(3,9)]
-    public string ZoomerTutorial = "Ângulos para usar em ''Rotations'', cada rotação para seu respectivo Target: \n0: Agarrado na parte de cima\n90:Agarrado na parede da esquerda\n180:Agarrado na parte de baixo\n270: Agarrado na parede da direita";
+    //[TextArea(3,9)]
+    //public string ZoomerTutorial = "Ângulos para usar em ''Rotations'', cada rotação para seu respectivo Target: \n0: Agarrado na parte de cima\n90:Agarrado na parede da esquerda\n180:Agarrado na parte de baixo\n270: Agarrado na parede da direita";
     public float speed = 10;
     private int i = 0;
 
+    public GameObject Targets;
     public GameObject[] Target;
     public float[] Rotations;
     public GameObject currentTarget;
@@ -16,14 +17,57 @@ public class ZoomerScript : MonoBehaviour
     public bool isCyclic;
     private int direction;
 
+    private float initialPosX = 0;
+    private float initialPosY = 0;
+    private float originalSpeed;
+    private float originalHealth;
+    private Quaternion originalRotation;
 
-    private void Start()
+    public float chanceToSpawn; //entre 0 e 1
+    public float chanceInvertSideAfterSpawn; //entre 0 e 1
+    public float health;
+    public Color newColor;
+    public float timeSpeedReducedAfterDamaged;
+    public float speedDivisorAfterDamaged;
+
+    private void Awake()
     {
-        direction = 1;
-        currentTarget = Target[i];
-        GameObject.FindGameObjectWithTag("TargetZoomer").transform.SetParent(TargetGameObject.instance.gameObject.transform);
+        if (initialPosX == 0) initialPosX = transform.position.x;
+        if (initialPosY == 0) initialPosY = transform.position.y;
+        originalSpeed = speed;
+        speed = 0;
+        originalRotation = transform.rotation;
+        originalHealth = health;
     }
 
+    private void OnEnable()
+    {
+        if(Random.value > chanceToSpawn)
+        {
+            this.gameObject.SetActive(false);
+        }
+
+        health = originalHealth;
+
+        transform.position = new Vector2(initialPosX, initialPosY);
+        transform.rotation = originalRotation;
+
+        if (Random.value > chanceInvertSideAfterSpawn && isCyclic)
+        {
+            i = Target.Length - 1;
+            direction = -1;
+        }
+        else
+        {
+            direction = 1;
+            i = 0;
+        }
+    }
+    private void Start()
+    {
+        currentTarget = Target[i];
+        Targets.transform.SetParent(TargetGameObject.instance.gameObject.transform);
+    }
     private void Update()
     {
         MoveToTarget();
@@ -41,8 +85,27 @@ public class ZoomerScript : MonoBehaviour
         if(collision.CompareTag("PlayerBullet"))
         {
             Destroy(collision.gameObject);
-            Destroy(this.gameObject);
+            health -= 1;
+
+            if(health <= 0)
+            {
+                StartCoroutine(OnDeath());
+            }
+            else
+            {
+                StartCoroutine(OnDamaged());
+            }
         }
+    }
+
+    private void OnBecameVisible()
+    {
+        speed = originalSpeed;
+    }
+
+    private void OnBecameInvisible()
+    {
+        speed = 0;
     }
 
     public void MoveToTarget()
@@ -55,9 +118,11 @@ public class ZoomerScript : MonoBehaviour
 
         if(isCyclic)
         {
-            i += 1;
-            if (i >= Target.Length)
+            i += direction;
+            if (i >= Target.Length && direction > 0)
                 i = 0;
+            if (i < 0 && direction < 0)
+                i = Target.Length - 1;
             currentTarget = Target[i];
         }
 
@@ -75,12 +140,29 @@ public class ZoomerScript : MonoBehaviour
                 currentTarget = Target[i];
             }
         }
-
-
     }
 
     public void RotateEnemy()
     {
         transform.rotation = Quaternion.Euler(0f, 0f, Rotations[i]);
+    }
+
+    public IEnumerator OnDamaged()
+    {
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+
+        sr.color = newColor;
+        speed /= speedDivisorAfterDamaged;
+        yield return new WaitForSeconds(timeSpeedReducedAfterDamaged);
+        sr.color = Color.white;
+        speed *= speedDivisorAfterDamaged;
+
+        yield return null;
+    }
+
+    public IEnumerator OnDeath()
+    {
+        this.gameObject.SetActive(false);
+        yield return null;
     }
 }

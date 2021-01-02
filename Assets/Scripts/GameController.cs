@@ -16,4 +16,5 @@ public class GameController : MonoBehaviour
         QualitySettings.vSyncCount = 1;
         Application.targetFrameRate = 60;
     }
+
 }

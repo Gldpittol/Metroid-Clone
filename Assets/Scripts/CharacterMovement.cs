@@ -6,6 +6,7 @@ public class CharacterMovement : MonoBehaviour
 {
     public float playerSpeed;
     public float jumpForce;
+    public float highJumpForce;
     private Rigidbody2D rb;
 
     public float horizontal;
@@ -13,8 +14,8 @@ public class CharacterMovement : MonoBehaviour
     public static CharacterMovement instance;
 
     public float doubleHeightDelay;
-    public float highJumpForce;
     private float currentDelay = 0;
+    private bool hasJumped = false;
 
     private void Awake()
     {
@@ -30,7 +31,7 @@ public class CharacterMovement : MonoBehaviour
 
         horizontal = Input.GetAxisRaw("Horizontal");
 
-        if((Input.GetKey(KeyCode.LeftShift)) && GroundCheck.instance.canJump)
+        if((Input.GetKey(KeyCode.LeftShift)) && GroundCheck.instance.canJump && !hasJumped)
         {
             currentDelay += Time.deltaTime;
             if (currentDelay >= doubleHeightDelay)
@@ -38,17 +39,19 @@ public class CharacterMovement : MonoBehaviour
                 currentDelay = 0;
                 Vector2 jumpVector = new Vector2(0, highJumpForce);
                 rb.AddForce(jumpVector, ForceMode2D.Impulse);
+                hasJumped = true;
             }
         }
 
         if(Input.GetKeyUp(KeyCode.LeftShift))
         {
-            if(currentDelay < doubleHeightDelay && GroundCheck.instance.canJump)
-            { 
+            if(currentDelay < doubleHeightDelay && GroundCheck.instance.canJump && !hasJumped)
+            {
                 Vector2 jumpVector = new Vector2(0, jumpForce);
                 rb.AddForce(jumpVector, ForceMode2D.Impulse);
             }
             currentDelay = 0;
+            hasJumped = false;
         }
 
         if (horizontal < 0)
