@@ -27,6 +27,7 @@ public class ZoomerScript : MonoBehaviour
     public float chanceInvertSideAfterSpawn; //entre 0 e 1
     public float health;
     public Color newColor;
+    private Color originalColor;
     public float timeSpeedReducedAfterDamaged;
     public float speedDivisorAfterDamaged;
 
@@ -38,6 +39,7 @@ public class ZoomerScript : MonoBehaviour
         speed = 0;
         originalRotation = transform.rotation;
         originalHealth = health;
+        originalColor = GetComponent<SpriteRenderer>().color;
     }
 
     private void OnEnable()
@@ -154,7 +156,7 @@ public class ZoomerScript : MonoBehaviour
         sr.color = newColor;
         speed /= speedDivisorAfterDamaged;
         yield return new WaitForSeconds(timeSpeedReducedAfterDamaged);
-        sr.color = Color.white;
+        sr.color = originalColor;
         speed *= speedDivisorAfterDamaged;
 
         yield return null;

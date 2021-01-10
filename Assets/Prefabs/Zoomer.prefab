@@ -152,9 +152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100af882b18b4f498c1d8475e8c53b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ZoomerTutorial: "\xC2ngulos para usar em ''Rotations'', cada rota\xE7\xE3o para
-    seu respectivo Target: \n0: Agarrado na parte de cima\n90:Agarrado na parede
-    da esquerda\n180:Agarrado na parte de baixo\n270: Agarrado na parede da direita"
   speed: 0.05
   Targets: {fileID: 4335732985906724093}
   Target:
@@ -173,11 +170,12 @@ MonoBehaviour:
   - 0
   currentTarget: {fileID: 4335732986257692747}
   isCyclic: 1
-  chanceToSpawn: 0.9
-  chanceInvertSideAfterSpawn: 0.5
+  chanceToSpawn: 1
+  chanceInvertSideAfterSpawn: 1
   health: 2
   newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
-  speedAfterDamaged: 0.2
+  timeSpeedReducedAfterDamaged: 0.2
+  speedDivisorAfterDamaged: 5
 --- !u!212 &4335732985205880835
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -24,7 +24,7 @@ public class CameraScript : MonoBehaviour
         }
 
 
-        if(GameController.instance.canCameraMove)
+        if(GameController.instance.canCameraMove && player)
         {
             float tempX;
             float tempY;
