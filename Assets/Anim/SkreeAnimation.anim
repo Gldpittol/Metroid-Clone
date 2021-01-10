@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ZoomerAnim
+  m_Name: SkreeAnimation
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,10 +20,10 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 4138772642369874064, guid: fe1af43370420604ebcf7479032e7182,
+      value: {fileID: 3390563794817061585, guid: c6a6c84da2b558b459e1c6d594de09af,
         type: 3}
     - time: 0.083333336
-      value: {fileID: -7792145487629182302, guid: fe1af43370420604ebcf7479032e7182,
+      value: {fileID: 8333447462226206692, guid: c6a6c84da2b558b459e1c6d594de09af,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -44,8 +44,8 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 4138772642369874064, guid: fe1af43370420604ebcf7479032e7182, type: 3}
-    - {fileID: -7792145487629182302, guid: fe1af43370420604ebcf7479032e7182, type: 3}
+    - {fileID: 3390563794817061585, guid: c6a6c84da2b558b459e1c6d594de09af, type: 3}
+    - {fileID: 8333447462226206692, guid: c6a6c84da2b558b459e1c6d594de09af, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
