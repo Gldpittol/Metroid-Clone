@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SkreeScript : MonoBehaviour
 {
+    public float health = 4;
     public float speed;
     private Transform playerLocation;
     public bool AIFinished = false;
@@ -11,9 +12,13 @@ public class SkreeScript : MonoBehaviour
     private Vector2 originalPosition;
     private bool canCollide = false;
 
+
     public float firstFallMinY = 2f;
     public float distanceToSecondPhase = 1.5f;
     public float amountBelowPlayer = 5f;
+    public Color newColor;
+    public float timeSpeedReducedAfterDamaged;
+    public float speedDivisorAfterDamaged;
 
     private void Awake()
     {
@@ -91,6 +96,39 @@ public class SkreeScript : MonoBehaviour
         {
             GameController.instance.playerHealth -= 20;
         }
+
+        if (collision.CompareTag("PlayerBullet"))
+        {
+            Destroy(collision.gameObject);
+            health -= 1;
+
+            if (health <= 0)
+            {
+                StartCoroutine(OnDeath());
+            }
+            else
+            {
+                StartCoroutine(OnDamaged());
+            }
+        }
     }
 
+    public IEnumerator OnDamaged()
+    {
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+
+        sr.color = newColor;
+        speed /= speedDivisorAfterDamaged;
+        yield return new WaitForSeconds(timeSpeedReducedAfterDamaged);
+        sr.color = Color.white;
+        speed *= speedDivisorAfterDamaged;
+
+        yield return null;
+    }
+
+    public IEnumerator OnDeath()
+    {
+        this.gameObject.SetActive(false);
+        yield return null;
+    }
 }
