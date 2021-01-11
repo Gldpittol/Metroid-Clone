@@ -19,15 +19,23 @@ public class SkreeScript : MonoBehaviour
     public Color newColor;
     public float timeSpeedReducedAfterDamaged;
     public float speedDivisorAfterDamaged;
+    private float originalHealth;
+    private float originalSpeed;
+    private SpriteRenderer sr;
+
 
     private void Awake()
     {
         originalPosition = transform.position;
+        originalHealth = health;
+        originalSpeed = speed;
+
     }
 
     private void Start()
     {
         playerLocation = CharacterMovement.instance.gameObject.transform;
+        sr = GetComponent<SpriteRenderer>();
     }
 
     private void OnEnable()
@@ -35,6 +43,11 @@ public class SkreeScript : MonoBehaviour
         transform.position = originalPosition;
         AIFinished = false;
         canCollide = false;
+        health = originalHealth;
+        GetComponent<Animator>().SetFloat("speedMultiplier", 1);
+        vision.SetActive(true);
+        speed = originalSpeed;
+        if(sr) sr.color = Color.white;
     }
 
     public void SkreeAIFunction()
@@ -115,7 +128,6 @@ public class SkreeScript : MonoBehaviour
 
     public IEnumerator OnDamaged()
     {
-        SpriteRenderer sr = GetComponent<SpriteRenderer>();
 
         sr.color = newColor;
         speed /= speedDivisorAfterDamaged;
