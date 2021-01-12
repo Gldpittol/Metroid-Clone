@@ -26,11 +26,13 @@ public class ZoomerScript : MonoBehaviour
     public float chanceToSpawn; //entre 0 e 1
     public float chanceInvertSideAfterSpawn; //entre 0 e 1
     public float health;
+    public int damageToPlayer = 3;
     public Color newColor;
     private Color originalColor;
     public float timeSpeedReducedAfterDamaged;
     public float speedDivisorAfterDamaged;
 
+    private bool beingDamaged = false;
     private void Awake()
     {
         if (initialPosX == 0) initialPosX = transform.position.x;
@@ -64,6 +66,8 @@ public class ZoomerScript : MonoBehaviour
             direction = 1;
             i = 0;
         }
+
+        beingDamaged = false;
     }
     private void Start()
     {
@@ -87,16 +91,24 @@ public class ZoomerScript : MonoBehaviour
         if(collision.CompareTag("PlayerBullet"))
         {
             Destroy(collision.gameObject);
-            health -= 1;
+            if (!beingDamaged)
+            {
+                health -= GameController.instance.playerDamage;
 
-            if(health <= 0)
-            {
-                StartCoroutine(OnDeath());
+                if (health <= 0)
+                {
+                    StartCoroutine(OnDeath());
+                }
+                else
+                {
+                    StartCoroutine(OnDamaged());
+                }
             }
-            else
-            {
-                StartCoroutine(OnDamaged());
-            }
+        }
+
+        if (collision.CompareTag("Player"))
+        {
+            PlayerEnemyCollision.instance.DamagePlayer(damageToPlayer);
         }
     }
 
@@ -151,6 +163,8 @@ public class ZoomerScript : MonoBehaviour
 
     public IEnumerator OnDamaged()
     {
+        beingDamaged = true;
+
         SpriteRenderer sr = GetComponent<SpriteRenderer>();
 
         sr.color = newColor;
@@ -160,6 +174,7 @@ public class ZoomerScript : MonoBehaviour
         speed *= speedDivisorAfterDamaged;
 
         yield return null;
+        beingDamaged = false;
     }
 
     public IEnumerator OnDeath()

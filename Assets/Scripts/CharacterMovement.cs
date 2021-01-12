@@ -15,7 +15,7 @@ public class CharacterMovement : MonoBehaviour
 
     public float doubleHeightDelay;
     private float currentDelay = 0;
-    private bool hasJumped = false;
+    [HideInInspector]public bool hasJumped = false;
 
     private void Awake()
     {

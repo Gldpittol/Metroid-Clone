@@ -5,6 +5,7 @@ using UnityEngine;
 public class SkreeScript : MonoBehaviour
 {
     public float health = 4;
+    public int damageToPlayer = 20;
     public float speed;
     private Transform playerLocation;
     public bool AIFinished = false;
@@ -22,7 +23,7 @@ public class SkreeScript : MonoBehaviour
     private float originalHealth;
     private float originalSpeed;
     private SpriteRenderer sr;
-
+    private bool beingDamaged = false;
 
     private void Awake()
     {
@@ -43,11 +44,17 @@ public class SkreeScript : MonoBehaviour
         transform.position = originalPosition;
         AIFinished = false;
         canCollide = false;
+        beingDamaged = false;
         health = originalHealth;
         GetComponent<Animator>().SetFloat("speedMultiplier", 1);
         vision.SetActive(true);
         speed = originalSpeed;
         if(sr) sr.color = Color.white;
+    }
+
+    private void OnDisable()
+    {
+        if (sr) sr.color = Color.white;
     }
 
     public void SkreeAIFunction()
@@ -107,35 +114,38 @@ public class SkreeScript : MonoBehaviour
 
         if (collision.CompareTag("Player") && canCollide)
         {
-            GameController.instance.playerHealth -= 20;
+            PlayerEnemyCollision.instance.DamagePlayer(damageToPlayer);
         }
 
         if (collision.CompareTag("PlayerBullet"))
         {
             Destroy(collision.gameObject);
-            health -= 1;
+            if (!beingDamaged)
+            {
+                health -= GameController.instance.playerDamage;
 
-            if (health <= 0)
-            {
-                StartCoroutine(OnDeath());
-            }
-            else
-            {
-                StartCoroutine(OnDamaged());
+                if (health <= 0)
+                {
+                    StartCoroutine(OnDeath());
+                }
+                else
+                {
+                    StartCoroutine(OnDamaged());
+                }
             }
         }
     }
 
     public IEnumerator OnDamaged()
     {
-
+        beingDamaged = true;
         sr.color = newColor;
         speed /= speedDivisorAfterDamaged;
         yield return new WaitForSeconds(timeSpeedReducedAfterDamaged);
         sr.color = Color.white;
         speed *= speedDivisorAfterDamaged;
-
         yield return null;
+        beingDamaged = false;
     }
 
     public IEnumerator OnDeath()
