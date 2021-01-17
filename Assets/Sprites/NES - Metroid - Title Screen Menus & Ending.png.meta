@@ -1,0 +1,3866 @@
+fileFormatVersion: 2
+guid: 030f3e03c1125f140a1d255a751e7cbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5900165872769504134
+    second: NES - Metroid - Title Screen Menus & Ending_0
+  - first:
+      213: 5817072269242268019
+    second: NES - Metroid - Title Screen Menus & Ending_1
+  - first:
+      213: -1909227936139800349
+    second: NES - Metroid - Title Screen Menus & Ending_2
+  - first:
+      213: 3419387735111269553
+    second: NES - Metroid - Title Screen Menus & Ending_3
+  - first:
+      213: -2840965385339016407
+    second: NES - Metroid - Title Screen Menus & Ending_4
+  - first:
+      213: 7729413245388742403
+    second: NES - Metroid - Title Screen Menus & Ending_5
+  - first:
+      213: 1945933678823585507
+    second: NES - Metroid - Title Screen Menus & Ending_6
+  - first:
+      213: -1123609238512681925
+    second: NES - Metroid - Title Screen Menus & Ending_7
+  - first:
+      213: -7916656898365903053
+    second: NES - Metroid - Title Screen Menus & Ending_8
+  - first:
+      213: -5118774488627277792
+    second: NES - Metroid - Title Screen Menus & Ending_9
+  - first:
+      213: -1615122017602500380
+    second: NES - Metroid - Title Screen Menus & Ending_10
+  - first:
+      213: -2124154449706266058
+    second: NES - Metroid - Title Screen Menus & Ending_11
+  - first:
+      213: -6801542157373680017
+    second: NES - Metroid - Title Screen Menus & Ending_12
+  - first:
+      213: -4610473478466198389
+    second: NES - Metroid - Title Screen Menus & Ending_13
+  - first:
+      213: -6918734364035106413
+    second: NES - Metroid - Title Screen Menus & Ending_14
+  - first:
+      213: -4404430523074401226
+    second: NES - Metroid - Title Screen Menus & Ending_15
+  - first:
+      213: -4784643478386511990
+    second: NES - Metroid - Title Screen Menus & Ending_16
+  - first:
+      213: 8001620539131414498
+    second: NES - Metroid - Title Screen Menus & Ending_17
+  - first:
+      213: 2986022695690966540
+    second: NES - Metroid - Title Screen Menus & Ending_18
+  - first:
+      213: 1720199949480866981
+    second: NES - Metroid - Title Screen Menus & Ending_19
+  - first:
+      213: -365116089991680271
+    second: NES - Metroid - Title Screen Menus & Ending_20
+  - first:
+      213: 616092832485145442
+    second: NES - Metroid - Title Screen Menus & Ending_21
+  - first:
+      213: 1764641371520834108
+    second: NES - Metroid - Title Screen Menus & Ending_22
+  - first:
+      213: 4742727755462619045
+    second: NES - Metroid - Title Screen Menus & Ending_23
+  - first:
+      213: 1257538957088556560
+    second: NES - Metroid - Title Screen Menus & Ending_24
+  - first:
+      213: 2408734872226642517
+    second: NES - Metroid - Title Screen Menus & Ending_25
+  - first:
+      213: 7920758758740376797
+    second: NES - Metroid - Title Screen Menus & Ending_26
+  - first:
+      213: 8404058971942259453
+    second: NES - Metroid - Title Screen Menus & Ending_27
+  - first:
+      213: 8586690664961714737
+    second: NES - Metroid - Title Screen Menus & Ending_28
+  - first:
+      213: -8335022108131974748
+    second: NES - Metroid - Title Screen Menus & Ending_29
+  - first:
+      213: 5328992941668017619
+    second: NES - Metroid - Title Screen Menus & Ending_30
+  - first:
+      213: -1002567473014653055
+    second: NES - Metroid - Title Screen Menus & Ending_31
+  - first:
+      213: 6254863735815519121
+    second: NES - Metroid - Title Screen Menus & Ending_32
+  - first:
+      213: -746192718269944597
+    second: NES - Metroid - Title Screen Menus & Ending_33
+  - first:
+      213: 6818624803842884837
+    second: NES - Metroid - Title Screen Menus & Ending_34
+  - first:
+      213: -7550622404241227833
+    second: NES - Metroid - Title Screen Menus & Ending_35
+  - first:
+      213: 6711644867865878190
+    second: NES - Metroid - Title Screen Menus & Ending_36
+  - first:
+      213: 2066187519392026733
+    second: NES - Metroid - Title Screen Menus & Ending_37
+  - first:
+      213: 1272658102109236548
+    second: NES - Metroid - Title Screen Menus & Ending_38
+  - first:
+      213: 8964440477578890854
+    second: NES - Metroid - Title Screen Menus & Ending_39
+  - first:
+      213: -2572987033709358395
+    second: NES - Metroid - Title Screen Menus & Ending_40
+  - first:
+      213: -4474182734109882363
+    second: NES - Metroid - Title Screen Menus & Ending_41
+  - first:
+      213: -3102352535073367467
+    second: NES - Metroid - Title Screen Menus & Ending_42
+  - first:
+      213: 5889135642041882633
+    second: NES - Metroid - Title Screen Menus & Ending_43
+  - first:
+      213: -1390618124990262482
+    second: NES - Metroid - Title Screen Menus & Ending_44
+  - first:
+      213: -5652457260435952273
+    second: NES - Metroid - Title Screen Menus & Ending_45
+  - first:
+      213: 2220193582306695504
+    second: NES - Metroid - Title Screen Menus & Ending_46
+  - first:
+      213: -3443107645111314995
+    second: NES - Metroid - Title Screen Menus & Ending_47
+  - first:
+      213: 8287822548279927318
+    second: NES - Metroid - Title Screen Menus & Ending_48
+  - first:
+      213: -4793456398614562339
+    second: NES - Metroid - Title Screen Menus & Ending_49
+  - first:
+      213: 3329214142475801747
+    second: NES - Metroid - Title Screen Menus & Ending_50
+  - first:
+      213: -6268897971864945573
+    second: NES - Metroid - Title Screen Menus & Ending_51
+  - first:
+      213: -3081341955413854351
+    second: NES - Metroid - Title Screen Menus & Ending_52
+  - first:
+      213: 2247252367125792338
+    second: NES - Metroid - Title Screen Menus & Ending_53
+  - first:
+      213: -6318802796957907833
+    second: NES - Metroid - Title Screen Menus & Ending_54
+  - first:
+      213: -4302459804342274674
+    second: NES - Metroid - Title Screen Menus & Ending_55
+  - first:
+      213: 8176202825071027247
+    second: NES - Metroid - Title Screen Menus & Ending_56
+  - first:
+      213: -3977238562342400361
+    second: NES - Metroid - Title Screen Menus & Ending_57
+  - first:
+      213: -210804259588632005
+    second: NES - Metroid - Title Screen Menus & Ending_58
+  - first:
+      213: 5674077924030190770
+    second: NES - Metroid - Title Screen Menus & Ending_59
+  - first:
+      213: -1119257457250318531
+    second: NES - Metroid - Title Screen Menus & Ending_60
+  - first:
+      213: -1580386647543906092
+    second: NES - Metroid - Title Screen Menus & Ending_61
+  - first:
+      213: 6512534586793797467
+    second: NES - Metroid - Title Screen Menus & Ending_62
+  - first:
+      213: -6483613358009558594
+    second: NES - Metroid - Title Screen Menus & Ending_63
+  - first:
+      213: -4699592423873076945
+    second: NES - Metroid - Title Screen Menus & Ending_64
+  - first:
+      213: 2220015399708828502
+    second: NES - Metroid - Title Screen Menus & Ending_65
+  - first:
+      213: -3175575953451317286
+    second: NES - Metroid - Title Screen Menus & Ending_66
+  - first:
+      213: -4389857787392862399
+    second: NES - Metroid - Title Screen Menus & Ending_67
+  - first:
+      213: -911172536724865969
+    second: NES - Metroid - Title Screen Menus & Ending_68
+  - first:
+      213: 8096015910167881242
+    second: NES - Metroid - Title Screen Menus & Ending_69
+  - first:
+      213: 1783294404861999960
+    second: NES - Metroid - Title Screen Menus & Ending_70
+  - first:
+      213: -3063682313840222181
+    second: NES - Metroid - Title Screen Menus & Ending_71
+  - first:
+      213: -6250547251106899906
+    second: NES - Metroid - Title Screen Menus & Ending_72
+  - first:
+      213: 4648796595982572801
+    second: NES - Metroid - Title Screen Menus & Ending_73
+  - first:
+      213: -4225812280816173337
+    second: NES - Metroid - Title Screen Menus & Ending_74
+  - first:
+      213: 5490119831043032372
+    second: NES - Metroid - Title Screen Menus & Ending_75
+  - first:
+      213: -5320193273465101419
+    second: NES - Metroid - Title Screen Menus & Ending_76
+  - first:
+      213: 5207525857307400062
+    second: NES - Metroid - Title Screen Menus & Ending_77
+  - first:
+      213: 5140366742587947337
+    second: NES - Metroid - Title Screen Menus & Ending_78
+  - first:
+      213: -5709898081657658975
+    second: NES - Metroid - Title Screen Menus & Ending_79
+  - first:
+      213: 8654122709045412654
+    second: NES - Metroid - Title Screen Menus & Ending_80
+  - first:
+      213: 9209176207330408652
+    second: NES - Metroid - Title Screen Menus & Ending_81
+  - first:
+      213: -321198012108548395
+    second: NES - Metroid - Title Screen Menus & Ending_82
+  - first:
+      213: -1787130119517623955
+    second: NES - Metroid - Title Screen Menus & Ending_83
+  - first:
+      213: 1413601503483456369
+    second: NES - Metroid - Title Screen Menus & Ending_84
+  - first:
+      213: 2184108972126287788
+    second: NES - Metroid - Title Screen Menus & Ending_85
+  - first:
+      213: -189497970827319563
+    second: NES - Metroid - Title Screen Menus & Ending_86
+  - first:
+      213: 6990287884774638028
+    second: NES - Metroid - Title Screen Menus & Ending_87
+  - first:
+      213: 7165854987261316447
+    second: NES - Metroid - Title Screen Menus & Ending_88
+  - first:
+      213: -642422633321341146
+    second: NES - Metroid - Title Screen Menus & Ending_89
+  - first:
+      213: -3384136605162173014
+    second: NES - Metroid - Title Screen Menus & Ending_90
+  - first:
+      213: -7054522297594949157
+    second: NES - Metroid - Title Screen Menus & Ending_91
+  - first:
+      213: -357620058714505298
+    second: NES - Metroid - Title Screen Menus & Ending_92
+  - first:
+      213: -2595906437750528543
+    second: NES - Metroid - Title Screen Menus & Ending_93
+  - first:
+      213: -2539873942914014462
+    second: NES - Metroid - Title Screen Menus & Ending_94
+  - first:
+      213: 2006293014943418477
+    second: NES - Metroid - Title Screen Menus & Ending_95
+  - first:
+      213: 8849682216352814907
+    second: NES - Metroid - Title Screen Menus & Ending_96
+  - first:
+      213: 590696576001175162
+    second: NES - Metroid - Title Screen Menus & Ending_97
+  - first:
+      213: 7533286399371720029
+    second: NES - Metroid - Title Screen Menus & Ending_98
+  - first:
+      213: 8288776270009329342
+    second: NES - Metroid - Title Screen Menus & Ending_99
+  - first:
+      213: -6521089403407828671
+    second: NES - Metroid - Title Screen Menus & Ending_100
+  - first:
+      213: -3908436881480993850
+    second: NES - Metroid - Title Screen Menus & Ending_101
+  - first:
+      213: -7509904463739848221
+    second: NES - Metroid - Title Screen Menus & Ending_102
+  - first:
+      213: 7090008418051558054
+    second: NES - Metroid - Title Screen Menus & Ending_103
+  - first:
+      213: 7691336256552988368
+    second: NES - Metroid - Title Screen Menus & Ending_104
+  - first:
+      213: -6067572483461563754
+    second: NES - Metroid - Title Screen Menus & Ending_105
+  - first:
+      213: -2604375314064155257
+    second: NES - Metroid - Title Screen Menus & Ending_106
+  - first:
+      213: 7285232569261774100
+    second: NES - Metroid - Title Screen Menus & Ending_107
+  - first:
+      213: -8531792122098152890
+    second: NES - Metroid - Title Screen Menus & Ending_108
+  - first:
+      213: 4314480318043095763
+    second: NES - Metroid - Title Screen Menus & Ending_109
+  - first:
+      213: 1805966517393436741
+    second: NES - Metroid - Title Screen Menus & Ending_110
+  - first:
+      213: -499687456524924465
+    second: NES - Metroid - Title Screen Menus & Ending_111
+  - first:
+      213: 6298005019777227012
+    second: NES - Metroid - Title Screen Menus & Ending_112
+  - first:
+      213: 8159042243181261720
+    second: NES - Metroid - Title Screen Menus & Ending_113
+  - first:
+      213: 7293841222043831474
+    second: NES - Metroid - Title Screen Menus & Ending_114
+  - first:
+      213: -4194877247833433631
+    second: NES - Metroid - Title Screen Menus & Ending_115
+  - first:
+      213: -3268979234626772638
+    second: NES - Metroid - Title Screen Menus & Ending_116
+  - first:
+      213: -3321072478973462461
+    second: NES - Metroid - Title Screen Menus & Ending_117
+  - first:
+      213: 1120003296382609650
+    second: NES - Metroid - Title Screen Menus & Ending_118
+  - first:
+      213: -777528893638898531
+    second: NES - Metroid - Title Screen Menus & Ending_119
+  - first:
+      213: -9213060859848877873
+    second: NES - Metroid - Title Screen Menus & Ending_120
+  - first:
+      213: 849420611811270963
+    second: NES - Metroid - Title Screen Menus & Ending_121
+  - first:
+      213: 444873058139978967
+    second: NES - Metroid - Title Screen Menus & Ending_122
+  - first:
+      213: 5775705320357679232
+    second: NES - Metroid - Title Screen Menus & Ending_123
+  - first:
+      213: 3731876393463778213
+    second: NES - Metroid - Title Screen Menus & Ending_124
+  - first:
+      213: 2457495696947037542
+    second: NES - Metroid - Title Screen Menus & Ending_125
+  - first:
+      213: -4893486978529828267
+    second: NES - Metroid - Title Screen Menus & Ending_126
+  - first:
+      213: -989757100109779908
+    second: NES - Metroid - Title Screen Menus & Ending_127
+  - first:
+      213: -4672121295831656159
+    second: NES - Metroid - Title Screen Menus & Ending_128
+  - first:
+      213: -2995570733137443894
+    second: NES - Metroid - Title Screen Menus & Ending_129
+  - first:
+      213: -2111389763122636994
+    second: NES - Metroid - Title Screen Menus & Ending_130
+  - first:
+      213: 5572139767485814000
+    second: NES - Metroid - Title Screen Menus & Ending_131
+  - first:
+      213: 5163927483366349981
+    second: NES - Metroid - Title Screen Menus & Ending_132
+  - first:
+      213: 6804082305726131915
+    second: NES - Metroid - Title Screen Menus & Ending_133
+  - first:
+      213: -4317685057459412049
+    second: NES - Metroid - Title Screen Menus & Ending_134
+  - first:
+      213: -1394236330619758695
+    second: NES - Metroid - Title Screen Menus & Ending_135
+  - first:
+      213: 1633146413416847624
+    second: NES - Metroid - Title Screen Menus & Ending_136
+  - first:
+      213: -6543501762595873756
+    second: NES - Metroid - Title Screen Menus & Ending_137
+  - first:
+      213: -8386895798563027614
+    second: NES - Metroid - Title Screen Menus & Ending_138
+  - first:
+      213: -5464412483784417699
+    second: NES - Metroid - Title Screen Menus & Ending_139
+  - first:
+      213: -2426109720642082547
+    second: NES - Metroid - Title Screen Menus & Ending_140
+  - first:
+      213: 8219555327316398214
+    second: NES - Metroid - Title Screen Menus & Ending_141
+  - first:
+      213: 8363522971898652389
+    second: NES - Metroid - Title Screen Menus & Ending_142
+  - first:
+      213: 593836210896550382
+    second: NES - Metroid - Title Screen Menus & Ending_143
+  - first:
+      213: 3905854848885074418
+    second: NES - Metroid - Title Screen Menus & Ending_144
+  - first:
+      213: -1288562535204037384
+    second: NES - Metroid - Title Screen Menus & Ending_145
+  - first:
+      213: -2194777365648868394
+    second: NES - Metroid - Title Screen Menus & Ending_146
+  - first:
+      213: 6224606451864412806
+    second: NES - Metroid - Title Screen Menus & Ending_147
+  - first:
+      213: 1295970984644688985
+    second: NES - Metroid - Title Screen Menus & Ending_148
+  - first:
+      213: 2830706836972943190
+    second: NES - Metroid - Title Screen Menus & Ending_149
+  - first:
+      213: 284444059564939502
+    second: NES - Metroid - Title Screen Menus & Ending_150
+  - first:
+      213: 4112432350719084113
+    second: NES - Metroid - Title Screen Menus & Ending_151
+  - first:
+      213: -4746550960385848147
+    second: NES - Metroid - Title Screen Menus & Ending_152
+  - first:
+      213: -1460757814693961272
+    second: NES - Metroid - Title Screen Menus & Ending_153
+  - first:
+      213: -6438586689576488078
+    second: NES - Metroid - Title Screen Menus & Ending_154
+  - first:
+      213: 4541337975233694263
+    second: NES - Metroid - Title Screen Menus & Ending_155
+  - first:
+      213: 4552175041819899625
+    second: NES - Metroid - Title Screen Menus & Ending_156
+  - first:
+      213: -4763566250258524214
+    second: NES - Metroid - Title Screen Menus & Ending_157
+  - first:
+      213: 4242854510978036250
+    second: NES - Metroid - Title Screen Menus & Ending_158
+  - first:
+      213: 7599602325411101695
+    second: NES - Metroid - Title Screen Menus & Ending_159
+  - first:
+      213: -3673133964919002256
+    second: NES - Metroid - Title Screen Menus & Ending_160
+  - first:
+      213: -5867135417443159312
+    second: NES - Metroid - Title Screen Menus & Ending_161
+  - first:
+      213: -4780457699644460468
+    second: NES - Metroid - Title Screen Menus & Ending_162
+  - first:
+      213: 422963275862818777
+    second: NES - Metroid - Title Screen Menus & Ending_163
+  - first:
+      213: -767592854923278519
+    second: NES - Metroid - Title Screen Menus & Ending_164
+  - first:
+      213: 467914875921353896
+    second: NES - Metroid - Title Screen Menus & Ending_165
+  - first:
+      213: -4992595652777562791
+    second: NES - Metroid - Title Screen Menus & Ending_166
+  - first:
+      213: -8816199204566679440
+    second: NES - Metroid - Title Screen Menus & Ending_167
+  - first:
+      213: -4189262309000938588
+    second: NES - Metroid - Title Screen Menus & Ending_168
+  - first:
+      213: -2144344244993906509
+    second: NES - Metroid - Title Screen Menus & Ending_169
+  - first:
+      213: -4000365950995275527
+    second: NES - Metroid - Title Screen Menus & Ending_170
+  - first:
+      213: -4654501955314781610
+    second: NES - Metroid - Title Screen Menus & Ending_171
+  - first:
+      213: 7719065336048991104
+    second: NES - Metroid - Title Screen Menus & Ending_172
+  - first:
+      213: -6198770325167416639
+    second: NES - Metroid - Title Screen Menus & Ending_173
+  - first:
+      213: -8031913658348611922
+    second: NES - Metroid - Title Screen Menus & Ending_174
+  - first:
+      213: -6473589108117320974
+    second: NES - Metroid - Title Screen Menus & Ending_175
+  - first:
+      213: 7144556875213573149
+    second: NES - Metroid - Title Screen Menus & Ending_176
+  - first:
+      213: -2790115727828755162
+    second: NES - Metroid - Title Screen Menus & Ending_177
+  - first:
+      213: -4913544230284915565
+    second: NES - Metroid - Title Screen Menus & Ending_178
+  - first:
+      213: -699993137199687884
+    second: NES - Metroid - Title Screen Menus & Ending_179
+  - first:
+      213: 7207034383426094826
+    second: NES - Metroid - Title Screen Menus & Ending_180
+  - first:
+      213: -6501826806138292025
+    second: NES - Metroid - Title Screen Menus & Ending_181
+  - first:
+      213: -3136622302179198335
+    second: NES - Metroid - Title Screen Menus & Ending_182
+  - first:
+      213: 1189615690025582166
+    second: NES - Metroid - Title Screen Menus & Ending_183
+  - first:
+      213: 7825203810237448151
+    second: NES - Metroid - Title Screen Menus & Ending_184
+  - first:
+      213: -8134920030601950531
+    second: NES - Metroid - Title Screen Menus & Ending_185
+  - first:
+      213: -8633416108136023689
+    second: NES - Metroid - Title Screen Menus & Ending_186
+  - first:
+      213: 7692325329959968698
+    second: NES - Metroid - Title Screen Menus & Ending_187
+  - first:
+      213: -8729312650223209810
+    second: NES - Metroid - Title Screen Menus & Ending_188
+  - first:
+      213: -1327126893608637880
+    second: NES - Metroid - Title Screen Menus & Ending_189
+  - first:
+      213: -1927831237523973907
+    second: NES - Metroid - Title Screen Menus & Ending_190
+  - first:
+      213: 1933848023940312614
+    second: NES - Metroid - Title Screen Menus & Ending_191
+  - first:
+      213: 7861269700267116860
+    second: NES - Metroid - Title Screen Menus & Ending_192
+  - first:
+      213: 6688664574365762763
+    second: NES - Metroid - Title Screen Menus & Ending_193
+  - first:
+      213: -6420608029263761796
+    second: NES - Metroid - Title Screen Menus & Ending_194
+  - first:
+      213: 2250308255777600851
+    second: NES - Metroid - Title Screen Menus & Ending_195
+  - first:
+      213: 5305989877400664212
+    second: NES - Metroid - Title Screen Menus & Ending_196
+  - first:
+      213: -6278917326904712483
+    second: NES - Metroid - Title Screen Menus & Ending_197
+  - first:
+      213: 6700693406153694833
+    second: NES - Metroid - Title Screen Menus & Ending_198
+  - first:
+      213: 5318242083268758594
+    second: NES - Metroid - Title Screen Menus & Ending_199
+  - first:
+      213: 2727444665786099020
+    second: NES - Metroid - Title Screen Menus & Ending_200
+  - first:
+      213: 7986501304445871258
+    second: NES - Metroid - Title Screen Menus & Ending_201
+  - first:
+      213: -7467161515674559019
+    second: NES - Metroid - Title Screen Menus & Ending_202
+  - first:
+      213: 2448904334199041831
+    second: NES - Metroid - Title Screen Menus & Ending_203
+  - first:
+      213: 5180349708060561219
+    second: NES - Metroid - Title Screen Menus & Ending_204
+  - first:
+      213: -7716025023712635007
+    second: NES - Metroid - Title Screen Menus & Ending_205
+  - first:
+      213: 4556407573738080612
+    second: NES - Metroid - Title Screen Menus & Ending_206
+  - first:
+      213: 7127547670410106239
+    second: NES - Metroid - Title Screen Menus & Ending_207
+  - first:
+      213: -8323982609735632537
+    second: NES - Metroid - Title Screen Menus & Ending_208
+  - first:
+      213: 1548497641993557906
+    second: NES - Metroid - Title Screen Menus & Ending_209
+  - first:
+      213: 451983080186218232
+    second: NES - Metroid - Title Screen Menus & Ending_210
+  - first:
+      213: 2113998307524470698
+    second: NES - Metroid - Title Screen Menus & Ending_211
+  - first:
+      213: 4892880631671405954
+    second: NES - Metroid - Title Screen Menus & Ending_212
+  - first:
+      213: 9037824459532087623
+    second: NES - Metroid - Title Screen Menus & Ending_213
+  - first:
+      213: 1345199980095494198
+    second: NES - Metroid - Title Screen Menus & Ending_214
+  - first:
+      213: 6778387690533106411
+    second: NES - Metroid - Title Screen Menus & Ending_215
+  - first:
+      213: 7642496166245962884
+    second: NES - Metroid - Title Screen Menus & Ending_216
+  - first:
+      213: -2588316280698449638
+    second: NES - Metroid - Title Screen Menus & Ending_217
+  - first:
+      213: -5363999123173328362
+    second: NES - Metroid - Title Screen Menus & Ending_218
+  - first:
+      213: 4638008901639513276
+    second: NES - Metroid - Title Screen Menus & Ending_219
+  - first:
+      213: 6591253401254322968
+    second: NES - Metroid - Title Screen Menus & Ending_220
+  - first:
+      213: -2746964178524569084
+    second: NES - Metroid - Title Screen Menus & Ending_221
+  - first:
+      213: -1745904529614807432
+    second: NES - Metroid - Title Screen Menus & Ending_222
+  - first:
+      213: 4430782593847080667
+    second: NES - Metroid - Title Screen Menus & Ending_223
+  - first:
+      213: 6639932717756385904
+    second: NES - Metroid - Title Screen Menus & Ending_224
+  - first:
+      213: -580140694230241793
+    second: NES - Metroid - Title Screen Menus & Ending_225
+  - first:
+      213: -5664599544955337140
+    second: NES - Metroid - Title Screen Menus & Ending_226
+  - first:
+      213: 7573173092164698560
+    second: NES - Metroid - Title Screen Menus & Ending_227
+  - first:
+      213: -8352296269193761253
+    second: NES - Metroid - Title Screen Menus & Ending_228
+  - first:
+      213: -1518814596253908824
+    second: NES - Metroid - Title Screen Menus & Ending_229
+  - first:
+      213: -8016457058651749716
+    second: NES - Metroid - Title Screen Menus & Ending_230
+  - first:
+      213: -197271030822248752
+    second: NES - Metroid - Title Screen Menus & Ending_231
+  - first:
+      213: -3223582485451803611
+    second: NES - Metroid - Title Screen Menus & Ending_232
+  - first:
+      213: 1547793426182565036
+    second: NES - Metroid - Title Screen Menus & Ending_233
+  - first:
+      213: 4168166404346408801
+    second: NES - Metroid - Title Screen Menus & Ending_234
+  - first:
+      213: -82309401616016783
+    second: NES - Metroid - Title Screen Menus & Ending_235
+  - first:
+      213: -3606201052403437627
+    second: NES - Metroid - Title Screen Menus & Ending_236
+  - first:
+      213: -7450677128522311156
+    second: NES - Metroid - Title Screen Menus & Ending_237
+  - first:
+      213: 479701887398192392
+    second: NES - Metroid - Title Screen Menus & Ending_238
+  - first:
+      213: 4092560676804761165
+    second: NES - Metroid - Title Screen Menus & Ending_239
+  - first:
+      213: 7639662389870514871
+    second: NES - Metroid - Title Screen Menus & Ending_240
+  - first:
+      213: 3510083369401593466
+    second: NES - Metroid - Title Screen Menus & Ending_241
+  - first:
+      213: 2368600635167055161
+    second: NES - Metroid - Title Screen Menus & Ending_242
+  - first:
+      213: -5605135870981469258
+    second: NES - Metroid - Title Screen Menus & Ending_243
+  - first:
+      213: -6150561179707741168
+    second: NES - Metroid - Title Screen Menus & Ending_244
+  - first:
+      213: -7298453515981432923
+    second: NES - Metroid - Title Screen Menus & Ending_245
+  - first:
+      213: -8831721445827612186
+    second: NES - Metroid - Title Screen Menus & Ending_246
+  - first:
+      213: -3384976132373916035
+    second: NES - Metroid - Title Screen Menus & Ending_247
+  - first:
+      213: -321121359747130334
+    second: NES - Metroid - Title Screen Menus & Ending_248
+  - first:
+      213: 657490292851783618
+    second: NES - Metroid - Title Screen Menus & Ending_249
+  - first:
+      213: -7552274194110795167
+    second: NES - Metroid - Title Screen Menus & Ending_250
+  - first:
+      213: -125391896852310254
+    second: NES - Metroid - Title Screen Menus & Ending_251
+  - first:
+      213: 2633850195685636055
+    second: NES - Metroid - Title Screen Menus & Ending_252
+  - first:
+      213: -6315792565302788561
+    second: NES - Metroid - Title Screen Menus & Ending_253
+  - first:
+      213: -2467378316876048623
+    second: NES - Metroid - Title Screen Menus & Ending_254
+  - first:
+      213: 7922143259231470324
+    second: NES - Metroid - Title Screen Menus & Ending_255
+  - first:
+      213: 7346554826576694428
+    second: NES - Metroid - Title Screen Menus & Ending_256
+  - first:
+      213: -2700263068198310848
+    second: NES - Metroid - Title Screen Menus & Ending_257
+  - first:
+      213: 8587245477758023434
+    second: NES - Metroid - Title Screen Menus & Ending_258
+  - first:
+      213: 7651853666804120047
+    second: NES - Metroid - Title Screen Menus & Ending_259
+  - first:
+      213: 2696588957374795923
+    second: NES - Metroid - Title Screen Menus & Ending_260
+  - first:
+      213: -8661395635863100902
+    second: NES - Metroid - Title Screen Menus & Ending_261
+  - first:
+      213: 7221887645823706951
+    second: NES - Metroid - Title Screen Menus & Ending_262
+  - first:
+      213: 1486870240590130365
+    second: NES - Metroid - Title Screen Menus & Ending_263
+  - first:
+      213: -836681482622821145
+    second: NES - Metroid - Title Screen Menus & Ending_264
+  - first:
+      213: -6722903287185892166
+    second: NES - Metroid - Title Screen Menus & Ending_265
+  - first:
+      213: 1944157625459346716
+    second: NES - Metroid - Title Screen Menus & Ending_266
+  - first:
+      213: 2904244485014225239
+    second: NES - Metroid - Title Screen Menus & Ending_267
+  - first:
+      213: 1639226629448328037
+    second: NES - Metroid - Title Screen Menus & Ending_268
+  - first:
+      213: 3841016005610924632
+    second: NES - Metroid - Title Screen Menus & Ending_269
+  - first:
+      213: 7927292416578015960
+    second: NES - Metroid - Title Screen Menus & Ending_270
+  - first:
+      213: -6091135903555321313
+    second: NES - Metroid - Title Screen Menus & Ending_271
+  - first:
+      213: 203328780290720485
+    second: NES - Metroid - Title Screen Menus & Ending_272
+  - first:
+      213: -6522062307847556061
+    second: NES - Metroid - Title Screen Menus & Ending_273
+  - first:
+      213: -3410597145493695886
+    second: NES - Metroid - Title Screen Menus & Ending_274
+  - first:
+      213: 5901010445012161983
+    second: NES - Metroid - Title Screen Menus & Ending_275
+  - first:
+      213: 6398457970739341870
+    second: NES - Metroid - Title Screen Menus & Ending_276
+  - first:
+      213: 814770499660723343
+    second: NES - Metroid - Title Screen Menus & Ending_277
+  - first:
+      213: -332561812551369671
+    second: NES - Metroid - Title Screen Menus & Ending_278
+  - first:
+      213: 8204799112748820209
+    second: NES - Metroid - Title Screen Menus & Ending_279
+  - first:
+      213: -1641477685069496548
+    second: NES - Metroid - Title Screen Menus & Ending_280
+  - first:
+      213: 4550842364526854031
+    second: NES - Metroid - Title Screen Menus & Ending_281
+  - first:
+      213: 5633274495749641365
+    second: NES - Metroid - Title Screen Menus & Ending_282
+  - first:
+      213: -3625800967878980600
+    second: NES - Metroid - Title Screen Menus & Ending_283
+  - first:
+      213: -4054699003591681218
+    second: NES - Metroid - Title Screen Menus & Ending_284
+  - first:
+      213: 7407721519219840115
+    second: NES - Metroid - Title Screen Menus & Ending_285
+  - first:
+      213: -2768619313597138725
+    second: NES - Metroid - Title Screen Menus & Ending_286
+  - first:
+      213: 2321621059439084953
+    second: NES - Metroid - Title Screen Menus & Ending_287
+  - first:
+      213: 7403518871813829712
+    second: NES - Metroid - Title Screen Menus & Ending_288
+  - first:
+      213: 3629775247489866618
+    second: NES - Metroid - Title Screen Menus & Ending_289
+  - first:
+      213: -6747819332284425431
+    second: NES - Metroid - Title Screen Menus & Ending_290
+  - first:
+      213: -1540934670541629483
+    second: NES - Metroid - Title Screen Menus & Ending_291
+  - first:
+      213: 8913594249683413724
+    second: NES - Metroid - Title Screen Menus & Ending_292
+  - first:
+      213: -5464413993664925816
+    second: NES - Metroid - Title Screen Menus & Ending_293
+  - first:
+      213: 7185863019036676900
+    second: NES - Metroid - Title Screen Menus & Ending_294
+  - first:
+      213: -1332702596180745679
+    second: NES - Metroid - Title Screen Menus & Ending_295
+  - first:
+      213: 5465089283919240159
+    second: NES - Metroid - Title Screen Menus & Ending_296
+  - first:
+      213: -1034481259723649569
+    second: NES - Metroid - Title Screen Menus & Ending_297
+  - first:
+      213: 2051277939150099521
+    second: NES - Metroid - Title Screen Menus & Ending_298
+  - first:
+      213: -2899704336682425642
+    second: NES - Metroid - Title Screen Menus & Ending_299
+  - first:
+      213: 8593110836780193388
+    second: NES - Metroid - Title Screen Menus & Ending_300
+  - first:
+      213: -26115434452809518
+    second: NES - Metroid - Title Screen Menus & Ending_301
+  - first:
+      213: 4501687500286335336
+    second: NES - Metroid - Title Screen Menus & Ending_302
+  - first:
+      213: 5801725628464910625
+    second: NES - Metroid - Title Screen Menus & Ending_303
+  - first:
+      213: 6565950226428096094
+    second: NES - Metroid - Title Screen Menus & Ending_304
+  - first:
+      213: 2964986099931724056
+    second: NES - Metroid - Title Screen Menus & Ending_305
+  - first:
+      213: 2301852702629625760
+    second: NES - Metroid - Title Screen Menus & Ending_306
+  - first:
+      213: -5623905095427250630
+    second: NES - Metroid - Title Screen Menus & Ending_307
+  - first:
+      213: -2875312698060277126
+    second: NES - Metroid - Title Screen Menus & Ending_308
+  - first:
+      213: 7878504266214667895
+    second: NES - Metroid - Title Screen Menus & Ending_309
+  - first:
+      213: -9095291229627233787
+    second: NES - Metroid - Title Screen Menus & Ending_310
+  - first:
+      213: 6090303458371153358
+    second: NES - Metroid - Title Screen Menus & Ending_311
+  - first:
+      213: -2438440839787438188
+    second: NES - Metroid - Title Screen Menus & Ending_312
+  - first:
+      213: -4797869366849714395
+    second: NES - Metroid - Title Screen Menus & Ending_313
+  - first:
+      213: -8062403330444879393
+    second: NES - Metroid - Title Screen Menus & Ending_314
+  - first:
+      213: 1168850217783742706
+    second: NES - Metroid - Title Screen Menus & Ending_315
+  - first:
+      213: 7847218810220977459
+    second: NES - Metroid - Title Screen Menus & Ending_316
+  - first:
+      213: -9082484318951447852
+    second: NES - Metroid - Title Screen Menus & Ending_317
+  - first:
+      213: -6543091642531762197
+    second: NES - Metroid - Title Screen Menus & Ending_318
+  - first:
+      213: -5797618824726498840
+    second: NES - Metroid - Title Screen Menus & Ending_319
+  - first:
+      213: -3506806118891445116
+    second: NES - Metroid - Title Screen Menus & Ending_320
+  - first:
+      213: 6673419265357099738
+    second: NES - Metroid - Title Screen Menus & Ending_321
+  - first:
+      213: 2418675306813212887
+    second: NES - Metroid - Title Screen Menus & Ending_322
+  - first:
+      213: -4412261996691556596
+    second: NES - Metroid - Title Screen Menus & Ending_323
+  - first:
+      213: 7592581904047890732
+    second: NES - Metroid - Title Screen Menus & Ending_324
+  - first:
+      213: -6686943116585261805
+    second: NES - Metroid - Title Screen Menus & Ending_325
+  - first:
+      213: -1986484723574978073
+    second: NES - Metroid - Title Screen Menus & Ending_326
+  - first:
+      213: 2310389508485110354
+    second: NES - Metroid - Title Screen Menus & Ending_327
+  - first:
+      213: 7134161354605357623
+    second: NES - Metroid - Title Screen Menus & Ending_328
+  - first:
+      213: 5978013173617693550
+    second: NES - Metroid - Title Screen Menus & Ending_329
+  - first:
+      213: -1864760337315372263
+    second: NES - Metroid - Title Screen Menus & Ending_330
+  - first:
+      213: 6489624744513909618
+    second: NES - Metroid - Title Screen Menus & Ending_331
+  - first:
+      213: 6163404983811303305
+    second: NES - Metroid - Title Screen Menus & Ending_332
+  - first:
+      213: 5216211449918511604
+    second: NES - Metroid - Title Screen Menus & Ending_333
+  - first:
+      213: 4188609834219703017
+    second: NES - Metroid - Title Screen Menus & Ending_334
+  - first:
+      213: 1954878240418333447
+    second: NES - Metroid - Title Screen Menus & Ending_335
+  - first:
+      213: 6875703500647213104
+    second: NES - Metroid - Title Screen Menus & Ending_336
+  - first:
+      213: -4830956444552590372
+    second: NES - Metroid - Title Screen Menus & Ending_337
+  - first:
+      213: -3430249284143268356
+    second: NES - Metroid - Title Screen Menus & Ending_338
+  - first:
+      213: -3344363101154666508
+    second: NES - Metroid - Title Screen Menus & Ending_339
+  - first:
+      213: -8914417339291344603
+    second: NES - Metroid - Title Screen Menus & Ending_340
+  - first:
+      213: -7819771615125146984
+    second: NES - Metroid - Title Screen Menus & Ending_341
+  - first:
+      213: 282700523529662260
+    second: NES - Metroid - Title Screen Menus & Ending_342
+  - first:
+      213: -6522944366513906475
+    second: NES - Metroid - Title Screen Menus & Ending_343
+  - first:
+      213: -2997268116291958335
+    second: NES - Metroid - Title Screen Menus & Ending_344
+  - first:
+      213: 2465982196762258082
+    second: NES - Metroid - Title Screen Menus & Ending_345
+  - first:
+      213: 4436023283149993132
+    second: NES - Metroid - Title Screen Menus & Ending_346
+  - first:
+      213: -6784604217937157121
+    second: NES - Metroid - Title Screen Menus & Ending_347
+  - first:
+      213: 2494550353555472776
+    second: NES - Metroid - Title Screen Menus & Ending_348
+  - first:
+      213: 6169099301690704939
+    second: NES - Metroid - Title Screen Menus & Ending_349
+  - first:
+      213: -6865188992615339107
+    second: NES - Metroid - Title Screen Menus & Ending_350
+  - first:
+      213: -5433871704098225913
+    second: NES - Metroid - Title Screen Menus & Ending_351
+  - first:
+      213: 3725203312067486305
+    second: NES - Metroid - Title Screen Menus & Ending_352
+  - first:
+      213: -7289758819624893207
+    second: NES - Metroid - Title Screen Menus & Ending_353
+  - first:
+      213: -4180572488119958823
+    second: NES - Metroid - Title Screen Menus & Ending_354
+  - first:
+      213: -3450441960108704397
+    second: NES - Metroid - Title Screen Menus & Ending_355
+  - first:
+      213: 1431588932815956560
+    second: NES - Metroid - Title Screen Menus & Ending_356
+  - first:
+      213: -6516392143685982727
+    second: NES - Metroid - Title Screen Menus & Ending_357
+  - first:
+      213: -4243001583102356319
+    second: NES - Metroid - Title Screen Menus & Ending_358
+  - first:
+      213: -1408430284091880314
+    second: NES - Metroid - Title Screen Menus & Ending_359
+  - first:
+      213: -7001815012973832074
+    second: NES - Metroid - Title Screen Menus & Ending_360
+  - first:
+      213: -8424483232628927956
+    second: NES - Metroid - Title Screen Menus & Ending_361
+  - first:
+      213: -5490995006929327370
+    second: NES - Metroid - Title Screen Menus & Ending_362
+  - first:
+      213: 754269606840220009
+    second: NES - Metroid - Title Screen Menus & Ending_363
+  - first:
+      213: 8088514577291011904
+    second: NES - Metroid - Title Screen Menus & Ending_364
+  - first:
+      213: -983170436501158623
+    second: NES - Metroid - Title Screen Menus & Ending_365
+  - first:
+      213: -4445527036982579080
+    second: NES - Metroid - Title Screen Menus & Ending_366
+  - first:
+      213: 7700602788144729903
+    second: NES - Metroid - Title Screen Menus & Ending_367
+  - first:
+      213: -2648173860719623528
+    second: NES - Metroid - Title Screen Menus & Ending_368
+  - first:
+      213: -3299642948453283385
+    second: NES - Metroid - Title Screen Menus & Ending_369
+  - first:
+      213: -1869628446731685302
+    second: NES - Metroid - Title Screen Menus & Ending_370
+  - first:
+      213: 488034168314469789
+    second: NES - Metroid - Title Screen Menus & Ending_371
+  - first:
+      213: -5744854537168748548
+    second: NES - Metroid - Title Screen Menus & Ending_372
+  - first:
+      213: 871710616518982238
+    second: NES - Metroid - Title Screen Menus & Ending_373
+  - first:
+      213: 2386804304780000986
+    second: NES - Metroid - Title Screen Menus & Ending_374
+  - first:
+      213: 7863409374093350261
+    second: NES - Metroid - Title Screen Menus & Ending_375
+  - first:
+      213: 3608724506960175828
+    second: NES - Metroid - Title Screen Menus & Ending_376
+  - first:
+      213: -6719254388593373299
+    second: NES - Metroid - Title Screen Menus & Ending_377
+  - first:
+      213: -8346313861218487940
+    second: NES - Metroid - Title Screen Menus & Ending_378
+  - first:
+      213: -1193167651654541494
+    second: NES - Metroid - Title Screen Menus & Ending_379
+  - first:
+      213: 5913069081053138886
+    second: NES - Metroid - Title Screen Menus & Ending_380
+  - first:
+      213: 8269954314626357269
+    second: NES - Metroid - Title Screen Menus & Ending_381
+  - first:
+      213: -1271363486511698515
+    second: NES - Metroid - Title Screen Menus & Ending_382
+  - first:
+      213: 1750329960073112145
+    second: NES - Metroid - Title Screen Menus & Ending_383
+  - first:
+      213: -134082075255477852
+    second: NES - Metroid - Title Screen Menus & Ending_384
+  - first:
+      213: -4636035983491023914
+    second: NES - Metroid - Title Screen Menus & Ending_385
+  - first:
+      213: 3206166006352779252
+    second: NES - Metroid - Title Screen Menus & Ending_386
+  - first:
+      213: -530121665784240031
+    second: NES - Metroid - Title Screen Menus & Ending_387
+  - first:
+      213: -1811067851429669836
+    second: NES - Metroid - Title Screen Menus & Ending_388
+  - first:
+      213: 6648655274073896844
+    second: NES - Metroid - Title Screen Menus & Ending_389
+  - first:
+      213: 7930764012819067170
+    second: NES - Metroid - Title Screen Menus & Ending_390
+  - first:
+      213: -6107021028222194222
+    second: NES - Metroid - Title Screen Menus & Ending_391
+  - first:
+      213: -176747274129818562
+    second: NES - Metroid - Title Screen Menus & Ending_392
+  - first:
+      213: -7345608415347403321
+    second: NES - Metroid - Title Screen Menus & Ending_393
+  - first:
+      213: 3427544312830182804
+    second: NES - Metroid - Title Screen Menus & Ending_394
+  - first:
+      213: 1603145282422822901
+    second: NES - Metroid - Title Screen Menus & Ending_395
+  - first:
+      213: -7878904483354555338
+    second: NES - Metroid - Title Screen Menus & Ending_396
+  - first:
+      213: 1164843045407208460
+    second: NES - Metroid - Title Screen Menus & Ending_397
+  - first:
+      213: -1949941658774932173
+    second: NES - Metroid - Title Screen Menus & Ending_398
+  - first:
+      213: -6737466744041076213
+    second: NES - Metroid - Title Screen Menus & Ending_399
+  - first:
+      213: -3353466750139560908
+    second: NES - Metroid - Title Screen Menus & Ending_400
+  - first:
+      213: 7502518057660606020
+    second: NES - Metroid - Title Screen Menus & Ending_401
+  - first:
+      213: 1081236357578688176
+    second: NES - Metroid - Title Screen Menus & Ending_402
+  - first:
+      213: -2887954390652443997
+    second: NES - Metroid - Title Screen Menus & Ending_403
+  - first:
+      213: -4993510185661971830
+    second: NES - Metroid - Title Screen Menus & Ending_404
+  - first:
+      213: 1734848319696890526
+    second: NES - Metroid - Title Screen Menus & Ending_405
+  - first:
+      213: -2561137418217499964
+    second: NES - Metroid - Title Screen Menus & Ending_406
+  - first:
+      213: 7712054694620346023
+    second: NES - Metroid - Title Screen Menus & Ending_407
+  - first:
+      213: -4189790039290889961
+    second: NES - Metroid - Title Screen Menus & Ending_408
+  - first:
+      213: 3802677958590674588
+    second: NES - Metroid - Title Screen Menus & Ending_409
+  - first:
+      213: 497199692827386003
+    second: NES - Metroid - Title Screen Menus & Ending_410
+  - first:
+      213: 2694502600268364613
+    second: NES - Metroid - Title Screen Menus & Ending_411
+  - first:
+      213: 5588462027789097765
+    second: NES - Metroid - Title Screen Menus & Ending_412
+  - first:
+      213: -2206042931968180762
+    second: NES - Metroid - Title Screen Menus & Ending_413
+  - first:
+      213: 560087746212890375
+    second: NES - Metroid - Title Screen Menus & Ending_414
+  - first:
+      213: 2219010643954806932
+    second: NES - Metroid - Title Screen Menus & Ending_415
+  - first:
+      213: -8223598473880715571
+    second: NES - Metroid - Title Screen Menus & Ending_416
+  - first:
+      213: 4554816157885529023
+    second: NES - Metroid - Title Screen Menus & Ending_417
+  - first:
+      213: 7409045125135508036
+    second: NES - Metroid - Title Screen Menus & Ending_418
+  - first:
+      213: 8997565201125475521
+    second: NES - Metroid - Title Screen Menus & Ending_419
+  - first:
+      213: -6172866800535311908
+    second: NES - Metroid - Title Screen Menus & Ending_420
+  - first:
+      213: -8505325688258598164
+    second: NES - Metroid - Title Screen Menus & Ending_421
+  - first:
+      213: 1510052458671910144
+    second: NES - Metroid - Title Screen Menus & Ending_422
+  - first:
+      213: 7197320965013478677
+    second: NES - Metroid - Title Screen Menus & Ending_423
+  - first:
+      213: -5870847293376562801
+    second: NES - Metroid - Title Screen Menus & Ending_424
+  - first:
+      213: 131826661147461189
+    second: NES - Metroid - Title Screen Menus & Ending_425
+  - first:
+      213: -6942190613553351514
+    second: NES - Metroid - Title Screen Menus & Ending_426
+  - first:
+      213: -2588044658328176371
+    second: NES - Metroid - Title Screen Menus & Ending_427
+  - first:
+      213: -3728892767133935362
+    second: NES - Metroid - Title Screen Menus & Ending_428
+  - first:
+      213: 6483362460732703399
+    second: NES - Metroid - Title Screen Menus & Ending_429
+  - first:
+      213: 6340343257484652529
+    second: NES - Metroid - Title Screen Menus & Ending_430
+  - first:
+      213: 6261556466576642620
+    second: NES - Metroid - Title Screen Menus & Ending_431
+  - first:
+      213: 800629242025787625
+    second: NES - Metroid - Title Screen Menus & Ending_432
+  - first:
+      213: -4143641032240459178
+    second: NES - Metroid - Title Screen Menus & Ending_433
+  - first:
+      213: -7492492325683797554
+    second: NES - Metroid - Title Screen Menus & Ending_434
+  - first:
+      213: -1976239122727783760
+    second: NES - Metroid - Title Screen Menus & Ending_435
+  - first:
+      213: 4488565819052170894
+    second: NES - Metroid - Title Screen Menus & Ending_436
+  - first:
+      213: 8067534743029043769
+    second: NES - Metroid - Title Screen Menus & Ending_437
+  - first:
+      213: -8085217638905193648
+    second: NES - Metroid - Title Screen Menus & Ending_438
+  - first:
+      213: -7301649001962207924
+    second: NES - Metroid - Title Screen Menus & Ending_439
+  - first:
+      213: -2901530438110954852
+    second: NES - Metroid - Title Screen Menus & Ending_440
+  - first:
+      213: -6794305844553885503
+    second: NES - Metroid - Title Screen Menus & Ending_441
+  - first:
+      213: -418118075788305491
+    second: NES - Metroid - Title Screen Menus & Ending_442
+  - first:
+      213: -8288678359019246771
+    second: NES - Metroid - Title Screen Menus & Ending_443
+  - first:
+      213: -3454522373886925719
+    second: NES - Metroid - Title Screen Menus & Ending_444
+  - first:
+      213: -4567946924309533000
+    second: NES - Metroid - Title Screen Menus & Ending_445
+  - first:
+      213: -2139442379948618355
+    second: NES - Metroid - Title Screen Menus & Ending_446
+  - first:
+      213: 4502545516718104554
+    second: NES - Metroid - Title Screen Menus & Ending_447
+  - first:
+      213: -7628861127401660119
+    second: NES - Metroid - Title Screen Menus & Ending_448
+  - first:
+      213: -753622343059845787
+    second: NES - Metroid - Title Screen Menus & Ending_449
+  - first:
+      213: -3917445088249165126
+    second: NES - Metroid - Title Screen Menus & Ending_450
+  - first:
+      213: -7443937942432794627
+    second: NES - Metroid - Title Screen Menus & Ending_451
+  - first:
+      213: -6271002589701180059
+    second: NES - Metroid - Title Screen Menus & Ending_452
+  - first:
+      213: -9029799865526756522
+    second: NES - Metroid - Title Screen Menus & Ending_453
+  - first:
+      213: -9206365776020018633
+    second: NES - Metroid - Title Screen Menus & Ending_454
+  - first:
+      213: -6842236183730164740
+    second: NES - Metroid - Title Screen Menus & Ending_455
+  - first:
+      213: -3140292366749130479
+    second: NES - Metroid - Title Screen Menus & Ending_456
+  - first:
+      213: 7674946977913890532
+    second: NES - Metroid - Title Screen Menus & Ending_457
+  - first:
+      213: -7567595819288702003
+    second: NES - Metroid - Title Screen Menus & Ending_458
+  - first:
+      213: 8696500912698025043
+    second: NES - Metroid - Title Screen Menus & Ending_459
+  - first:
+      213: 4941439735000635426
+    second: NES - Metroid - Title Screen Menus & Ending_460
+  - first:
+      213: -560109942069807751
+    second: NES - Metroid - Title Screen Menus & Ending_461
+  - first:
+      213: -3321932064247537368
+    second: NES - Metroid - Title Screen Menus & Ending_462
+  - first:
+      213: -6294720210771851366
+    second: NES - Metroid - Title Screen Menus & Ending_463
+  - first:
+      213: -2897720999479303748
+    second: NES - Metroid - Title Screen Menus & Ending_464
+  - first:
+      213: -200874598100616228
+    second: NES - Metroid - Title Screen Menus & Ending_465
+  - first:
+      213: -4058945136485225295
+    second: NES - Metroid - Title Screen Menus & Ending_466
+  - first:
+      213: 1157428608516157128
+    second: NES - Metroid - Title Screen Menus & Ending_467
+  - first:
+      213: 6143477635881684945
+    second: NES - Metroid - Title Screen Menus & Ending_468
+  - first:
+      213: 3244077115969336442
+    second: NES - Metroid - Title Screen Menus & Ending_469
+  - first:
+      213: -8877801230748157100
+    second: NES - Metroid - Title Screen Menus & Ending_470
+  - first:
+      213: -1333074159500606619
+    second: NES - Metroid - Title Screen Menus & Ending_471
+  - first:
+      213: -7926187943308446739
+    second: NES - Metroid - Title Screen Menus & Ending_472
+  - first:
+      213: 54124889848012869
+    second: NES - Metroid - Title Screen Menus & Ending_473
+  - first:
+      213: -3210395607166646922
+    second: NES - Metroid - Title Screen Menus & Ending_474
+  - first:
+      213: -2187085533029204600
+    second: NES - Metroid - Title Screen Menus & Ending_475
+  - first:
+      213: -3122325496587535178
+    second: NES - Metroid - Title Screen Menus & Ending_476
+  - first:
+      213: -7051645487132359368
+    second: NES - Metroid - Title Screen Menus & Ending_477
+  - first:
+      213: 4972540044130402582
+    second: NES - Metroid - Title Screen Menus & Ending_478
+  - first:
+      213: -6836053297846106652
+    second: NES - Metroid - Title Screen Menus & Ending_479
+  - first:
+      213: 544557378164542616
+    second: NES - Metroid - Title Screen Menus & Ending_480
+  - first:
+      213: 4310208190079223439
+    second: NES - Metroid - Title Screen Menus & Ending_481
+  - first:
+      213: -8497501323348381317
+    second: NES - Metroid - Title Screen Menus & Ending_482
+  - first:
+      213: -1060612046193602045
+    second: NES - Metroid - Title Screen Menus & Ending_483
+  - first:
+      213: -2300816162094068574
+    second: NES - Metroid - Title Screen Menus & Ending_484
+  - first:
+      213: -4504159875619937166
+    second: NES - Metroid - Title Screen Menus & Ending_485
+  - first:
+      213: 309251908591979267
+    second: NES - Metroid - Title Screen Menus & Ending_486
+  - first:
+      213: 4462681437837954142
+    second: NES - Metroid - Title Screen Menus & Ending_487
+  - first:
+      213: 8724432158883415948
+    second: NES - Metroid - Title Screen Menus & Ending_488
+  - first:
+      213: 5383514216248863616
+    second: NES - Metroid - Title Screen Menus & Ending_489
+  - first:
+      213: 6936491678177451227
+    second: NES - Metroid - Title Screen Menus & Ending_490
+  - first:
+      213: 1399786582372650008
+    second: NES - Metroid - Title Screen Menus & Ending_491
+  - first:
+      213: 4758837520404756113
+    second: NES - Metroid - Title Screen Menus & Ending_492
+  - first:
+      213: 7293641953461947741
+    second: NES - Metroid - Title Screen Menus & Ending_493
+  - first:
+      213: 8087532042841280038
+    second: NES - Metroid - Title Screen Menus & Ending_494
+  - first:
+      213: -2017282556116814503
+    second: NES - Metroid - Title Screen Menus & Ending_495
+  - first:
+      213: -7547317907049595347
+    second: NES - Metroid - Title Screen Menus & Ending_496
+  - first:
+      213: -5386901381888157942
+    second: NES - Metroid - Title Screen Menus & Ending_497
+  - first:
+      213: -6769037696757144283
+    second: NES - Metroid - Title Screen Menus & Ending_498
+  - first:
+      213: 2811347478147762329
+    second: NES - Metroid - Title Screen Menus & Ending_499
+  - first:
+      213: -8797933180511506212
+    second: NES - Metroid - Title Screen Menus & Ending_500
+  - first:
+      213: -3402271172777570806
+    second: NES - Metroid - Title Screen Menus & Ending_501
+  - first:
+      213: 6183670177405896788
+    second: NES - Metroid - Title Screen Menus & Ending_502
+  - first:
+      213: -8578844133152359479
+    second: NES - Metroid - Title Screen Menus & Ending_503
+  - first:
+      213: -3337605708368686813
+    second: NES - Metroid - Title Screen Menus & Ending_504
+  - first:
+      213: -2892460227320492
+    second: NES - Metroid - Title Screen Menus & Ending_505
+  - first:
+      213: -4577811051738028648
+    second: NES - Metroid - Title Screen Menus & Ending_506
+  - first:
+      213: 5621717178209027034
+    second: NES - Metroid - Title Screen Menus & Ending_507
+  - first:
+      213: 8011446501964929764
+    second: NES - Metroid - Title Screen Menus & Ending_508
+  - first:
+      213: 795333903470580792
+    second: NES - Metroid - Title Screen Menus & Ending_509
+  - first:
+      213: -3533730195689541644
+    second: NES - Metroid - Title Screen Menus & Ending_510
+  - first:
+      213: -5968664844893000274
+    second: NES - Metroid - Title Screen Menus & Ending_511
+  - first:
+      213: -801781775464492370
+    second: NES - Metroid - Title Screen Menus & Ending_512
+  - first:
+      213: 8264452323551046135
+    second: NES - Metroid - Title Screen Menus & Ending_513
+  - first:
+      213: -4446273715204415419
+    second: NES - Metroid - Title Screen Menus & Ending_514
+  - first:
+      213: -142336655984094835
+    second: NES - Metroid - Title Screen Menus & Ending_515
+  - first:
+      213: -8999392481292119024
+    second: NES - Metroid - Title Screen Menus & Ending_516
+  - first:
+      213: -2404267986166437999
+    second: NES - Metroid - Title Screen Menus & Ending_517
+  - first:
+      213: -2902431002849517886
+    second: NES - Metroid - Title Screen Menus & Ending_518
+  - first:
+      213: 7205563910830796052
+    second: NES - Metroid - Title Screen Menus & Ending_519
+  - first:
+      213: -8743312283260874166
+    second: NES - Metroid - Title Screen Menus & Ending_520
+  - first:
+      213: -1753315705290704536
+    second: NES - Metroid - Title Screen Menus & Ending_521
+  - first:
+      213: -676051275537081251
+    second: NES - Metroid - Title Screen Menus & Ending_522
+  - first:
+      213: 4893616087637728914
+    second: NES - Metroid - Title Screen Menus & Ending_523
+  - first:
+      213: -4992757201818550924
+    second: NES - Metroid - Title Screen Menus & Ending_524
+  - first:
+      213: -2798202073219061796
+    second: NES - Metroid - Title Screen Menus & Ending_525
+  - first:
+      213: 3157854287234503728
+    second: NES - Metroid - Title Screen Menus & Ending_526
+  - first:
+      213: 2059780472148434269
+    second: NES - Metroid - Title Screen Menus & Ending_527
+  - first:
+      213: 1032644962852570494
+    second: NES - Metroid - Title Screen Menus & Ending_528
+  - first:
+      213: 8642810045833476199
+    second: NES - Metroid - Title Screen Menus & Ending_529
+  - first:
+      213: 3289256687284007240
+    second: NES - Metroid - Title Screen Menus & Ending_530
+  - first:
+      213: -764227453008072564
+    second: NES - Metroid - Title Screen Menus & Ending_531
+  - first:
+      213: 1657544028074140384
+    second: NES - Metroid - Title Screen Menus & Ending_532
+  - first:
+      213: -2535273796996386820
+    second: NES - Metroid - Title Screen Menus & Ending_533
+  - first:
+      213: -5386460164542582514
+    second: NES - Metroid - Title Screen Menus & Ending_534
+  - first:
+      213: -1059869233539601103
+    second: NES - Metroid - Title Screen Menus & Ending_535
+  - first:
+      213: -5915343288250497169
+    second: NES - Metroid - Title Screen Menus & Ending_536
+  - first:
+      213: -4798799116843283349
+    second: NES - Metroid - Title Screen Menus & Ending_537
+  - first:
+      213: 5945996214194072811
+    second: NES - Metroid - Title Screen Menus & Ending_538
+  - first:
+      213: -6025071552285669876
+    second: NES - Metroid - Title Screen Menus & Ending_539
+  - first:
+      213: -4989788311775117632
+    second: NES - Metroid - Title Screen Menus & Ending_540
+  - first:
+      213: -8218997864385448755
+    second: NES - Metroid - Title Screen Menus & Ending_541
+  - first:
+      213: 7477173363454467768
+    second: NES - Metroid - Title Screen Menus & Ending_542
+  - first:
+      213: 886485672667566638
+    second: NES - Metroid - Title Screen Menus & Ending_543
+  - first:
+      213: -8707297541441166275
+    second: NES - Metroid - Title Screen Menus & Ending_544
+  - first:
+      213: -4162507295684625878
+    second: NES - Metroid - Title Screen Menus & Ending_545
+  - first:
+      213: -987508979884927183
+    second: NES - Metroid - Title Screen Menus & Ending_546
+  - first:
+      213: 5789577208216262385
+    second: NES - Metroid - Title Screen Menus & Ending_547
+  - first:
+      213: -7400605994166217384
+    second: NES - Metroid - Title Screen Menus & Ending_548
+  - first:
+      213: -2713946714670545748
+    second: NES - Metroid - Title Screen Menus & Ending_549
+  - first:
+      213: 7074605991862554422
+    second: NES - Metroid - Title Screen Menus & Ending_550
+  - first:
+      213: 4516291863883154656
+    second: NES - Metroid - Title Screen Menus & Ending_551
+  - first:
+      213: -6147404063232148804
+    second: NES - Metroid - Title Screen Menus & Ending_552
+  - first:
+      213: -8591301904882514546
+    second: NES - Metroid - Title Screen Menus & Ending_553
+  - first:
+      213: 2960391893215678412
+    second: NES - Metroid - Title Screen Menus & Ending_554
+  - first:
+      213: 5106049148785472916
+    second: NES - Metroid - Title Screen Menus & Ending_555
+  - first:
+      213: -7769536665623211640
+    second: NES - Metroid - Title Screen Menus & Ending_556
+  - first:
+      213: -6488449093604581382
+    second: NES - Metroid - Title Screen Menus & Ending_557
+  - first:
+      213: -516743127735807428
+    second: NES - Metroid - Title Screen Menus & Ending_558
+  - first:
+      213: -5152205221755212160
+    second: NES - Metroid - Title Screen Menus & Ending_559
+  - first:
+      213: -3714787414445300280
+    second: NES - Metroid - Title Screen Menus & Ending_560
+  - first:
+      213: -1738393527277158841
+    second: NES - Metroid - Title Screen Menus & Ending_561
+  - first:
+      213: 4678047789479752274
+    second: NES - Metroid - Title Screen Menus & Ending_562
+  - first:
+      213: 8410758269496077009
+    second: NES - Metroid - Title Screen Menus & Ending_563
+  - first:
+      213: -7268870521015673938
+    second: NES - Metroid - Title Screen Menus & Ending_564
+  - first:
+      213: 7817371243831193534
+    second: NES - Metroid - Title Screen Menus & Ending_565
+  - first:
+      213: -7286827554639845295
+    second: NES - Metroid - Title Screen Menus & Ending_566
+  - first:
+      213: 4671474714986496208
+    second: NES - Metroid - Title Screen Menus & Ending_567
+  - first:
+      213: 7696560085053439479
+    second: NES - Metroid - Title Screen Menus & Ending_568
+  - first:
+      213: 2297991322202681299
+    second: NES - Metroid - Title Screen Menus & Ending_569
+  - first:
+      213: -8757217323738454286
+    second: NES - Metroid - Title Screen Menus & Ending_570
+  - first:
+      213: -3294430950420105331
+    second: NES - Metroid - Title Screen Menus & Ending_571
+  - first:
+      213: 7759150436474804352
+    second: NES - Metroid - Title Screen Menus & Ending_572
+  - first:
+      213: 2362163352121262137
+    second: NES - Metroid - Title Screen Menus & Ending_573
+  - first:
+      213: -4890705436393989370
+    second: NES - Metroid - Title Screen Menus & Ending_574
+  - first:
+      213: 2935649426812491923
+    second: NES - Metroid - Title Screen Menus & Ending_575
+  - first:
+      213: -882264979691996412
+    second: NES - Metroid - Title Screen Menus & Ending_576
+  - first:
+      213: 5196675863648925333
+    second: NES - Metroid - Title Screen Menus & Ending_577
+  - first:
+      213: 8762061252481595490
+    second: NES - Metroid - Title Screen Menus & Ending_578
+  - first:
+      213: 195412078698100057
+    second: NES - Metroid - Title Screen Menus & Ending_579
+  - first:
+      213: 5499166006521067609
+    second: NES - Metroid - Title Screen Menus & Ending_580
+  - first:
+      213: 5616693661284041605
+    second: NES - Metroid - Title Screen Menus & Ending_581
+  - first:
+      213: -4562536115911038969
+    second: NES - Metroid - Title Screen Menus & Ending_582
+  - first:
+      213: 794648404908600158
+    second: NES - Metroid - Title Screen Menus & Ending_583
+  - first:
+      213: -3773514068193928017
+    second: NES - Metroid - Title Screen Menus & Ending_584
+  - first:
+      213: 9199071642191791726
+    second: NES - Metroid - Title Screen Menus & Ending_585
+  - first:
+      213: 8691808602499516084
+    second: NES - Metroid - Title Screen Menus & Ending_586
+  - first:
+      213: -1716564996269319816
+    second: NES - Metroid - Title Screen Menus & Ending_587
+  - first:
+      213: -2861368002548120064
+    second: NES - Metroid - Title Screen Menus & Ending_588
+  - first:
+      213: 6735685419019289265
+    second: NES - Metroid - Title Screen Menus & Ending_589
+  - first:
+      213: -3854203659059581997
+    second: NES - Metroid - Title Screen Menus & Ending_590
+  - first:
+      213: -7983296220213534169
+    second: NES - Metroid - Title Screen Menus & Ending_591
+  - first:
+      213: 8638567501475874227
+    second: NES - Metroid - Title Screen Menus & Ending_592
+  - first:
+      213: -4412680031509067883
+    second: NES - Metroid - Title Screen Menus & Ending_593
+  - first:
+      213: -9038096500659389266
+    second: NES - Metroid - Title Screen Menus & Ending_594
+  - first:
+      213: 5761540499508752651
+    second: NES - Metroid - Title Screen Menus & Ending_595
+  - first:
+      213: 8098329349818972248
+    second: NES - Metroid - Title Screen Menus & Ending_596
+  - first:
+      213: 12762053652696809
+    second: NES - Metroid - Title Screen Menus & Ending_597
+  - first:
+      213: -4232351875003897696
+    second: NES - Metroid - Title Screen Menus & Ending_598
+  - first:
+      213: 7721689783972154404
+    second: NES - Metroid - Title Screen Menus & Ending_599
+  - first:
+      213: -6230460989519852582
+    second: NES - Metroid - Title Screen Menus & Ending_600
+  - first:
+      213: 4359223302086542591
+    second: NES - Metroid - Title Screen Menus & Ending_601
+  - first:
+      213: -1549084046804696407
+    second: NES - Metroid - Title Screen Menus & Ending_602
+  - first:
+      213: -5209413167190649833
+    second: NES - Metroid - Title Screen Menus & Ending_603
+  - first:
+      213: -1706878935934163892
+    second: NES - Metroid - Title Screen Menus & Ending_604
+  - first:
+      213: -8911787704930058529
+    second: NES - Metroid - Title Screen Menus & Ending_605
+  - first:
+      213: -8829041334574244248
+    second: NES - Metroid - Title Screen Menus & Ending_606
+  - first:
+      213: 715848577685974075
+    second: NES - Metroid - Title Screen Menus & Ending_607
+  - first:
+      213: -4231100107501322450
+    second: NES - Metroid - Title Screen Menus & Ending_608
+  - first:
+      213: -867288180172845548
+    second: NES - Metroid - Title Screen Menus & Ending_609
+  - first:
+      213: -2364799914510738516
+    second: NES - Metroid - Title Screen Menus & Ending_610
+  - first:
+      213: -2644971492860829517
+    second: NES - Metroid - Title Screen Menus & Ending_611
+  - first:
+      213: 3399995514698984680
+    second: NES - Metroid - Title Screen Menus & Ending_612
+  - first:
+      213: -6739960433249524654
+    second: NES - Metroid - Title Screen Menus & Ending_613
+  - first:
+      213: 6808207456575372818
+    second: NES - Metroid - Title Screen Menus & Ending_614
+  - first:
+      213: -401788403083432509
+    second: NES - Metroid - Title Screen Menus & Ending_615
+  - first:
+      213: -5417691222395435088
+    second: NES - Metroid - Title Screen Menus & Ending_616
+  - first:
+      213: -8122857636907754526
+    second: NES - Metroid - Title Screen Menus & Ending_617
+  - first:
+      213: 8530655765250257179
+    second: NES - Metroid - Title Screen Menus & Ending_618
+  - first:
+      213: 6460846860661903726
+    second: NES - Metroid - Title Screen Menus & Ending_619
+  - first:
+      213: 3351622774678307207
+    second: NES - Metroid - Title Screen Menus & Ending_620
+  - first:
+      213: -6913441668442561841
+    second: NES - Metroid - Title Screen Menus & Ending_621
+  - first:
+      213: 1428526280453475600
+    second: NES - Metroid - Title Screen Menus & Ending_622
+  - first:
+      213: -8862763204494543081
+    second: NES - Metroid - Title Screen Menus & Ending_623
+  - first:
+      213: -2405670057706839906
+    second: NES - Metroid - Title Screen Menus & Ending_624
+  - first:
+      213: 5603008073084193624
+    second: NES - Metroid - Title Screen Menus & Ending_625
+  - first:
+      213: 5476907807269427409
+    second: NES - Metroid - Title Screen Menus & Ending_626
+  - first:
+      213: -1582269959511146925
+    second: NES - Metroid - Title Screen Menus & Ending_627
+  - first:
+      213: -622303603344883160
+    second: NES - Metroid - Title Screen Menus & Ending_628
+  - first:
+      213: -8476688472219894981
+    second: NES - Metroid - Title Screen Menus & Ending_629
+  - first:
+      213: -7846082104019714567
+    second: NES - Metroid - Title Screen Menus & Ending_630
+  - first:
+      213: -5555080205685430651
+    second: NES - Metroid - Title Screen Menus & Ending_631
+  - first:
+      213: -154842367654526639
+    second: NES - Metroid - Title Screen Menus & Ending_632
+  - first:
+      213: -2063278331300302707
+    second: NES - Metroid - Title Screen Menus & Ending_633
+  - first:
+      213: -3317393225598382321
+    second: NES - Metroid - Title Screen Menus & Ending_634
+  - first:
+      213: 4496886890320811239
+    second: NES - Metroid - Title Screen Menus & Ending_635
+  - first:
+      213: -7724306293167260957
+    second: NES - Metroid - Title Screen Menus & Ending_636
+  - first:
+      213: 9049760053149261459
+    second: NES - Metroid - Title Screen Menus & Ending_637
+  - first:
+      213: 2844323673709067006
+    second: NES - Metroid - Title Screen Menus & Ending_638
+  - first:
+      213: 2890950534748630641
+    second: NES - Metroid - Title Screen Menus & Ending_639
+  - first:
+      213: -7967636062979820323
+    second: NES - Metroid - Title Screen Menus & Ending_640
+  - first:
+      213: 904578271724127574
+    second: NES - Metroid - Title Screen Menus & Ending_641
+  - first:
+      213: 7660973495192704591
+    second: NES - Metroid - Title Screen Menus & Ending_642
+  - first:
+      213: -5613790677528588368
+    second: NES - Metroid - Title Screen Menus & Ending_643
+  - first:
+      213: -3053384558203284156
+    second: NES - Metroid - Title Screen Menus & Ending_644
+  - first:
+      213: 8149081484282434352
+    second: NES - Metroid - Title Screen Menus & Ending_645
+  - first:
+      213: -9535619450274850
+    second: NES - Metroid - Title Screen Menus & Ending_646
+  - first:
+      213: -4444921608048611935
+    second: NES - Metroid - Title Screen Menus & Ending_647
+  - first:
+      213: -4800359573004987617
+    second: NES - Metroid - Title Screen Menus & Ending_648
+  - first:
+      213: -5396934494380764522
+    second: NES - Metroid - Title Screen Menus & Ending_649
+  - first:
+      213: -6814709194976214662
+    second: NES - Metroid - Title Screen Menus & Ending_650
+  - first:
+      213: -7586794932861648247
+    second: NES - Metroid - Title Screen Menus & Ending_651
+  - first:
+      213: -4540679687777474421
+    second: NES - Metroid - Title Screen Menus & Ending_652
+  - first:
+      213: 1166849773897699322
+    second: NES - Metroid - Title Screen Menus & Ending_653
+  - first:
+      213: 3790037294693034127
+    second: NES - Metroid - Title Screen Menus & Ending_654
+  - first:
+      213: -8312566589644327797
+    second: NES - Metroid - Title Screen Menus & Ending_655
+  - first:
+      213: -8025593534970728052
+    second: NES - Metroid - Title Screen Menus & Ending_656
+  - first:
+      213: -420986950135251943
+    second: NES - Metroid - Title Screen Menus & Ending_657
+  - first:
+      213: 8686016519780092036
+    second: NES - Metroid - Title Screen Menus & Ending_658
+  - first:
+      213: -4016589171068510915
+    second: NES - Metroid - Title Screen Menus & Ending_659
+  - first:
+      213: 3696807574801915451
+    second: NES - Metroid - Title Screen Menus & Ending_660
+  - first:
+      213: 2907858210151698838
+    second: NES - Metroid - Title Screen Menus & Ending_661
+  - first:
+      213: 5133667244179318407
+    second: NES - Metroid - Title Screen Menus & Ending_662
+  - first:
+      213: -6705671562409117385
+    second: NES - Metroid - Title Screen Menus & Ending_663
+  - first:
+      213: 5900017954755656894
+    second: NES - Metroid - Title Screen Menus & Ending_664
+  - first:
+      213: 8147959146288744409
+    second: NES - Metroid - Title Screen Menus & Ending_665
+  - first:
+      213: -1171184181992629842
+    second: NES - Metroid - Title Screen Menus & Ending_666
+  - first:
+      213: -3119380507909462310
+    second: NES - Metroid - Title Screen Menus & Ending_667
+  - first:
+      213: 7899109977623763618
+    second: NES - Metroid - Title Screen Menus & Ending_668
+  - first:
+      213: 5670960858522130186
+    second: NES - Metroid - Title Screen Menus & Ending_669
+  - first:
+      213: -3355127213762634081
+    second: NES - Metroid - Title Screen Menus & Ending_670
+  - first:
+      213: -8675131012121328990
+    second: NES - Metroid - Title Screen Menus & Ending_671
+  - first:
+      213: 3738086551186145485
+    second: NES - Metroid - Title Screen Menus & Ending_672
+  - first:
+      213: -6021919785281657808
+    second: NES - Metroid - Title Screen Menus & Ending_673
+  - first:
+      213: 9158344887310426498
+    second: NES - Metroid - Title Screen Menus & Ending_674
+  - first:
+      213: 3224656675628060727
+    second: NES - Metroid - Title Screen Menus & Ending_675
+  - first:
+      213: 2815247044824092064
+    second: NES - Metroid - Title Screen Menus & Ending_676
+  - first:
+      213: -5835963875162806318
+    second: NES - Metroid - Title Screen Menus & Ending_677
+  - first:
+      213: 8386138730599759417
+    second: NES - Metroid - Title Screen Menus & Ending_678
+  - first:
+      213: -4849847532976750837
+    second: NES - Metroid - Title Screen Menus & Ending_679
+  - first:
+      213: -4770576503400798413
+    second: NES - Metroid - Title Screen Menus & Ending_680
+  - first:
+      213: 2288223430532906783
+    second: NES - Metroid - Title Screen Menus & Ending_681
+  - first:
+      213: -708526596824802116
+    second: NES - Metroid - Title Screen Menus & Ending_682
+  - first:
+      213: 6079716826401312015
+    second: NES - Metroid - Title Screen Menus & Ending_683
+  - first:
+      213: -5947557722662108567
+    second: NES - Metroid - Title Screen Menus & Ending_684
+  - first:
+      213: -4444525671783043657
+    second: NES - Metroid - Title Screen Menus & Ending_685
+  - first:
+      213: 1786125252440621978
+    second: NES - Metroid - Title Screen Menus & Ending_686
+  - first:
+      213: -5675380192438678973
+    second: NES - Metroid - Title Screen Menus & Ending_687
+  - first:
+      213: 2846237846651218082
+    second: NES - Metroid - Title Screen Menus & Ending_688
+  - first:
+      213: -6446745218514531074
+    second: NES - Metroid - Title Screen Menus & Ending_689
+  - first:
+      213: 8742766581227797003
+    second: NES - Metroid - Title Screen Menus & Ending_690
+  - first:
+      213: 3364676529370630947
+    second: NES - Metroid - Title Screen Menus & Ending_691
+  - first:
+      213: -4180053299424730280
+    second: NES - Metroid - Title Screen Menus & Ending_692
+  - first:
+      213: -4271494161433863500
+    second: NES - Metroid - Title Screen Menus & Ending_693
+  - first:
+      213: -1472106992489042356
+    second: NES - Metroid - Title Screen Menus & Ending_694
+  - first:
+      213: -6275453042626467202
+    second: NES - Metroid - Title Screen Menus & Ending_695
+  - first:
+      213: -1879701104253281702
+    second: NES - Metroid - Title Screen Menus & Ending_696
+  - first:
+      213: -221587433020400131
+    second: NES - Metroid - Title Screen Menus & Ending_697
+  - first:
+      213: 249332357621673571
+    second: NES - Metroid - Title Screen Menus & Ending_698
+  - first:
+      213: 2705752554561797851
+    second: NES - Metroid - Title Screen Menus & Ending_699
+  - first:
+      213: 5758766261329277433
+    second: NES - Metroid - Title Screen Menus & Ending_700
+  - first:
+      213: -6169169406104530818
+    second: NES - Metroid - Title Screen Menus & Ending_701
+  - first:
+      213: -8082733518417828832
+    second: NES - Metroid - Title Screen Menus & Ending_702
+  - first:
+      213: 815233555636648092
+    second: NES - Metroid - Title Screen Menus & Ending_703
+  - first:
+      213: 3069289429743765845
+    second: NES - Metroid - Title Screen Menus & Ending_704
+  - first:
+      213: 4515467936213720287
+    second: NES - Metroid - Title Screen Menus & Ending_705
+  - first:
+      213: 3776107024971920005
+    second: NES - Metroid - Title Screen Menus & Ending_706
+  - first:
+      213: 3813233852204805244
+    second: NES - Metroid - Title Screen Menus & Ending_707
+  - first:
+      213: 7415138782124765374
+    second: NES - Metroid - Title Screen Menus & Ending_708
+  - first:
+      213: 6978774039939770621
+    second: NES - Metroid - Title Screen Menus & Ending_709
+  - first:
+      213: 7115880683035392424
+    second: NES - Metroid - Title Screen Menus & Ending_710
+  - first:
+      213: 3173317106005325126
+    second: NES - Metroid - Title Screen Menus & Ending_711
+  - first:
+      213: 6142432429075185993
+    second: NES - Metroid - Title Screen Menus & Ending_712
+  - first:
+      213: -1540584870431246370
+    second: NES - Metroid - Title Screen Menus & Ending_713
+  - first:
+      213: -847666095393042282
+    second: NES - Metroid - Title Screen Menus & Ending_714
+  - first:
+      213: -2967893762298818828
+    second: NES - Metroid - Title Screen Menus & Ending_715
+  - first:
+      213: 9212580334002309204
+    second: NES - Metroid - Title Screen Menus & Ending_716
+  - first:
+      213: 4949675572544275375
+    second: NES - Metroid - Title Screen Menus & Ending_717
+  - first:
+      213: 8720643097580621048
+    second: NES - Metroid - Title Screen Menus & Ending_718
+  - first:
+      213: -2188664186806140142
+    second: NES - Metroid - Title Screen Menus & Ending_719
+  - first:
+      213: -5233805685642713395
+    second: NES - Metroid - Title Screen Menus & Ending_720
+  - first:
+      213: 3239280153063522281
+    second: NES - Metroid - Title Screen Menus & Ending_721
+  - first:
+      213: -536200928698056708
+    second: NES - Metroid - Title Screen Menus & Ending_722
+  - first:
+      213: 606803240979399875
+    second: NES - Metroid - Title Screen Menus & Ending_723
+  - first:
+      213: -6503482035332438810
+    second: NES - Metroid - Title Screen Menus & Ending_724
+  - first:
+      213: 8678001598222619037
+    second: NES - Metroid - Title Screen Menus & Ending_725
+  - first:
+      213: -2100190851426773127
+    second: NES - Metroid - Title Screen Menus & Ending_726
+  - first:
+      213: 8436358770120083014
+    second: NES - Metroid - Title Screen Menus & Ending_727
+  - first:
+      213: -3577625824787413104
+    second: NES - Metroid - Title Screen Menus & Ending_728
+  - first:
+      213: 6925939692490956538
+    second: NES - Metroid - Title Screen Menus & Ending_729
+  - first:
+      213: 1205715688018996809
+    second: NES - Metroid - Title Screen Menus & Ending_730
+  - first:
+      213: 9035777494377284312
+    second: NES - Metroid - Title Screen Menus & Ending_731
+  - first:
+      213: 5074033774225868955
+    second: NES - Metroid - Title Screen Menus & Ending_732
+  - first:
+      213: 2979375786126626318
+    second: NES - Metroid - Title Screen Menus & Ending_733
+  - first:
+      213: 9071832391478120701
+    second: NES - Metroid - Title Screen Menus & Ending_734
+  - first:
+      213: -6040420748168490409
+    second: NES - Metroid - Title Screen Menus & Ending_735
+  - first:
+      213: 6751723478204188950
+    second: NES - Metroid - Title Screen Menus & Ending_736
+  - first:
+      213: -4534832825142917729
+    second: NES - Metroid - Title Screen Menus & Ending_737
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2023.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ce0bd26666e1ea0800000000000000
+      internalID: -5900165872769504134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 2023.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379f5f0a8646ab050800000000000000
+      internalID: 5817072269242268019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_2
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 2023.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0922fbe4f0185e0800000000000000
+      internalID: -1909227936139800349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_3
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 2023.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc72a4470b147f20800000000000000
+      internalID: 3419387735111269553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_4
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 2023.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92befabb80dd298d0800000000000000
+      internalID: -2840965385339016407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_5
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 2023.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f589df464644b60800000000000000
+      internalID: 7729413245388742403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_6
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 2023.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6bfb2fe58510b10800000000000000
+      internalID: 1945933678823585507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_7
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 2023.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cba18c9532860f0800000000000000
+      internalID: -1123609238512681925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1771.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f2144ce72622290800000000000000
+      internalID: -7916656898365903053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_9
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1771.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0201a0819b576f8b0800000000000000
+      internalID: -5118774488627277792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_10
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1771.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e804ef051fe599e0800000000000000
+      internalID: -1615122017602500380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_11
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1771.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632513148cc7582e0800000000000000
+      internalID: -2124154449706266058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_12
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1771.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66d5e8a1711c91a0800000000000000
+      internalID: -6801542157373680017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_13
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1771.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84a9a57cce4400c0800000000000000
+      internalID: -4610473478466198389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_14
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1771.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3993660c0c7bbff90800000000000000
+      internalID: -6918734364035106413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_15
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1771.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c234266c150e2c0800000000000000
+      internalID: -4404430523074401226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1519.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fe1e54b18899db0800000000000000
+      internalID: -4784643478386511990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_17
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1519.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7c5666c777b0f60800000000000000
+      internalID: 8001620539131414498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_18
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1519.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c061ae332db707920800000000000000
+      internalID: 2986022695690966540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_19
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1519.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4b3737db06fd710800000000000000
+      internalID: 1720199949480866981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_20
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1519.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe2442c9d8deeaf0800000000000000
+      internalID: -365116089991680271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_21
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1519.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bf0fcba2dcc8800800000000000000
+      internalID: 616092832485145442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_22
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1519.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a15795af34d7810800000000000000
+      internalID: 1764641371520834108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_23
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1519.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af2cbaf3cd81d140800000000000000
+      internalID: 4742727755462619045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1267.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0168a7cc40da37110800000000000000
+      internalID: 1257538957088556560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_25
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1267.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a3a21ba9b8d6120800000000000000
+      internalID: 2408734872226642517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_26
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1267.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcb84600203ced60800000000000000
+      internalID: 7920758758740376797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_27
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1267.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa8d0ebb1731a470800000000000000
+      internalID: 8404058971942259453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_28
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1267.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13aa4316aad0a2770800000000000000
+      internalID: 8586690664961714737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_29
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1267.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a124c1bd8d045c80800000000000000
+      internalID: -8335022108131974748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_30
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1267.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5afa2a8d264f940800000000000000
+      internalID: 5328992941668017619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_31
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1267.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fb993f13a2612f0800000000000000
+      internalID: -1002567473014653055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1015.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bb1c39d6dbdc650800000000000000
+      internalID: 6254863735815519121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_33
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1015.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec698d1dadf4a5f0800000000000000
+      internalID: -746192718269944597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_34
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1015.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e409b9e12f90ae50800000000000000
+      internalID: 6818624803842884837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_35
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1015.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf7812adecc63790800000000000000
+      internalID: -7550622404241227833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_36
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1015.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae18bf827d842d50800000000000000
+      internalID: 6711644867865878190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_37
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1015.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6015bc0a929cac10800000000000000
+      internalID: 2066187519392026733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_38
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1015.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d6eb01dc369a110800000000000000
+      internalID: 1272658102109236548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_39
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1015.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e09346e17186c70800000000000000
+      internalID: 8964440477578890854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 763.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c25114dce9ea4cd0800000000000000
+      internalID: -2572987033709358395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_41
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 763.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508c131328288e1c0800000000000000
+      internalID: -4474182734109882363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_42
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 763.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a5bea6eca32f4d0800000000000000
+      internalID: -3102352535073367467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_43
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 763.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9089ff91aa96ab150800000000000000
+      internalID: 5889135642041882633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_44
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 763.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e235cb1ee2883bce0800000000000000
+      internalID: -1390618124990262482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_45
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 763.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d23a3d1107e81b0800000000000000
+      internalID: -5652457260435952273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_46
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 763.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0591efdcc46bfce10800000000000000
+      internalID: 2220193582306695504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_47
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 763.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc555b1d6df9730d0800000000000000
+      internalID: -3443107645111314995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 511.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612a2b762b2440370800000000000000
+      internalID: 8287822548279927318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_49
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 511.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd971426dc83a7db0800000000000000
+      internalID: -4793456398614562339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_50
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 511.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3941a77af9eb33e20800000000000000
+      internalID: 3329214142475801747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_51
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 511.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cb2d532866009a0800000000000000
+      internalID: -6268897971864945573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_52
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 511.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177bc0431dfdc35d0800000000000000
+      internalID: -3081341955413854351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_53
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 511.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25640371f18df2f10800000000000000
+      internalID: 2247252367125792338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_54
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 511.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7844499a55a1f48a0800000000000000
+      internalID: -6318802796957907833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_55
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 511.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8538c57a979a44c0800000000000000
+      internalID: -4302459804342274674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2467e76625b77170800000000000000
+      internalID: 8176202825071027247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_57
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 259.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e889099920ec8c0800000000000000
+      internalID: -3977238562342400361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_58
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 259.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32941e84a2131df0800000000000000
+      internalID: -210804259588632005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_59
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 259.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b494b13fcf5ebe40800000000000000
+      internalID: 5674077924030190770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_60
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 259.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d374360d5499770f0800000000000000
+      internalID: -1119257457250318531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_61
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 259.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d00061a7b6511ae0800000000000000
+      internalID: -1580386647543906092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_62
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 259.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b572a49a3bb216a50800000000000000
+      internalID: 6512534586793797467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_63
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 259.1111
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9dcd6a0049506a0800000000000000
+      internalID: -6483613358009558594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7.1111145
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21ade90791b7ceb0800000000000000
+      internalID: -4699592423873076945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_65
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 7.1111145
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653aa8f6e341fce10800000000000000
+      internalID: 2220015399708828502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_66
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 7.1111145
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad70349ce761ee3d0800000000000000
+      internalID: -3175575953451317286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_67
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 7.1111145
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14757ffc9971413c0800000000000000
+      internalID: -4389857787392862399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_68
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 7.1111145
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c3c6bc76dda53f0800000000000000
+      internalID: -911172536724865969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_69
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 7.1111145
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16a7756393da5070800000000000000
+      internalID: 8096015910167881242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_70
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 7.1111145
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bbdbb10d88fb810800000000000000
+      internalID: 1783294404861999960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Metroid - Title Screen Menus & Ending_71
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 7.1111145
+        width: 257.125
+        height: 252.88889
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1028eaea2d9b75d0800000000000000
+      internalID: -3063682313840222181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
