@@ -2216,6 +2216,9 @@ TextureImporter:
   - first:
       213: -4534832825142917729
     second: NES - Metroid - Title Screen Menus & Ending_737
+  - first:
+      213: 34511842125216372
+    second: NES - Metroid - Title Screen Menus & Ending_21
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -2340,13 +2343,13 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2023.1111
-        width: 257.125
-        height: 252.88889
+        x: 1
+        y: 2015
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -2361,13 +2364,13 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_1
       rect:
         serializedVersion: 2
-        x: 257
-        y: 2023.1111
-        width: 257.125
-        height: 252.88889
+        x: 256
+        y: 2015
+        width: 257
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -2382,12 +2385,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_2
       rect:
         serializedVersion: 2
-        x: 514
-        y: 2023.1111
-        width: 257.125
-        height: 252.88889
+        x: 516
+        y: 2015
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2403,12 +2406,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_3
       rect:
         serializedVersion: 2
-        x: 771
-        y: 2023.1111
-        width: 257.125
-        height: 252.88889
+        x: 772
+        y: 2015
+        width: 256
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2424,12 +2427,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_4
       rect:
         serializedVersion: 2
-        x: 1028
-        y: 2023.1111
-        width: 257.125
-        height: 252.88889
+        x: 1029
+        y: 2015
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2445,12 +2448,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_5
       rect:
         serializedVersion: 2
-        x: 1285
-        y: 2023.1111
-        width: 257.125
-        height: 252.88889
+        x: 1286
+        y: 2015
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2466,12 +2469,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_6
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 2023.1111
-        width: 257.125
-        height: 252.88889
+        x: 1544
+        y: 2015
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2487,12 +2490,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_7
       rect:
         serializedVersion: 2
-        x: 1799
-        y: 2023.1111
-        width: 257.125
-        height: 252.88889
+        x: 1801
+        y: 2015
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2508,12 +2511,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1771.1111
-        width: 257.125
-        height: 252.88889
+        x: 1
+        y: 1774
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2529,12 +2532,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_9
       rect:
         serializedVersion: 2
-        x: 257
-        y: 1771.1111
-        width: 257.125
-        height: 252.88889
+        x: 258
+        y: 1774
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2550,12 +2553,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_10
       rect:
         serializedVersion: 2
-        x: 514
-        y: 1771.1111
-        width: 257.125
-        height: 252.88889
+        x: 516
+        y: 1774
+        width: 254
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2571,12 +2574,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_11
       rect:
         serializedVersion: 2
-        x: 771
-        y: 1771.1111
-        width: 257.125
-        height: 252.88889
+        x: 773
+        y: 1774
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2592,12 +2595,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_12
       rect:
         serializedVersion: 2
-        x: 1028
-        y: 1771.1111
-        width: 257.125
-        height: 252.88889
+        x: 1029
+        y: 1774
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2613,12 +2616,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_13
       rect:
         serializedVersion: 2
-        x: 1285
-        y: 1771.1111
-        width: 257.125
-        height: 252.88889
+        x: 1286
+        y: 1774
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2634,12 +2637,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_14
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 1771.1111
-        width: 257.125
-        height: 252.88889
+        x: 1544
+        y: 1774
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2655,12 +2658,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_15
       rect:
         serializedVersion: 2
-        x: 1799
-        y: 1771.1111
-        width: 257.125
-        height: 252.88889
+        x: 1801
+        y: 1774
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2676,12 +2679,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1519.1111
-        width: 257.125
-        height: 252.88889
+        x: 1
+        y: 1533
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2697,12 +2700,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_17
       rect:
         serializedVersion: 2
-        x: 257
-        y: 1519.1111
-        width: 257.125
-        height: 252.88889
+        x: 258
+        y: 1533
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2718,12 +2721,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_18
       rect:
         serializedVersion: 2
-        x: 514
-        y: 1519.1111
-        width: 257.125
-        height: 252.88889
+        x: 516
+        y: 1533
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2739,12 +2742,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_19
       rect:
         serializedVersion: 2
-        x: 771
-        y: 1519.1111
-        width: 257.125
-        height: 252.88889
+        x: 773
+        y: 1533
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2760,12 +2763,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_20
       rect:
         serializedVersion: 2
-        x: 1028
-        y: 1519.1111
-        width: 257.125
-        height: 252.88889
+        x: 1029
+        y: 1533
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2778,582 +2781,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_21
-      rect:
-        serializedVersion: 2
-        x: 1285
-        y: 1519.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26bf0fcba2dcc8800800000000000000
-      internalID: 616092832485145442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_22
-      rect:
-        serializedVersion: 2
-        x: 1542
-        y: 1519.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3a15795af34d7810800000000000000
-      internalID: 1764641371520834108
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_23
-      rect:
-        serializedVersion: 2
-        x: 1799
-        y: 1519.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5af2cbaf3cd81d140800000000000000
-      internalID: 4742727755462619045
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_24
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1267.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0168a7cc40da37110800000000000000
-      internalID: 1257538957088556560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_25
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 1267.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55a3a21ba9b8d6120800000000000000
-      internalID: 2408734872226642517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_26
-      rect:
-        serializedVersion: 2
-        x: 514
-        y: 1267.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ddcb84600203ced60800000000000000
-      internalID: 7920758758740376797
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_27
-      rect:
-        serializedVersion: 2
-        x: 771
-        y: 1267.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfa8d0ebb1731a470800000000000000
-      internalID: 8404058971942259453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_28
-      rect:
-        serializedVersion: 2
-        x: 1028
-        y: 1267.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13aa4316aad0a2770800000000000000
-      internalID: 8586690664961714737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_29
-      rect:
-        serializedVersion: 2
-        x: 1285
-        y: 1267.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a124c1bd8d045c80800000000000000
-      internalID: -8335022108131974748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_30
-      rect:
-        serializedVersion: 2
-        x: 1542
-        y: 1267.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d5afa2a8d264f940800000000000000
-      internalID: 5328992941668017619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_31
-      rect:
-        serializedVersion: 2
-        x: 1799
-        y: 1267.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18fb993f13a2612f0800000000000000
-      internalID: -1002567473014653055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_32
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1015.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19bb1c39d6dbdc650800000000000000
-      internalID: 6254863735815519121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_33
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 1015.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bec698d1dadf4a5f0800000000000000
-      internalID: -746192718269944597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_34
-      rect:
-        serializedVersion: 2
-        x: 514
-        y: 1015.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e409b9e12f90ae50800000000000000
-      internalID: 6818624803842884837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_35
-      rect:
-        serializedVersion: 2
-        x: 771
-        y: 1015.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cf7812adecc63790800000000000000
-      internalID: -7550622404241227833
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_36
-      rect:
-        serializedVersion: 2
-        x: 1028
-        y: 1015.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eae18bf827d842d50800000000000000
-      internalID: 6711644867865878190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_37
-      rect:
-        serializedVersion: 2
-        x: 1285
-        y: 1015.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6015bc0a929cac10800000000000000
-      internalID: 2066187519392026733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_38
-      rect:
-        serializedVersion: 2
-        x: 1542
-        y: 1015.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44d6eb01dc369a110800000000000000
-      internalID: 1272658102109236548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_39
-      rect:
-        serializedVersion: 2
-        x: 1799
-        y: 1015.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66e09346e17186c70800000000000000
-      internalID: 8964440477578890854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_40
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 763.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c25114dce9ea4cd0800000000000000
-      internalID: -2572987033709358395
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_41
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 763.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 508c131328288e1c0800000000000000
-      internalID: -4474182734109882363
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_42
-      rect:
-        serializedVersion: 2
-        x: 514
-        y: 763.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55a5bea6eca32f4d0800000000000000
-      internalID: -3102352535073367467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_43
-      rect:
-        serializedVersion: 2
-        x: 771
-        y: 763.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9089ff91aa96ab150800000000000000
-      internalID: 5889135642041882633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_44
-      rect:
-        serializedVersion: 2
-        x: 1028
-        y: 763.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e235cb1ee2883bce0800000000000000
-      internalID: -1390618124990262482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_45
-      rect:
-        serializedVersion: 2
-        x: 1285
-        y: 763.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6d23a3d1107e81b0800000000000000
-      internalID: -5652457260435952273
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_46
-      rect:
-        serializedVersion: 2
-        x: 1542
-        y: 763.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0591efdcc46bfce10800000000000000
-      internalID: 2220193582306695504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_47
-      rect:
-        serializedVersion: 2
-        x: 1799
-        y: 763.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc555b1d6df9730d0800000000000000
-      internalID: -3443107645111314995
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: NES - Metroid - Title Screen Menus & Ending_48
       rect:
         serializedVersion: 2
-        x: 0
-        y: 511.1111
-        width: 257.125
-        height: 252.88889
+        x: 2
+        y: 520
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3366,36 +2802,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_49
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 511.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd971426dc83a7db0800000000000000
-      internalID: -4793456398614562339
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: NES - Metroid - Title Screen Menus & Ending_50
       rect:
         serializedVersion: 2
-        x: 514
-        y: 511.1111
-        width: 257.125
-        height: 252.88889
+        x: 516
+        y: 521
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3411,12 +2826,12 @@ TextureImporter:
       name: NES - Metroid - Title Screen Menus & Ending_51
       rect:
         serializedVersion: 2
-        x: 771
-        y: 511.1111
-        width: 257.125
-        height: 252.88889
+        x: 773
+        y: 521
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3429,162 +2844,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_52
-      rect:
-        serializedVersion: 2
-        x: 1028
-        y: 511.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 177bc0431dfdc35d0800000000000000
-      internalID: -3081341955413854351
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_53
-      rect:
-        serializedVersion: 2
-        x: 1285
-        y: 511.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25640371f18df2f10800000000000000
-      internalID: 2247252367125792338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_54
-      rect:
-        serializedVersion: 2
-        x: 1542
-        y: 511.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7844499a55a1f48a0800000000000000
-      internalID: -6318802796957907833
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_55
-      rect:
-        serializedVersion: 2
-        x: 1799
-        y: 511.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8538c57a979a44c0800000000000000
-      internalID: -4302459804342274674
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_56
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 259.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2467e76625b77170800000000000000
-      internalID: 8176202825071027247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_57
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 259.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79e889099920ec8c0800000000000000
-      internalID: -3977238562342400361
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_58
-      rect:
-        serializedVersion: 2
-        x: 514
-        y: 259.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b32941e84a2131df0800000000000000
-      internalID: -210804259588632005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: NES - Metroid - Title Screen Menus & Ending_59
       rect:
         serializedVersion: 2
-        x: 771
-        y: 259.1111
-        width: 257.125
-        height: 252.88889
+        x: 773
+        y: 1
+        width: 255
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3592,258 +2860,6 @@ TextureImporter:
       bones: []
       spriteID: 2b494b13fcf5ebe40800000000000000
       internalID: 5674077924030190770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_60
-      rect:
-        serializedVersion: 2
-        x: 1028
-        y: 259.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d374360d5499770f0800000000000000
-      internalID: -1119257457250318531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_61
-      rect:
-        serializedVersion: 2
-        x: 1285
-        y: 259.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d00061a7b6511ae0800000000000000
-      internalID: -1580386647543906092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_62
-      rect:
-        serializedVersion: 2
-        x: 1542
-        y: 259.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b572a49a3bb216a50800000000000000
-      internalID: 6512534586793797467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_63
-      rect:
-        serializedVersion: 2
-        x: 1799
-        y: 259.1111
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb9dcd6a0049506a0800000000000000
-      internalID: -6483613358009558594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_64
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 7.1111145
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f21ade90791b7ceb0800000000000000
-      internalID: -4699592423873076945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_65
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 7.1111145
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 653aa8f6e341fce10800000000000000
-      internalID: 2220015399708828502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_66
-      rect:
-        serializedVersion: 2
-        x: 514
-        y: 7.1111145
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad70349ce761ee3d0800000000000000
-      internalID: -3175575953451317286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_67
-      rect:
-        serializedVersion: 2
-        x: 771
-        y: 7.1111145
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14757ffc9971413c0800000000000000
-      internalID: -4389857787392862399
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_68
-      rect:
-        serializedVersion: 2
-        x: 1028
-        y: 7.1111145
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4c3c6bc76dda53f0800000000000000
-      internalID: -911172536724865969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_69
-      rect:
-        serializedVersion: 2
-        x: 1285
-        y: 7.1111145
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a16a7756393da5070800000000000000
-      internalID: 8096015910167881242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_70
-      rect:
-        serializedVersion: 2
-        x: 1542
-        y: 7.1111145
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85bbdbb10d88fb810800000000000000
-      internalID: 1783294404861999960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NES - Metroid - Title Screen Menus & Ending_71
-      rect:
-        serializedVersion: 2
-        x: 1799
-        y: 7.1111145
-        width: 257.125
-        height: 252.88889
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1028eaea2d9b75d0800000000000000
-      internalID: -3063682313840222181
       vertices: []
       indices: 
       edges: []
