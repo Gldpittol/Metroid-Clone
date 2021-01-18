@@ -22,6 +22,8 @@ public class GameController : MonoBehaviour
 
     public EGameState eGameState;
 
+    public GameObject enemyDeath;
+
     private void Awake()
     {
         instance = this;

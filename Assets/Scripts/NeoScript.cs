@@ -267,6 +267,7 @@ public class NeoScript : MonoBehaviour
 
     public IEnumerator OnDeath()
     {
+        Instantiate(GameController.instance.enemyDeath, transform.position, Quaternion.identity);
         this.gameObject.SetActive(false);
         yield return null;
     }

@@ -2,8 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+public enum EZoomerType
+{
+    Zoomer,
+    Ripper,
+    RedRipper
+}
 public class ZoomerScript : MonoBehaviour
 {
+    public EZoomerType eZoomerType;
+
     //[TextArea(3,9)]
     //public string ZoomerTutorial = "Ângulos para usar em ''Rotations'', cada rotação para seu respectivo Target: \n0: Agarrado na parte de cima\n90:Agarrado na parede da esquerda\n180:Agarrado na parte de baixo\n270: Agarrado na parede da direita";
     public float speed = 10;
@@ -33,6 +42,7 @@ public class ZoomerScript : MonoBehaviour
     public float speedDivisorAfterDamaged;
 
     private bool beingDamaged = false;
+    private SpriteRenderer sr;
     private void Awake()
     {
         if (initialPosX == 0) initialPosX = transform.position.x;
@@ -42,6 +52,7 @@ public class ZoomerScript : MonoBehaviour
         originalRotation = transform.rotation;
         originalHealth = health;
         originalColor = GetComponent<SpriteRenderer>().color;
+        sr = GetComponent<SpriteRenderer>();
     }
 
     private void OnEnable()
@@ -80,9 +91,19 @@ public class ZoomerScript : MonoBehaviour
 
         if(transform.position == Target[i].transform.position)
         {
-            if(direction > 0) RotateEnemy();
-            FindNewTarget();
-            if(direction < 0) RotateEnemy();
+            if(eZoomerType == EZoomerType.Zoomer)
+            {
+                if (direction > 0) RotateEnemy();
+                FindNewTarget();
+                if (direction < 0) RotateEnemy();
+            }
+            else
+            {
+                if(sr.flipX) sr.flipX = false;
+                else sr.flipX = true;
+                FindNewTarget();
+            }
+
         }
     }
 
@@ -91,9 +112,10 @@ public class ZoomerScript : MonoBehaviour
         if(collision.CompareTag("PlayerBullet"))
         {
             Destroy(collision.gameObject);
-            if (!beingDamaged)
+
+            if (!beingDamaged && eZoomerType != EZoomerType.Ripper)
             {
-                health -= GameController.instance.playerDamage;
+                if(eZoomerType != EZoomerType.RedRipper) health -= GameController.instance.playerDamage;
 
                 if (health <= 0)
                 {
@@ -165,8 +187,6 @@ public class ZoomerScript : MonoBehaviour
     {
         beingDamaged = true;
 
-        SpriteRenderer sr = GetComponent<SpriteRenderer>();
-
         sr.color = newColor;
         speed /= speedDivisorAfterDamaged;
         yield return new WaitForSeconds(timeSpeedReducedAfterDamaged);
@@ -179,6 +199,7 @@ public class ZoomerScript : MonoBehaviour
 
     public IEnumerator OnDeath()
     {
+        Instantiate(GameController.instance.enemyDeath, transform.position, Quaternion.identity);
         this.gameObject.SetActive(false);
         yield return null;
     }
