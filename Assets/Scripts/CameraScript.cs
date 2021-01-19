@@ -14,17 +14,24 @@ public class CameraScript : MonoBehaviour
     public Transform newCameraPosition;
     public float cameraTransitionSpeed;
 
-    
+    public static CameraScript instance;
+
+    public bool routineFinished;
+    private void Awake()
+    {
+        instance = this;
+    }
+
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.F))
-        {
-            if(GameController.instance.canCameraMove)
-            StartCoroutine(MoveCameraCutscene());
-        }
+        //if(Input.GetKeyDown(KeyCode.F))
+        //{
+        //    //if(GameController.instance.canCameraMove)
+        //    //StartCoroutine(MoveCameraCutscene());
+        //}
 
 
-        if(GameController.instance.canCameraMove && player)
+        if(player && GameController.instance.eGameState == EGameState.GamePlay)
         {
             float tempX;
             float tempY;
@@ -42,18 +49,17 @@ public class CameraScript : MonoBehaviour
         }
     }
 
-    public IEnumerator MoveCameraCutscene()
+    public IEnumerator MoveCameraCutscene(Vector3 newPosition)
     {
-        GameController.instance.canCameraMove = false;
-        yield return new WaitForSeconds(1f);
-        while(transform.position != newCameraPosition.position)
+        routineFinished = false;
+
+        while(transform.position != newPosition)
         {
-            transform.position = Vector3.MoveTowards(transform.position, newCameraPosition.position, cameraTransitionSpeed);
+            transform.position = Vector3.MoveTowards(transform.position, newPosition, cameraTransitionSpeed);
             yield return null;
         }
 
-
-        //GameController.instance.canCameraMove = true;
+        routineFinished = true;
         yield return null;
     }
 }

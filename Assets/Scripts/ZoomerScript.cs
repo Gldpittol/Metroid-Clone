@@ -130,7 +130,7 @@ public class ZoomerScript : MonoBehaviour
 
         if (collision.CompareTag("Player"))
         {
-            PlayerEnemyCollision.instance.DamagePlayer(damageToPlayer);
+            PlayerEnemyCollision.instance.DamagePlayer(damageToPlayer, gameObject);
         }
     }
 

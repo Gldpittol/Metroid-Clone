@@ -11,10 +11,7 @@ public enum EGameState
 }
 public class GameController : MonoBehaviour
 {
-
-
     public static GameController instance;
-    public bool canCameraMove = true;
 
     public int playerHealth = 10;
     public float playerDamage;
@@ -24,10 +21,11 @@ public class GameController : MonoBehaviour
 
     public GameObject enemyDeath;
 
+    public Vector2 playerImpulseVector;
+
     private void Awake()
     {
         instance = this;
-        canCameraMove = true;
         QualitySettings.vSyncCount = 1;
         Application.targetFrameRate = 60;
     }

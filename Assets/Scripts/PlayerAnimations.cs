@@ -262,7 +262,7 @@ public class PlayerAnimations : MonoBehaviour
 
             if (eAnimState == EAnimState.Crouch)
             {
-                if (Input.GetKeyDown(KeyCode.UpArrow))
+                if (Input.GetKeyDown(KeyCode.UpArrow) && CeilingCheck.instance.canGetUp)
                 {
                     if (vertical > 0 && GroundCheck.instance.canJump)
                     {

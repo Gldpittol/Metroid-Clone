@@ -169,7 +169,7 @@ public class NeoScript : MonoBehaviour
 
         if (collision.CompareTag("Player"))
         {
-            PlayerEnemyCollision.instance.DamagePlayer(damageToPlayer);
+            PlayerEnemyCollision.instance.DamagePlayer(damageToPlayer, gameObject);
         }
 
         if (collision.CompareTag("PlayerBullet"))

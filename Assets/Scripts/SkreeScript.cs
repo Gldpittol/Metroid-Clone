@@ -114,7 +114,7 @@ public class SkreeScript : MonoBehaviour
 
         if (collision.CompareTag("Player") && canCollide)
         {
-            PlayerEnemyCollision.instance.DamagePlayer(damageToPlayer);
+            PlayerEnemyCollision.instance.DamagePlayer(damageToPlayer, gameObject);
         }
 
         if (collision.CompareTag("PlayerBullet"))

@@ -24,8 +24,17 @@ public class GroundCheck : MonoBehaviour
             canJump = true;
             CharacterMovement.instance.jumpedSideways = false;
             CharacterMovement.instance.jumped = false;
+            //PlayerEnemyCollision.instance.canMoveHorizontally = true;
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Ground"))
+            PlayerEnemyCollision.instance.canMoveHorizontally = true;
+    }
+
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Ground"))

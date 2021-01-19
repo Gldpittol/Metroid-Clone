@@ -23,7 +23,6 @@ public class CharacterMovement : MonoBehaviour
 
     private PlayerAnimations playerAnim;
 
-
     private void Awake()
     {
         instance = this;
@@ -90,6 +89,7 @@ public class CharacterMovement : MonoBehaviour
         }
     }
 
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground")) jumped = false;
@@ -98,6 +98,6 @@ public class CharacterMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(horizontal * playerSpeed, rb.velocity.y);
+        if(PlayerEnemyCollision.instance.canMoveHorizontally) rb.velocity = new Vector2(horizontal * playerSpeed, rb.velocity.y);
     }
 }
