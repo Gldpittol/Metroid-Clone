@@ -46,7 +46,16 @@ public class PlayerEnemyCollision : MonoBehaviour
         if(attacker.transform.position.x < transform.position.x)
         {
             Rigidbody2D rb = CharacterMovement.instance.gameObject.GetComponent<Rigidbody2D>();
-            rb.AddForce(GameController.instance.playerImpulseVector, ForceMode2D.Impulse);
+
+            Vector2 tempImpulseVector = new Vector2(GameController.instance.playerImpulseVector.x, GameController.instance.playerImpulseVector.y);
+            if (!GroundCheck.instance.canJump)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, 0);
+                tempImpulseVector = new Vector2(GameController.instance.playerImpulseVector.x * 2, 0);
+            }
+
+            rb.AddForce(tempImpulseVector, ForceMode2D.Impulse);
+
             canMoveHorizontally = false;
         }
 
@@ -54,6 +63,12 @@ public class PlayerEnemyCollision : MonoBehaviour
         {
             Rigidbody2D rb = CharacterMovement.instance.gameObject.GetComponent<Rigidbody2D>();
             Vector2 tempImpulseVector = new Vector2(-GameController.instance.playerImpulseVector.x, GameController.instance.playerImpulseVector.y);
+            if (!GroundCheck.instance.canJump)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, 0);
+                tempImpulseVector = new Vector2(-GameController.instance.playerImpulseVector.x * 2, 0);
+            }
+
             rb.AddForce(tempImpulseVector, ForceMode2D.Impulse);
             canMoveHorizontally = false;
         }

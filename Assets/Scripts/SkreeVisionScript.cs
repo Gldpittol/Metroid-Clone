@@ -20,9 +20,8 @@ public class SkreeVisionScript : MonoBehaviour
         if(collision.CompareTag("Player") && !AIStarted)
         {
             GetComponentInParent<SkreeScript>().AIFinished = false;
-            GetComponentInParent<SkreeScript>().SkreeAIFunction();
             AIStarted = true;
-            this.gameObject.SetActive(false);
+            GetComponentInParent<SkreeScript>().SkreeAIFunction(this.gameObject);
         }
     }
 }

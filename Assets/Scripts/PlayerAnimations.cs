@@ -118,7 +118,15 @@ public class PlayerAnimations : MonoBehaviour
                     CharacterMovement.instance.jumpedSideways = false;
                     eAnimState = EAnimState.JumpNormal;
                     animator.Play(jumpNormal);
+                    ChangeHitbox("JumpNormal");
+                }
 
+                if (!PlayerEnemyCollision.instance.canMoveHorizontally)
+                {
+                    CharacterMovement.instance.jumpedSideways = false;
+                    eAnimState = EAnimState.JumpNormal;
+                    animator.Play(jumpNormal);
+                    ChangeHitbox("JumpNormal");
                 }
             }
 

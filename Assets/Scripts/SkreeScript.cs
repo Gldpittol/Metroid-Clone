@@ -57,21 +57,25 @@ public class SkreeScript : MonoBehaviour
         if (sr) sr.color = Color.white;
     }
 
-    public void SkreeAIFunction()
+    public void SkreeAIFunction(GameObject vision)
     {
+        vision.SetActive(false);
         StartCoroutine(SkreeAI());
     }
 
     public IEnumerator SkreeAI()
     {
-        canCollide = true;
         GetComponent<Animator>().SetFloat("speedMultiplier", 2);
 
         Vector2 initialPlayerPos = CharacterMovement.instance.transform.position;
 
         bool isFirstStage = true;
 
-        while(!AIFinished)
+        yield return null;
+
+        canCollide = true;
+
+        while (!AIFinished)
         {
             if(CharacterMovement.instance != null)
             {
