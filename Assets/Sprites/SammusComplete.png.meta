@@ -1,7 +1,94 @@
 fileFormatVersion: 2
 guid: 5dfbf564e0445c14aa8bc185841d543d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2713029006551934200
+    second: SammusComplete_0
+  - first:
+      213: -5245267391729728041
+    second: SammusComplete_1
+  - first:
+      213: 2134562567171030125
+    second: SammusComplete_2
+  - first:
+      213: 9172891335766315409
+    second: SammusComplete_3
+  - first:
+      213: 569570623650797936
+    second: SammusComplete_4
+  - first:
+      213: 2585947916130294426
+    second: SammusComplete_5
+  - first:
+      213: 1195110085575846517
+    second: SammusComplete_6
+  - first:
+      213: -8933571569963838458
+    second: SammusComplete_7
+  - first:
+      213: -1802918789509593758
+    second: SammusComplete_8
+  - first:
+      213: 6481467157920167282
+    second: SammusComplete_9
+  - first:
+      213: 6102577212479777488
+    second: SammusComplete_10
+  - first:
+      213: 4756619380912135825
+    second: SammusComplete_11
+  - first:
+      213: -5623239509155559870
+    second: SammusComplete_12
+  - first:
+      213: 4923556631779527425
+    second: SammusComplete_13
+  - first:
+      213: 3071745207088227998
+    second: SammusComplete_14
+  - first:
+      213: 3629138041849245539
+    second: SammusComplete_15
+  - first:
+      213: 4048915292142313487
+    second: SammusComplete_16
+  - first:
+      213: 7979976758041253738
+    second: SammusComplete_17
+  - first:
+      213: 4084604767267221274
+    second: SammusComplete_18
+  - first:
+      213: -1532788267419854411
+    second: SammusComplete_19
+  - first:
+      213: 3164507883520458502
+    second: SammusComplete_20
+  - first:
+      213: 7587257832441040956
+    second: SammusComplete_21
+  - first:
+      213: -3021217729973303569
+    second: SammusComplete_22
+  - first:
+      213: -4759685726689560873
+    second: SammusComplete_23
+  - first:
+      213: 7583984891970343671
+    second: SammusComplete_24
+  - first:
+      213: 8869484034089867491
+    second: SammusComplete_25
+  - first:
+      213: -2139644217415527544
+    second: SammusComplete_26
+  - first:
+      213: 6899694785216049084
+    second: SammusComplete_27
+  - first:
+      213: -9069307561923966171
+    second: SammusComplete_28
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +118,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +127,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -71,9 +158,666 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SammusComplete_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1064
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b14272e72695ad0800000000000000
+      internalID: -2713029006551934200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1064
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5820c09111537b0800000000000000
+      internalID: -5245267391729728041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1064
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c331f685d7f9d10800000000000000
+      internalID: 2134562567171030125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1064
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1911c9fd118ac4f70800000000000000
+      internalID: 9172891335766315409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0791439e67587e700800000000000000
+      internalID: 569570623650797936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 912
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a9b94cde123e320800000000000000
+      internalID: 2585947916130294426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 912
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a2c367a42e59010800000000000000
+      internalID: 1195110085575846517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 912
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604d6cc3df3950480800000000000000
+      internalID: -8933571569963838458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2654768c9eebaf6e0800000000000000
+      internalID: -1802918789509593758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 760
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27531333a0cc2f950800000000000000
+      internalID: 6481467157920167282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 760
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da204454a5b0b450800000000000000
+      internalID: 6102577212479777488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 760
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e91031028e20240800000000000000
+      internalID: 4756619380912135825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24647d9a57d36f1b0800000000000000
+      internalID: -5623239509155559870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 608
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bccb4abacf35440800000000000000
+      internalID: 4923556631779527425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 608
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96a005bdf701aa20800000000000000
+      internalID: 3071745207088227998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 608
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fe74132d94d5230800000000000000
+      internalID: 3629138041849245539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f002ac19103a03830800000000000000
+      internalID: 4048915292142313487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 456
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a671ceae4929ebe60800000000000000
+      internalID: 7979976758041253738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_18
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 456
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f64d8056e6fa830800000000000000
+      internalID: 4084604767267221274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_19
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 456
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b99d8c11317abae0800000000000000
+      internalID: -1532788267419854411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ff82e57279aeb20800000000000000
+      internalID: 3164507883520458502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 304
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30d2f1bcca5b4960800000000000000
+      internalID: 7587257832441040956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 304
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe644df4b7a7216d0800000000000000
+      internalID: -3021217729973303569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 304
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6fb2aac0332fdb0800000000000000
+      internalID: -4759685726689560873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f252dbd31abf3960800000000000000
+      internalID: 7583984891970343671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_25
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 152
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8dce88cbcb61b70800000000000000
+      internalID: 8869484034089867491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 152
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8839a3babe47e42e0800000000000000
+      internalID: -2139644217415527544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_27
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 152
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfea6bd9d3a0cf50800000000000000
+      internalID: 6899694785216049084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SammusComplete_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b02ccd2d8532280800000000000000
+      internalID: -9069307561923966171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

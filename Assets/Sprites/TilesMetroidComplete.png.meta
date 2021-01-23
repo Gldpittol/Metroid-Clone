@@ -1,28 +1,16 @@
 fileFormatVersion: 2
-guid: a0b76d6d4b990fa45a03e72599dc5908
+guid: 9d9a112a20376ca4b8ad7954b4004dbe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6088684103334963101
-    second: TiroSammus_0
+      213: 5256299093229080871
+    second: TilesMetroidComplete_0
   - first:
-      213: -5344596578575895106
-    second: TiroSammus_1
+      213: -6454834666747153895
+    second: TilesMetroidComplete_1
   - first:
-      213: 5082318043990576573
-    second: TiroSammus_2
-  - first:
-      213: -3926689196420251323
-    second: TiroSammus_3
-  - first:
-      213: -2883005311062632292
-    second: TiroSammus_4
-  - first:
-      213: -7788907812394444005
-    second: TiroSammus_5
-  - first:
-      213: 8242850840418148427
-    second: TiroSammus_6
+      213: -7186853789265545969
+    second: TilesMetroidComplete_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -144,97 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TiroSammus_0
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 36
-        width: 16
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 368d6273116a08ba0800000000000000
-      internalID: -6088684103334963101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TiroSammus_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 28
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb5373a8abd24d5b0800000000000000
-      internalID: -5344596578575895106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TiroSammus_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbdcd9f6555088640800000000000000
-      internalID: 5082318043990576573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TiroSammus_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 28
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 541c108faf89189c0800000000000000
-      internalID: -3926689196420251323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TiroSammus_4
+      name: TilesMetroidComplete_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,41 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c981c84c1f18df7d0800000000000000
-      internalID: -2883005311062632292
+      spriteID: 721902d1d2022f840800000000000000
+      internalID: 5256299093229080871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TiroSammus_5
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1bd6fdac9d38e390800000000000000
-      internalID: -7788907812394444005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TiroSammus_6
+      name: TilesMetroidComplete_1
       rect:
         serializedVersion: 2
         x: 64
-        y: 4
-        width: 16
-        height: 20
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,8 +167,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4067a7ba2d746270800000000000000
-      internalID: 8242850840418148427
+      spriteID: 912b8acd112db66a0800000000000000
+      internalID: -6454834666747153895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilesMetroidComplete_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0538266e8a234c90800000000000000
+      internalID: -7186853789265545969
       vertices: []
       indices: 
       edges: []
