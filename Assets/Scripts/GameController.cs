@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public enum EGameState
 {
     GamePlay,
@@ -31,6 +31,7 @@ public class GameController : MonoBehaviour
     public GameObject zoomerRight;
     public GameObject zoomerLeft;
 
+    public GameObject gameOverImage;
 
     private void Awake()
     {
@@ -74,8 +75,22 @@ public class GameController : MonoBehaviour
 
     public IEnumerator InitialCutsceneDebug()
     {
+        yield return null;
         PlayerAnimations.instance.eAnimState = EAnimState.Idle;
         yield return null;
+    }
+
+    public void GameOverFunction()
+    {
+        StartCoroutine(GameOverRoutine());
+    }
+
+    public IEnumerator GameOverRoutine()
+    {
+        yield return new WaitForSeconds(2f);
+        gameOverImage.SetActive(true);
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene("Level", LoadSceneMode.Single);
     }
 
 }

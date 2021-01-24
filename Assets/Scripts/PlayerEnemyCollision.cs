@@ -36,6 +36,7 @@ public class PlayerEnemyCollision : MonoBehaviour
                 Instantiate(GameController.instance.sammusDeathPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
                 GameController.instance.eGameState = EGameState.GameOver;
+                GameController.instance.GameOverFunction();
             }
         }
     }
@@ -80,6 +81,5 @@ public class PlayerEnemyCollision : MonoBehaviour
 
         isInvulnerable = false;
         canMoveHorizontally = true;
-
     }
 }

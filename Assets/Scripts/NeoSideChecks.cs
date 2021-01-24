@@ -8,12 +8,14 @@ public class NeoSideChecks : MonoBehaviour
     public enum ESide
     {
         Left,
-        Right
+        Right,
+        Top
     }
 
     public ESide side;
     public bool canGoRight = true;
     public bool canGoLeft = true;
+    public bool canGoDown = true;
 
     private void Awake()
     {
@@ -30,6 +32,10 @@ public class NeoSideChecks : MonoBehaviour
         {
             canGoRight = false;
         }
+        if (collision.CompareTag("Ground") && side == ESide.Top)
+        {
+            canGoDown = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -41,6 +47,11 @@ public class NeoSideChecks : MonoBehaviour
         if (collision.CompareTag("Ground") && side == ESide.Right)
         {
             canGoRight = true;
+        }
+
+        if (collision.CompareTag("Ground") && side == ESide.Top)
+        {
+            canGoDown = false;
         }
     }
 }

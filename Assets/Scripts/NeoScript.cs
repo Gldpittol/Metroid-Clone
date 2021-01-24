@@ -18,12 +18,12 @@ public class NeoScript : MonoBehaviour
     private Rigidbody2D rb;
     public bool isGoingRight = true;
     public float delayBeforeDowning;
-    private bool isStarting = true;
+    public bool isStarting = true;
     private float originalSpeedX, originalSpeedY;
     private Vector2 tempPlayerPos;
     private bool firstUp = false;
 
-    public NeoSideChecks rightSide, leftSide;
+    public NeoSideChecks rightSide, leftSide, topSide;
 
     private float timeSinceLastReset = 0;
 
@@ -74,7 +74,7 @@ public class NeoScript : MonoBehaviour
 
     private void Update()
     {
-        if(GameController.instance.eGameState == EGameState.GamePlay)
+        if(GameController.instance.eGameState == EGameState.GamePlay && canMove)
         {
             if (!beingDamaged) UpdateSpeed();
 
@@ -183,7 +183,7 @@ public class NeoScript : MonoBehaviour
 
                 if (health <= 0)
                 {
-                    StartCoroutine(OnDeath());
+                   StartCoroutine(OnDeath());
                 }
                 else
                 {
@@ -232,6 +232,11 @@ public class NeoScript : MonoBehaviour
 
     public IEnumerator DelayBeforeDowning()
     {
+        while (!topSide.canGoDown)
+        {
+            yield return null;
+        }
+
         eNeoState = ENeoState.Idle;
 
         GetComponent<Animator>().SetFloat("speedMultiplier", 1);
@@ -244,7 +249,7 @@ public class NeoScript : MonoBehaviour
         if (isGoingRight && !rightSide.canGoRight) isGoingRight = false;
         if (!isGoingRight && !leftSide.canGoLeft) isGoingRight = true;
 
-        isStarting = true;
+        //isStarting = true;
 
         eNeoState = ENeoState.Downing;
         GetComponent<Animator>().SetFloat("speedMultiplier", 2);

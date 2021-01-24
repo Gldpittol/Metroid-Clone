@@ -26,11 +26,16 @@ public class DoorScript : MonoBehaviour
 
     public GameObject otherDoor;
 
-    
+    public GameObject[] enemiesToRespawn;
 
     private void Start()
     {
         player = CharacterMovement.instance.gameObject;
+
+        for (int i = 0; i < enemiesToRespawn.Length; i++)
+        {
+            enemiesToRespawn[i].gameObject.SetActive(true);
+        }
     }
 
     private void Update()

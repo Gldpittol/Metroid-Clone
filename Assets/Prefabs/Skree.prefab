@@ -119,8 +119,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 4
+  chanceToSpawnEnergy: 1
   damageToPlayer: 5
-  speed: 0.16
+  speed: 0.14
   AIFinished: 0
   vision: {fileID: 7474058816533413112}
   firstFallMinY: 2.5
