@@ -23,7 +23,7 @@ public class NeoScript : MonoBehaviour
     private Vector2 tempPlayerPos;
     private bool firstUp = false;
 
-    public NeoSideChecks rightSide, leftSide, topSide;
+    public NeoSideChecks rightSide, leftSide, topSide, bottomSide;
 
     private float timeSinceLastReset = 0;
 
@@ -158,7 +158,7 @@ public class NeoScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Ground") && eNeoState == ENeoState.Downing && !isStarting)
+        if(collision.CompareTag("Ground") && bottomSide.canGoUp && eNeoState == ENeoState.Downing && !isStarting)
         {
             eNeoState = ENeoState.OnGround;
             GetComponent<Animator>().SetFloat("speedMultiplier", 1);
