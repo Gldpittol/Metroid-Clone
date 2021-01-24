@@ -47,8 +47,6 @@ public class GameController : MonoBehaviour
         isQuitting = true;   
     }
 
-
-
     public IEnumerator InitialCutscene()
     {
         eGameState = EGameState.Cutscene;

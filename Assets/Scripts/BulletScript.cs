@@ -25,7 +25,7 @@ public class BulletScript : MonoBehaviour
 
     private void OnDestroy()
     {
-       if(hasCollided && !GameController.instance.isQuitting)  Instantiate(PlayerShoot.instance.bulletDestruction, transform.position, Quaternion.identity);
+       if(hasCollided && !GameController.instance.isQuitting && GameController.instance.eGameState == EGameState.GamePlay)  Instantiate(PlayerShoot.instance.bulletDestruction, transform.position, Quaternion.identity);
     }
 
     public void OnTriggerEnter2D(Collider2D collision)

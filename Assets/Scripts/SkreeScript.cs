@@ -56,7 +56,7 @@ public class SkreeScript : MonoBehaviour
     private void OnDisable()
     {
         if (sr) sr.color = Color.white;
-        if (health > 0 && !GameController.instance.isQuitting) Instantiate(skreeDeathSpawn, transform.position, Quaternion.identity);
+        if (health > 0 && !GameController.instance.isQuitting && GameController.instance.eGameState == EGameState.GamePlay) Instantiate(skreeDeathSpawn, transform.position, Quaternion.identity);
     }
 
     public void SkreeAIFunction(GameObject vision)
