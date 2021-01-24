@@ -35,7 +35,12 @@ public class GameController : MonoBehaviour
 
     public AudioClip startOSTClip;
     public AudioClip brinstarClip;
+    public AudioClip playerDeathClip;
+    public AudioClip playerHitClip;
 
+    public float delayBeforeGameOver = 2f;
+
+    private bool audioSourceOn = false;
     private void Awake()
     {
         instance = this;
@@ -43,6 +48,20 @@ public class GameController : MonoBehaviour
         Application.targetFrameRate = 60;
         //StartCoroutine(InitialCutscene());
         StartCoroutine(InitialCutsceneDebug());
+    }
+
+    private void Update()
+    {
+        if(playerHealth < 20 && !audioSourceOn)
+        {
+            GetComponent<AudioSource>().enabled = true;
+                audioSourceOn = true;
+}
+        else if (playerHealth >= 20 && audioSourceOn)
+        {
+            GetComponent<AudioSource>().enabled = false;
+            audioSourceOn = false;
+        }
     }
 
     private void OnApplicationQuit()
@@ -95,9 +114,12 @@ public class GameController : MonoBehaviour
 
     public IEnumerator GameOverRoutine()
     {
-        yield return new WaitForSeconds(2f);
+        Camera.main.GetComponent<AudioSource>().Stop();
+        SFXManager.instance.PlaySFX(playerDeathClip);
+
+        yield return new WaitForSeconds(delayBeforeGameOver);
         gameOverImage.SetActive(true);
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(delayBeforeGameOver);
         SceneManager.LoadScene("Level", LoadSceneMode.Single);
     }
 

@@ -209,7 +209,7 @@ MonoBehaviour:
   topSide: {fileID: 435408230}
   newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 5
+  speedDivisorAfterDamaged: 50000
   health: 4
   chanceToSpawnEnergy: 1
   damageToPlayer: 1

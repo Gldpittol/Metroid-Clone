@@ -45,6 +45,8 @@ public class PlayerEnemyCollision : MonoBehaviour
     {
         isInvulnerable = true;
 
+        SFXManager.instance.PlaySFX(GameController.instance.playerHitClip);
+
         if(attacker.transform.position.x < transform.position.x)
         {
             Rigidbody2D rb = CharacterMovement.instance.gameObject.GetComponent<Rigidbody2D>();

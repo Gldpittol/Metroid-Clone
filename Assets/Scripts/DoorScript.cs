@@ -28,8 +28,12 @@ public class DoorScript : MonoBehaviour
 
     public GameObject[] enemiesToRespawn;
 
+    public AudioClip doorClip;
+    private AudioSource audSource;
     private void Start()
     {
+        audSource = GetComponent<AudioSource>();
+
         player = CharacterMovement.instance.gameObject;
 
         for (int i = 0; i < enemiesToRespawn.Length; i++)
@@ -69,6 +73,7 @@ public class DoorScript : MonoBehaviour
         temp.speed = 0f;
 
         GetComponentInParent<Animator>().Play("DoorOpen");
+        audSource.PlayOneShot(doorClip);
 
         yield return new WaitForSeconds(delayBeforeEnteringDoor);
 
@@ -107,7 +112,9 @@ public class DoorScript : MonoBehaviour
 
         GetComponentInParent<Animator>().Play("DoorStill");
 
-        otherDoor.GetComponentInParent<Animator>().Play("DoorOpen");
+        otherDoor.GetComponentInParent<Animator>().Play("DoorOpen"); 
+        audSource.PlayOneShot(doorClip);
+
 
         //yield return new WaitForSeconds(0.5f);
 

@@ -149,7 +149,7 @@ MonoBehaviour:
   damageToPlayer: 3
   newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 5
+  speedDivisorAfterDamaged: 50000
   onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!212 &9045372967314135535
 SpriteRenderer:

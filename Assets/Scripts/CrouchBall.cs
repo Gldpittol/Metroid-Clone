@@ -6,7 +6,6 @@ public class CrouchBall : MonoBehaviour
 {
     private bool firstTouch = true;
     public float animationDuration = 2f;
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (firstTouch && collision.CompareTag("Player"))
@@ -17,6 +16,8 @@ public class CrouchBall : MonoBehaviour
     public IEnumerator BallRoutine()
     {
         GameController.instance.eGameState = EGameState.Cutscene;
+        Camera.main.GetComponent<AudioSource>().Stop();
+        GetComponent<AudioSource>().enabled = true;
 
         firstTouch = false;
         Time.timeScale = 0.0f;
@@ -28,6 +29,7 @@ public class CrouchBall : MonoBehaviour
         Time.timeScale = 1.0f;
         CharacterMovement.instance.gotCrouchBall = true;
         GameController.instance.eGameState = EGameState.GamePlay;
+        Camera.main.GetComponent<AudioSource>().Play();
         Destroy(gameObject);
 
     }
