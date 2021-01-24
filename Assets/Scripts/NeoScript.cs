@@ -33,10 +33,10 @@ public class NeoScript : MonoBehaviour
     private float originalHealth;
     private SpriteRenderer sr;
     public float health = 4;
+    public float chanceToSpawnEnergy;
     public int damageToPlayer = 20;
     private Vector2 originalPosition;
     private bool beingDamaged = false;
-
 
     private void Awake()
     {
@@ -269,7 +269,9 @@ public class NeoScript : MonoBehaviour
 
     public IEnumerator OnDeath()
     {
+        
         Instantiate(GameController.instance.enemyDeath, transform.position, Quaternion.identity);
+        if(Random.value < chanceToSpawnEnergy) Instantiate(GameController.instance.energyPrefab, transform.position, Quaternion.identity);
         this.gameObject.SetActive(false);
         yield return null;
     }

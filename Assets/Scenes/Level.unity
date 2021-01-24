@@ -162,8 +162,14 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &73309476 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3993899130264913116, guid: e16fa871d7e23c74c93913f3f24cd1bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 111311522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &103771065
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,17 +205,22 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1751128539}
     m_Modifications:
+    - target: {fileID: 3993899130264913107, guid: e16fa871d7e23c74c93913f3f24cd1bb,
+        type: 3}
+      propertyPath: chanceToSpawnEnergy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3993899130264913116, guid: e16fa871d7e23c74c93913f3f24cd1bb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23
+      value: 24.322273
       objectReference: {fileID: 0}
     - target: {fileID: 3993899130264913116, guid: e16fa871d7e23c74c93913f3f24cd1bb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8
+      value: 3.5548167
       objectReference: {fileID: 0}
     - target: {fileID: 3993899130264913116, guid: e16fa871d7e23c74c93913f3f24cd1bb,
         type: 3}
@@ -239,7 +250,7 @@ PrefabInstance:
     - target: {fileID: 3993899130264913116, guid: e16fa871d7e23c74c93913f3f24cd1bb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3993899130264913116, guid: e16fa871d7e23c74c93913f3f24cd1bb,
         type: 3}
@@ -294,7 +305,7 @@ Transform:
   - {fileID: 1187001320}
   - {fileID: 1086296688}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &199564664
 GameObject:
@@ -437,6 +448,12 @@ MonoBehaviour:
     type: 3}
   playerImpulseVector: {x: 5, y: 5}
   isQuitting: 0
+  energyPrefab: {fileID: 6428678101334084283, guid: e165919afa387434ca725c04f459ee0c,
+    type: 3}
+  sammusDeathPrefab: {fileID: 1536591950577323808, guid: 9327d6b88ba666c4cbd28e527170dac2,
+    type: 3}
+  zoomerRight: {fileID: 6585941525290072072}
+  zoomerLeft: {fileID: 4335732986629667825}
 --- !u!4 &317263724
 Transform:
   m_ObjectHideFlags: 0
@@ -709,7 +726,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &537757585
 GameObject:
@@ -793,6 +810,12 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!4 &824069276 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7474058815133526181, guid: 7fe0bce69330553428b139a259c15b28,
+    type: 3}
+  m_PrefabInstance: {fileID: 2134955011}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &903229265
 GameObject:
   m_ObjectHideFlags: 0
@@ -1619,7 +1642,7 @@ Transform:
   m_Children:
   - {fileID: 1413736968}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1413736967
 GameObject:
@@ -16944,7 +16967,7 @@ Transform:
   m_Children:
   - {fileID: 1589345679}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1445553842
 GameObject:
@@ -17212,6 +17235,7 @@ MonoBehaviour:
   jumpedSideways: 0
   canCrouch: 1
   gotCrouchBall: 0
+  canStart: 0
 --- !u!4 &1581666094
 Transform:
   m_ObjectHideFlags: 0
@@ -17220,7 +17244,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581666090}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1755534367}
@@ -17231,7 +17255,7 @@ Transform:
   - {fileID: 1866006365}
   - {fileID: 103771066}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1581666095
 SpriteRenderer:
@@ -17352,7 +17376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49df6a7cf61a96546966bfafaafe87ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eAnimState: 1
+  eAnimState: 0
   starting: {fileID: 4929225421756943335, guid: 835f852360822bd428603757fae8956c,
     type: 3}
 --- !u!1 &1589345678
@@ -17496,7 +17520,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 73309476}
   m_Father: {fileID: 1838896544}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17746,7 +17771,7 @@ Transform:
   - {fileID: 1751128539}
   - {fileID: 2002793142}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1866006364
 GameObject:
@@ -17856,7 +17881,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 824069276}
   m_Father: {fileID: 1838896544}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17895,7 +17921,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1901252115}
     m_Modifications:
     - target: {fileID: 7474058815133526180, guid: 7fe0bce69330553428b139a259c15b28,
         type: 3}
@@ -17905,12 +17931,12 @@ PrefabInstance:
     - target: {fileID: 7474058815133526181, guid: 7fe0bce69330553428b139a259c15b28,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.8
+      value: -5.4777265
       objectReference: {fileID: 0}
     - target: {fileID: 7474058815133526181, guid: 7fe0bce69330553428b139a259c15b28,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.93
+      value: 3.4848166
       objectReference: {fileID: 0}
     - target: {fileID: 7474058815133526181, guid: 7fe0bce69330553428b139a259c15b28,
         type: 3}
@@ -17940,7 +17966,7 @@ PrefabInstance:
     - target: {fileID: 7474058815133526181, guid: 7fe0bce69330553428b139a259c15b28,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7474058815133526181, guid: 7fe0bce69330553428b139a259c15b28,
         type: 3}
@@ -17961,6 +17987,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7474058815133526186, guid: 7fe0bce69330553428b139a259c15b28,
+        type: 3}
+      propertyPath: chanceToSpawnEnergy
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fe0bce69330553428b139a259c15b28, type: 3}
@@ -18222,10 +18253,11 @@ MonoBehaviour:
   chanceToSpawn: 1
   chanceInvertSideAfterSpawn: 0.5
   health: 2
+  chanceToSpawnEnergy: 1
   damageToPlayer: 3
   newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 5
+  speedDivisorAfterDamaged: 10000
 --- !u!61 &1628263553259257209
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18698,10 +18730,11 @@ MonoBehaviour:
   chanceToSpawn: 1
   chanceInvertSideAfterSpawn: 1
   health: 2
+  chanceToSpawnEnergy: 1
   damageToPlayer: 3
   newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 5
+  speedDivisorAfterDamaged: 10000
 --- !u!61 &4335732986629667821
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19369,10 +19402,11 @@ MonoBehaviour:
   chanceToSpawn: 1
   chanceInvertSideAfterSpawn: 1
   health: 2
+  chanceToSpawnEnergy: 1
   damageToPlayer: 3
   newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 5
+  speedDivisorAfterDamaged: 10000
 --- !u!50 &6585941525290072087
 Rigidbody2D:
   serializedVersion: 4

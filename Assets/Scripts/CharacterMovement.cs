@@ -25,6 +25,8 @@ public class CharacterMovement : MonoBehaviour
 
     public bool gotCrouchBall = false;
 
+    public bool canStart = false;
+
     private void Awake()
     {
         instance = this;
@@ -47,7 +49,7 @@ public class CharacterMovement : MonoBehaviour
 
             if (playerAnim.eAnimState != EAnimState.Crouch)
             {
-                if ((Input.GetKey(KeyCode.LeftShift)) && GroundCheck.instance.canJump && !hasJumped)
+                if ((Input.GetKey(KeyCode.LeftShift)) && GroundCheck.instance.canJump && !hasJumped && PlayerEnemyCollision.instance.canMoveHorizontally)
                 {
                     currentDelay += Time.deltaTime;
                     if (currentDelay >= doubleHeightDelay)
@@ -64,7 +66,7 @@ public class CharacterMovement : MonoBehaviour
                     }
                 }
 
-                if (Input.GetKeyUp(KeyCode.LeftShift))
+                if (Input.GetKeyUp(KeyCode.LeftShift) && PlayerEnemyCollision.instance.canMoveHorizontally)
                 {
                     if (currentDelay < doubleHeightDelay && GroundCheck.instance.canJump && !hasJumped)
                     {
@@ -127,5 +129,10 @@ public class CharacterMovement : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void StartGame()
+    {
+        canStart = true;
     }
 }

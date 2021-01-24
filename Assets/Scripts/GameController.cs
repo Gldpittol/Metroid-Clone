@@ -25,16 +25,57 @@ public class GameController : MonoBehaviour
 
     [HideInInspector]public bool isQuitting;
 
+    public GameObject energyPrefab;
+    public GameObject sammusDeathPrefab;
+
+    public GameObject zoomerRight;
+    public GameObject zoomerLeft;
+
+
     private void Awake()
     {
         instance = this;
         QualitySettings.vSyncCount = 1;
         Application.targetFrameRate = 60;
+        StartCoroutine(InitialCutscene());
+        //StartCoroutine(InitialCutsceneDebug());
     }
 
     private void OnApplicationQuit()
     {
         isQuitting = true;   
+    }
+
+
+
+    public IEnumerator InitialCutscene()
+    {
+        eGameState = EGameState.Cutscene;
+
+        zoomerLeft.SetActive(false);
+        zoomerRight.SetActive(false);
+
+        yield return null;
+
+        PlayerAnimations.instance.eAnimState = EAnimState.Starting;
+        PlayerAnimations.instance.gameObject.GetComponent<Animator>().Play("Starting");
+
+
+        while (!CharacterMovement.instance.canStart) yield return null;
+
+        zoomerLeft.SetActive(true);
+        zoomerRight.SetActive(true);
+
+        PlayerAnimations.instance.eAnimState = EAnimState.Idle;
+        eGameState = EGameState.GamePlay;
+
+        yield return null;
+    }
+
+    public IEnumerator InitialCutsceneDebug()
+    {
+        PlayerAnimations.instance.eAnimState = EAnimState.Idle;
+        yield return null;
     }
 
 }

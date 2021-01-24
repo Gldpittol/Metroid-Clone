@@ -49,9 +49,10 @@ public class PlayerAnimations : MonoBehaviour
     private float vertical;
     private float frame;
 
-
+    public static PlayerAnimations instance;
     void Awake()
     {
+        instance = this;
         sr = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         charMovement = GetComponent<CharacterMovement>();
@@ -78,9 +79,9 @@ public class PlayerAnimations : MonoBehaviour
     {
         if(GameController.instance.eGameState == EGameState.GamePlay)
         {
-            if (eAnimState == EAnimState.Idle || eAnimState == EAnimState.Starting)
+            if (eAnimState == EAnimState.Idle)
             {
-                if (horizontal != 0)
+                if (horizontal != 0 && PlayerEnemyCollision.instance.canMoveHorizontally)
                 {
                     animator.Play(running);
                     eAnimState = EAnimState.Running;
@@ -90,6 +91,12 @@ public class PlayerAnimations : MonoBehaviour
             if (eAnimState == EAnimState.Running || eAnimState == EAnimState.RunningGunUp || eAnimState == EAnimState.RunningShootingForward)
             {
                 if (horizontal == 0)
+                {
+                    animator.Play(idle);
+                    eAnimState = EAnimState.Idle;
+                }
+
+                if(!PlayerEnemyCollision.instance.canMoveHorizontally)
                 {
                     animator.Play(idle);
                     eAnimState = EAnimState.Idle;
@@ -137,7 +144,7 @@ public class PlayerAnimations : MonoBehaviour
             }
 
             if (eAnimState == EAnimState.Running || eAnimState == EAnimState.RunningGunUp || eAnimState == EAnimState.RunningShootingForward || 
-                eAnimState == EAnimState.Idle || eAnimState == EAnimState.IdleUp || eAnimState == EAnimState.IdleForward || eAnimState == EAnimState.Starting)
+                eAnimState == EAnimState.Idle || eAnimState == EAnimState.IdleUp || eAnimState == EAnimState.IdleForward)
             {
                 if (charMovement.jumped)
                 {

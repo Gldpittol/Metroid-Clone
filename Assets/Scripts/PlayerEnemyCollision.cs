@@ -33,7 +33,8 @@ public class PlayerEnemyCollision : MonoBehaviour
             if (GameController.instance.playerHealth <= 0)
             {
                 GameController.instance.playerHealth = 0;
-                Destroy(this.gameObject);
+                Instantiate(GameController.instance.sammusDeathPrefab, transform.position, Quaternion.identity);
+                Destroy(gameObject);
                 GameController.instance.eGameState = EGameState.GameOver;
             }
         }
@@ -78,5 +79,7 @@ public class PlayerEnemyCollision : MonoBehaviour
         CharacterMovement.instance.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
 
         isInvulnerable = false;
+        canMoveHorizontally = true;
+
     }
 }
