@@ -11,8 +11,10 @@ public class BulletScript : MonoBehaviour
 
     public bool hasCollided = false;
 
+    public AudioClip shootClip;
     private void Start()
     {
+        SFXManager.instance.PlayShoot(shootClip);
         bulletRb = GetComponent<Rigidbody2D>();
         Destroy(this.gameObject, timeUntilDestruction);
     }
