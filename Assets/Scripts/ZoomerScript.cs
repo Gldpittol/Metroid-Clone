@@ -87,23 +87,26 @@ public class ZoomerScript : MonoBehaviour
     }
     private void Update()
     {
-        MoveToTarget();
-
-        if(transform.position == Target[i].transform.position)
+        if(GameController.instance.eGameState == EGameState.GamePlay)
         {
-            if(eZoomerType == EZoomerType.Zoomer)
-            {
-                if (direction > 0) RotateEnemy();
-                FindNewTarget();
-                if (direction < 0) RotateEnemy();
-            }
-            else
-            {
-                if(sr.flipX) sr.flipX = false;
-                else sr.flipX = true;
-                FindNewTarget();
-            }
+            MoveToTarget();
 
+            if (transform.position == Target[i].transform.position)
+            {
+                if (eZoomerType == EZoomerType.Zoomer)
+                {
+                    if (direction > 0) RotateEnemy();
+                    FindNewTarget();
+                    if (direction < 0) RotateEnemy();
+                }
+                else
+                {
+                    if (sr.flipX) sr.flipX = false;
+                    else sr.flipX = true;
+                    FindNewTarget();
+                }
+
+            }
         }
     }
 
@@ -111,6 +114,7 @@ public class ZoomerScript : MonoBehaviour
     {
         if(collision.CompareTag("PlayerBullet"))
         {
+            collision.GetComponent<BulletScript>().hasCollided = true;
             Destroy(collision.gameObject);
 
             if (!beingDamaged && eZoomerType != EZoomerType.Ripper)

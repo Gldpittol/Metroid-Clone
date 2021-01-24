@@ -174,8 +174,10 @@ public class NeoScript : MonoBehaviour
 
         if (collision.CompareTag("PlayerBullet"))
         {
+            collision.GetComponent<BulletScript>().hasCollided = true;
             Destroy(collision.gameObject);
-            if(!beingDamaged)
+
+            if (!beingDamaged)
             {
                 health -= GameController.instance.playerDamage;
 

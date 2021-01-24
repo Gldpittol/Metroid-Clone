@@ -129,6 +129,8 @@ MonoBehaviour:
   newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   timeSpeedReducedAfterDamaged: 0.2
   speedDivisorAfterDamaged: 5
+  skreeDeathSpawn: {fileID: 344513947277204197, guid: 8dc1e9519f100bb4da996021c8086b7b,
+    type: 3}
 --- !u!61 &7474058815133526183
 BoxCollider2D:
   m_ObjectHideFlags: 0

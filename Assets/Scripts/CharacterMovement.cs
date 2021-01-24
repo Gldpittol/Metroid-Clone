@@ -23,6 +23,8 @@ public class CharacterMovement : MonoBehaviour
 
     private PlayerAnimations playerAnim;
 
+    public bool gotCrouchBall = false;
+
     private void Awake()
     {
         instance = this;
@@ -35,58 +37,68 @@ public class CharacterMovement : MonoBehaviour
 
     private void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
 
-        if (playerAnim.eAnimState != EAnimState.Crouch)
+        if (GameController.instance.eGameState == EGameState.GamePlay)
         {
-            if ((Input.GetKey(KeyCode.LeftShift)) && GroundCheck.instance.canJump && !hasJumped)
+           if(GroundCheck.instance.canJump) horizontal = Input.GetAxisRaw("Horizontal");
+            else horizontal = Input.GetAxis("Horizontal");
+
+
+
+            if (playerAnim.eAnimState != EAnimState.Crouch)
             {
-                currentDelay += Time.deltaTime;
-                if (currentDelay >= doubleHeightDelay)
+                if ((Input.GetKey(KeyCode.LeftShift)) && GroundCheck.instance.canJump && !hasJumped)
                 {
+                    currentDelay += Time.deltaTime;
+                    if (currentDelay >= doubleHeightDelay)
+                    {
+                        currentDelay = 0;
+                        Vector2 jumpVector = new Vector2(0, highJumpForce);
+                        rb.AddForce(jumpVector, ForceMode2D.Impulse);
+                        hasJumped = true;
+                        jumped = true;
+                        GroundCheck.instance.cooldown = 0;
+
+                        if (horizontal != 0) jumpedSideways = true;
+                        else jumpedSideways = false;
+                    }
+                }
+
+                if (Input.GetKeyUp(KeyCode.LeftShift))
+                {
+                    if (currentDelay < doubleHeightDelay && GroundCheck.instance.canJump && !hasJumped)
+                    {
+                        Vector2 jumpVector = new Vector2(0, jumpForce);
+                        rb.AddForce(jumpVector, ForceMode2D.Impulse);
+                        jumped = true;
+                        GroundCheck.instance.cooldown = 0;
+
+                        if (horizontal != 0) jumpedSideways = true;
+                        else jumpedSideways = false;
+                    }
                     currentDelay = 0;
-                    Vector2 jumpVector = new Vector2(0, highJumpForce);
-                    rb.AddForce(jumpVector, ForceMode2D.Impulse);
-                    hasJumped = true;
-                    jumped = true;
-                    GroundCheck.instance.cooldown = 0;
-
-                    if (horizontal != 0) jumpedSideways = true;
-                    else jumpedSideways = false;
+                    hasJumped = false;
                 }
             }
 
-            if (Input.GetKeyUp(KeyCode.LeftShift))
+
+            if(playerAnim.eAnimState != EAnimState.JumpSideways)
             {
-                if (currentDelay < doubleHeightDelay && GroundCheck.instance.canJump && !hasJumped)
+                if (horizontal < 0)
                 {
-                    Vector2 jumpVector = new Vector2(0, jumpForce);
-                    rb.AddForce(jumpVector, ForceMode2D.Impulse);
-                    jumped = true;
-                    GroundCheck.instance.cooldown = 0;
-
-                    if (horizontal != 0) jumpedSideways = true;
-                    else jumpedSideways = false;
+                    transform.localScale = new Vector3(-1f, 1f, 1f);
                 }
-                currentDelay = 0;
-                hasJumped = false;
+                if (horizontal > 0)
+                {
+                    transform.localScale = new Vector3(1f, 1f, 1f);
+                }
+                else
+                {
+                    transform.localScale = new Vector3(transform.localScale.x, 1f, 1f);
+                }
             }
         }
 
-       
-
-        if (horizontal < 0)
-        {
-            transform.localScale = new Vector3(-1f, 1f, 1f);
-        }
-        if(horizontal > 0)
-        {
-            transform.localScale = new Vector3(1f, 1f, 1f);
-        }
-        else
-        {
-            transform.localScale = new Vector3(transform.localScale.x, 1f, 1f);
-        }
     }
 
 
@@ -98,6 +110,22 @@ public class CharacterMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(PlayerEnemyCollision.instance.canMoveHorizontally) rb.velocity = new Vector2(horizontal * playerSpeed, rb.velocity.y);
+        if(GameController.instance.eGameState == EGameState.GamePlay)
+        {
+            if (PlayerEnemyCollision.instance.canMoveHorizontally)
+            {
+                if (playerAnim.eAnimState != EAnimState.JumpSideways)
+                {
+                    rb.velocity = new Vector2(horizontal * playerSpeed, rb.velocity.y);
+                }
+                else
+                {
+                    if(!Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
+                        rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y);
+                    else
+                        rb.velocity = new Vector2(horizontal * playerSpeed, rb.velocity.y);
+                }
+            }
+        }
     }
 }

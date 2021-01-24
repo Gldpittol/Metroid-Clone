@@ -23,11 +23,18 @@ public class GameController : MonoBehaviour
 
     public Vector2 playerImpulseVector;
 
+    [HideInInspector]public bool isQuitting;
+
     private void Awake()
     {
         instance = this;
         QualitySettings.vSyncCount = 1;
         Application.targetFrameRate = 60;
+    }
+
+    private void OnApplicationQuit()
+    {
+        isQuitting = true;   
     }
 
 }

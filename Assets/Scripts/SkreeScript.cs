@@ -25,12 +25,12 @@ public class SkreeScript : MonoBehaviour
     private SpriteRenderer sr;
     private bool beingDamaged = false;
 
+    public GameObject skreeDeathSpawn;
     private void Awake()
     {
         originalPosition = transform.position;
         originalHealth = health;
         originalSpeed = speed;
-
     }
 
     private void Start()
@@ -55,6 +55,7 @@ public class SkreeScript : MonoBehaviour
     private void OnDisable()
     {
         if (sr) sr.color = Color.white;
+        if (health > 0 && !GameController.instance.isQuitting) Instantiate(skreeDeathSpawn, transform.position, Quaternion.identity);
     }
 
     public void SkreeAIFunction(GameObject vision)
@@ -121,8 +122,9 @@ public class SkreeScript : MonoBehaviour
             PlayerEnemyCollision.instance.DamagePlayer(damageToPlayer, gameObject);
         }
 
-        if (collision.CompareTag("PlayerBullet"))
+        if (collision.CompareTag("PlayerBullet") && canCollide)
         {
+            collision.GetComponent<BulletScript>().hasCollided = true;
             Destroy(collision.gameObject);
             if (!beingDamaged)
             {

@@ -9,6 +9,8 @@ public class BulletScript : MonoBehaviour
     public bool isBulletGoingUp;
     public float timeUntilDestruction;
 
+    public bool hasCollided = false;
+
     private void Start()
     {
         bulletRb = GetComponent<Rigidbody2D>();
@@ -21,11 +23,19 @@ public class BulletScript : MonoBehaviour
     }
 
 
+    private void OnDestroy()
+    {
+       if(hasCollided && !GameController.instance.isQuitting)  Instantiate(PlayerShoot.instance.bulletDestruction, transform.position, Quaternion.identity);
+    }
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Ground"))
+
+
+        if (collision.CompareTag("Ground"))
         {
-            Destroy(this.gameObject);
+                hasCollided = true;
+                Destroy(gameObject);
         }
     }
 

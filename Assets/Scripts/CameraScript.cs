@@ -55,7 +55,7 @@ public class CameraScript : MonoBehaviour
 
         while(transform.position != newPosition)
         {
-            transform.position = Vector3.MoveTowards(transform.position, newPosition, cameraTransitionSpeed);
+            transform.position = Vector3.MoveTowards(transform.position, newPosition, cameraTransitionSpeed * Time.deltaTime);
             yield return null;
         }
 

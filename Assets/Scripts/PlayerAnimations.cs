@@ -13,6 +13,8 @@ public enum EAnimState
     RunningShootingForward,
     JumpNormal,
     JumpSideways,
+    JumpShootUp,
+    JumpShootStraight,
     Fall,
     Crouch,
     Death
@@ -36,6 +38,9 @@ public class PlayerAnimations : MonoBehaviour
     private string runningGunSideways = "RunningGunSideways";
     private string jumpNormal = "Jumping";
     private string jumpSideways = "JumpSideways";
+    private string jumpShootUp = "JumpShootUp";
+    private string jumpShootStraight = "JumpShootStraight";
+
     private Animation fall;
     private string crouch = "StartCrouch";
     private Animation death;
@@ -43,6 +48,7 @@ public class PlayerAnimations : MonoBehaviour
     private float horizontal;
     private float vertical;
     private float frame;
+
 
     void Awake()
     {
@@ -157,7 +163,7 @@ public class PlayerAnimations : MonoBehaviour
 
                 }
 
-                if (Input.GetKeyDown(KeyCode.DownArrow))
+                if (Input.GetKeyDown(KeyCode.DownArrow) && CharacterMovement.instance.gotCrouchBall)
                 {
                     animator.Play(crouch);
                     eAnimState = EAnimState.Crouch;
@@ -297,6 +303,71 @@ public class PlayerAnimations : MonoBehaviour
                     }
                 }
             }  
+
+            if(eAnimState == EAnimState.JumpNormal)
+            {
+                if(playerShoot.holdingUp)
+                {
+                    animator.Play(jumpShootUp);
+                    eAnimState = EAnimState.JumpShootUp;
+                    ChangeHitbox("JumpNormal");
+                }
+
+                else if(playerShoot.isShooting)
+                {
+                    animator.Play(jumpShootStraight);
+                    eAnimState = EAnimState.JumpShootStraight;
+                    ChangeHitbox("JumpNormal");
+                }
+            }
+
+            if (eAnimState == EAnimState.JumpShootUp)
+            {
+                if (!playerShoot.holdingUp && !playerShoot.isShooting)
+                {
+                    animator.Play(jumpNormal);
+                    eAnimState = EAnimState.JumpNormal;
+                    ChangeHitbox("JumpNormal");
+                }
+
+                else if (!playerShoot.holdingUp && playerShoot.isShooting)
+                {
+                    animator.Play(jumpShootStraight);
+                    eAnimState = EAnimState.JumpShootStraight;
+                    ChangeHitbox("JumpNormal");
+                }
+                if (!charMovement.jumped && GroundCheck.instance.canJump)
+                {
+                    animator.Play(idle);
+                    eAnimState = EAnimState.Idle;
+                    ChangeHitbox("Normal");
+                }
+            }
+
+
+            if (eAnimState == EAnimState.JumpShootStraight)
+            {
+                if (playerShoot.holdingUp)
+                {
+                    animator.Play(jumpShootUp);
+                    eAnimState = EAnimState.JumpShootUp;
+                    ChangeHitbox("JumpNormal");
+                }
+
+                else if (!playerShoot.holdingUp && !playerShoot.isShooting)
+                {
+                    animator.Play(jumpNormal);
+                    eAnimState = EAnimState.JumpNormal;
+                    ChangeHitbox("JumpNormal");
+                }
+                
+                if(!charMovement.jumped && GroundCheck.instance.canJump)
+                {
+                    animator.Play(idle);
+                    eAnimState = EAnimState.Idle;
+                    ChangeHitbox("Normal");
+                }
+            }
         }
     }
 
