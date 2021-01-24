@@ -6,6 +6,9 @@ public class Energy : MonoBehaviour
 {
     public int energyToAdd = 5;
     private bool canAddEnergy = true;
+
+    public AudioClip energyPickUpClip;
+    public AudioSource audSource;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player") && canAddEnergy)
@@ -14,12 +17,17 @@ public class Energy : MonoBehaviour
 
             GameController.instance.playerHealth += energyToAdd;
 
+            audSource.PlayOneShot(energyPickUpClip);
+
             if (GameController.instance.playerHealth > 99)
             {
                 GameController.instance.playerHealth = 99;
             }
 
-            Destroy(gameObject);
+            GetComponent<BoxCollider2D>().enabled = false;
+            GetComponent<SpriteRenderer>().enabled = false;
+
+            Destroy(gameObject,1f);
         }
     }
 }

@@ -33,13 +33,16 @@ public class GameController : MonoBehaviour
 
     public GameObject gameOverImage;
 
+    public AudioClip startOSTClip;
+    public AudioClip brinstarClip;
+
     private void Awake()
     {
         instance = this;
         QualitySettings.vSyncCount = 1;
         Application.targetFrameRate = 60;
-        StartCoroutine(InitialCutscene());
-        //StartCoroutine(InitialCutsceneDebug());
+        //StartCoroutine(InitialCutscene());
+        StartCoroutine(InitialCutsceneDebug());
     }
 
     private void OnApplicationQuit()
@@ -50,6 +53,7 @@ public class GameController : MonoBehaviour
     public IEnumerator InitialCutscene()
     {
         eGameState = EGameState.Cutscene;
+        Camera.main.GetComponent<AudioManager>().PlayAudio(startOSTClip);
 
         zoomerLeft.SetActive(false);
         zoomerRight.SetActive(false);
@@ -68,6 +72,11 @@ public class GameController : MonoBehaviour
         PlayerAnimations.instance.eAnimState = EAnimState.Idle;
         eGameState = EGameState.GamePlay;
 
+        Camera.main.GetComponent<AudioManager>().PlayAudio(brinstarClip);
+        Camera.main.GetComponent<AudioManager>().audSource.loop = true;
+
+        CharacterMovement.instance.gameObject.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
+
         yield return null;
     }
 
@@ -75,6 +84,7 @@ public class GameController : MonoBehaviour
     {
         yield return null;
         PlayerAnimations.instance.eAnimState = EAnimState.Idle;
+        CharacterMovement.instance.gameObject.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
         yield return null;
     }
 

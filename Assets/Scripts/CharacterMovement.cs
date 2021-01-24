@@ -27,10 +27,17 @@ public class CharacterMovement : MonoBehaviour
 
     public bool canStart = false;
 
+    public AudioClip movementClip;
+    public AudioClip jumpClip;
+    public float delayBetweenMovementClips;
+    private float currentDelayBetweenClips;
+    private AudioSource audSource;
+
     private void Awake()
     {
         instance = this;
         playerAnim = GetComponent<PlayerAnimations>();
+        audSource = GetComponent<AudioSource>();
     }
     private void Start()
     {
@@ -57,6 +64,7 @@ public class CharacterMovement : MonoBehaviour
                         currentDelay = 0;
                         Vector2 jumpVector = new Vector2(0, highJumpForce);
                         rb.AddForce(jumpVector, ForceMode2D.Impulse);
+                        audSource.PlayOneShot(jumpClip);
                         hasJumped = true;
                         jumped = true;
                         GroundCheck.instance.cooldown = 0;
@@ -72,6 +80,7 @@ public class CharacterMovement : MonoBehaviour
                     {
                         Vector2 jumpVector = new Vector2(0, jumpForce);
                         rb.AddForce(jumpVector, ForceMode2D.Impulse);
+                        audSource.PlayOneShot(jumpClip);
                         jumped = true;
                         GroundCheck.instance.cooldown = 0;
 
@@ -127,6 +136,15 @@ public class CharacterMovement : MonoBehaviour
                     else
                         rb.velocity = new Vector2(horizontal * playerSpeed, rb.velocity.y);
                 }
+
+                currentDelayBetweenClips += Time.deltaTime;
+
+                if (currentDelayBetweenClips > delayBetweenMovementClips && horizontal != 0 && GroundCheck.instance.canJump) 
+                {
+                    currentDelayBetweenClips = 0;
+                    audSource.PlayOneShot(movementClip);
+                }
+
             }
         }
     }

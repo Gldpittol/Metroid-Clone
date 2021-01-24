@@ -38,6 +38,8 @@ public class NeoScript : MonoBehaviour
     private Vector2 originalPosition;
     private bool beingDamaged = false;
 
+    public AudioClip onEnemyHit;
+
     private void Awake()
     {
         originalPosition = transform.position;
@@ -260,6 +262,7 @@ public class NeoScript : MonoBehaviour
     public IEnumerator OnDamaged()
     {
         beingDamaged = true;
+        SFXManager.instance.PlaySFX(onEnemyHit);
         sr.color = newColor;
         speedX /= speedDivisorAfterDamaged;
         speedY /= speedDivisorAfterDamaged;
@@ -274,7 +277,7 @@ public class NeoScript : MonoBehaviour
 
     public IEnumerator OnDeath()
     {
-        
+        SFXManager.instance.PlaySFX(onEnemyHit);
         Instantiate(GameController.instance.enemyDeath, transform.position, Quaternion.identity);
         if(Random.value < chanceToSpawnEnergy) Instantiate(GameController.instance.energyPrefab, transform.position, Quaternion.identity);
         this.gameObject.SetActive(false);

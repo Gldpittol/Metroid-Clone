@@ -50,6 +50,8 @@ public class PlayerAnimations : MonoBehaviour
     private float frame;
 
     public static PlayerAnimations instance;
+
+    public float startFlashingIntensity;
     void Awake()
     {
         instance = this;
@@ -72,12 +74,18 @@ public class PlayerAnimations : MonoBehaviour
         frame = animator.GetCurrentAnimatorStateInfo(0).normalizedTime % 1;
 
         CheckAnimation();
-
     }
 
     public void CheckAnimation()
     {
-        if(GameController.instance.eGameState == EGameState.GamePlay)
+
+        if(eAnimState == EAnimState.Starting)
+        {
+            if(sr.color.a != 1) sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, 1);
+            else if (sr.color.a == 1) sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, startFlashingIntensity);
+        }
+
+        if (GameController.instance.eGameState == EGameState.GamePlay)
         {
             if (eAnimState == EAnimState.Idle)
             {

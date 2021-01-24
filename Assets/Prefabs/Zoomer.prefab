@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 4335732985205880860}
   - component: {fileID: 4335732985205880833}
   m_Layer: 0
-  m_Name: Zoomer1
+  m_Name: Zoomer
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100af882b18b4f498c1d8475e8c53b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eZoomerType: 0
   speed: 0.05
   Targets: {fileID: 4335732985906724093}
   Target:
@@ -173,9 +174,12 @@ MonoBehaviour:
   chanceToSpawn: 1
   chanceInvertSideAfterSpawn: 1
   health: 2
+  chanceToSpawnEnergy: 0
+  damageToPlayer: 3
   newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   timeSpeedReducedAfterDamaged: 0.2
   speedDivisorAfterDamaged: 5
+  onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!212 &4335732985205880835
 SpriteRenderer:
   m_ObjectHideFlags: 0

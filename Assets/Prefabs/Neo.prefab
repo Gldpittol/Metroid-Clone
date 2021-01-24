@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 3993899130264913119}
   m_Layer: 0
   m_Name: Neo
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -213,6 +213,7 @@ MonoBehaviour:
   health: 4
   chanceToSpawnEnergy: 1
   damageToPlayer: 1
+  onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!212 &3993899130264913104
 SpriteRenderer:
   m_ObjectHideFlags: 0

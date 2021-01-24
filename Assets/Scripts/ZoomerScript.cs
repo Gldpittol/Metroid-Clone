@@ -44,6 +44,9 @@ public class ZoomerScript : MonoBehaviour
 
     private bool beingDamaged = false;
     private SpriteRenderer sr;
+
+    public AudioClip onEnemyHit;
+
     private void Awake()
     {
         if (initialPosX == 0) initialPosX = transform.position.x;
@@ -192,6 +195,8 @@ public class ZoomerScript : MonoBehaviour
     {
         beingDamaged = true;
 
+        SFXManager.instance.PlaySFX(onEnemyHit);
+
         sr.color = newColor;
         speed /= speedDivisorAfterDamaged;
         yield return new WaitForSeconds(timeSpeedReducedAfterDamaged);
@@ -205,6 +210,7 @@ public class ZoomerScript : MonoBehaviour
     public IEnumerator OnDeath()
     {
         Instantiate(GameController.instance.enemyDeath, transform.position, Quaternion.identity);
+        SFXManager.instance.PlaySFX(onEnemyHit);
         if (Random.value < chanceToSpawnEnergy) Instantiate(GameController.instance.energyPrefab, transform.position, Quaternion.identity);
         this.gameObject.SetActive(false);
         yield return null;

@@ -73,6 +73,7 @@ MonoBehaviour:
   side: 0
   canGoRight: 0
   canGoLeft: 0
+  canGoDown: 1
 --- !u!1 &2207959687564572807
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +90,7 @@ GameObject:
   - component: {fileID: 2207959687564572805}
   m_Layer: 0
   m_Name: RedNeo
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127,13 +128,17 @@ MonoBehaviour:
   speedY: 12
   isGoingRight: 1
   delayBeforeDowning: 0.5
+  isStarting: 1
   rightSide: {fileID: 2207959687897040004}
   leftSide: {fileID: 2207959687217689012}
+  topSide: {fileID: 0}
   newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   timeSpeedReducedAfterDamaged: 0.2
   speedDivisorAfterDamaged: 5
   health: 4
+  chanceToSpawnEnergy: 0
   damageToPlayer: 2
+  onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!212 &2207959687564572810
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -324,3 +329,4 @@ MonoBehaviour:
   side: 1
   canGoRight: 0
   canGoLeft: 0
+  canGoDown: 1
