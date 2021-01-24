@@ -78,7 +78,12 @@ public class CharacterMovement : MonoBehaviour
                 {
                     if (currentDelay < doubleHeightDelay && GroundCheck.instance.canJump && !hasJumped)
                     {
-                        Vector2 jumpVector = new Vector2(0, jumpForce);
+                        float newJumpForce = jumpForce + (highJumpForce - jumpForce) * (currentDelay / doubleHeightDelay);
+                        //print(newJumpForce);
+                        if (newJumpForce < 7.5f) newJumpForce = 7.5f;
+
+                        Vector2 jumpVector = new Vector2(0, newJumpForce);
+                        //Vector2 jumpVector = new Vector2(0, jumpForce);
                         rb.AddForce(jumpVector, ForceMode2D.Impulse);
                         audSource.PlayOneShot(jumpClip);
                         jumped = true;
