@@ -30,6 +30,9 @@ public class DoorScript : MonoBehaviour
 
     public AudioClip doorClip;
     private AudioSource audSource;
+
+    public float doorCountdown = 4f;
+    public int interactionState = 0;
     private void Start()
     {
         audSource = GetComponent<AudioSource>();
@@ -44,25 +47,56 @@ public class DoorScript : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Z) && canInteract && GameController.instance.eGameState == EGameState.GamePlay)
+        doorCountdown -= Time.deltaTime;
+        if(doorCountdown < 0 && interactionState == 9)
         {
+            GetComponentInParent<Animator>().Play("DoorStill");
+            audSource.PlayOneShot(doorClip);
+            interactionState = 0;
+        }
+
+        if(Mathf.Abs(Camera.main.transform.position.x - transform.position.x) > 8)
+        {
+            GetComponentInParent<Animator>().Play("DoorStill");
+            interactionState = 0;
+        }
+    }
+
+    //private void Update()
+    //{
+    //    if(Input.GetKeyDown(KeyCode.Z) && canInteract && GameController.instance.eGameState == EGameState.GamePlay)
+    //    {
+    //        StartCoroutine(DoorCutscene());
+    //    }
+    //}
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("PlayerBullet") && interactionState == 0)
+        {
+            canInteract = true;
+            doorCountdown = 4;
+            GetComponentInParent<Animator>().Play("DoorOpen");
+            audSource.PlayOneShot(doorClip);
+            interactionState = 9;
+        }
+
+        if(collision.CompareTag("Player") && interactionState == 9)
+        {
+            interactionState = 1;
+            canInteract = false;
             StartCoroutine(DoorCutscene());
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.CompareTag("Player"))
-        {
-            canInteract = true;
-        }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            canInteract = false;
-        }
-    }
+
+
+
+    //private void OnTriggerExit2D(Collider2D collision)
+    //{
+    //    if (collision.CompareTag("Player"))
+    //    {
+    //        canInteract = false;
+    //    }
+    //}
 
     public IEnumerator DoorCutscene()
     {
@@ -72,8 +106,7 @@ public class DoorScript : MonoBehaviour
         Animator temp = player.GetComponent<Animator>();
         temp.speed = 0f;
 
-        GetComponentInParent<Animator>().Play("DoorOpen");
-        audSource.PlayOneShot(doorClip);
+        
 
         yield return new WaitForSeconds(delayBeforeEnteringDoor);
 
@@ -134,5 +167,6 @@ public class DoorScript : MonoBehaviour
         GetComponentInParent<Animator>().Play("DoorStill");
 
         GameController.instance.eGameState = EGameState.GamePlay;
+        interactionState = 0;
     }
 }
