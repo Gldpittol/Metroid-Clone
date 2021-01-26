@@ -7,10 +7,12 @@ public class PlayerEnemyCollision : MonoBehaviour
     public static PlayerEnemyCollision instance;
     private bool isInvulnerable;
     public bool canMoveHorizontally = true;
-
+    public SpriteRenderer sr;
+    private Coroutine flashRoutine;
     private void Awake()
     {
         instance = this;
+        sr = GetComponent<SpriteRenderer>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -77,11 +79,24 @@ public class PlayerEnemyCollision : MonoBehaviour
             canMoveHorizontally = false;
         }
 
-        CharacterMovement.instance.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+
+        flashRoutine = StartCoroutine(FlashRoutine());
+        //CharacterMovement.instance.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
         yield return new WaitForSeconds(GameController.instance.playerInvulnDuration);
-        CharacterMovement.instance.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
+        //CharacterMovement.instance.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
+        StopCoroutine(flashRoutine);
+        sr.color = new Color(1, 1, 1, 1);
 
         isInvulnerable = false;
         canMoveHorizontally = true;
+    }
+
+    public IEnumerator FlashRoutine()
+    {
+        yield return new WaitForSeconds(0.05f);
+        sr.color = new Color(1, 1, 1, 0);
+        yield return new WaitForSeconds(0.05f);
+        sr.color = new Color(1, 1, 1, 1);
+        flashRoutine = StartCoroutine(FlashRoutine());
     }
 }
