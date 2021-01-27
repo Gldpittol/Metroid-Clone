@@ -39,10 +39,7 @@ public class DoorScript : MonoBehaviour
 
         player = CharacterMovement.instance.gameObject;
 
-        for (int i = 0; i < enemiesToRespawn.Length; i++)
-        {
-            enemiesToRespawn[i].gameObject.SetActive(true);
-        }
+        
     }
 
     private void Update()
@@ -101,7 +98,10 @@ public class DoorScript : MonoBehaviour
     public IEnumerator DoorCutscene()
     {
         GameController.instance.eGameState = EGameState.Cutscene;
-
+        for (int i = 0; i < enemiesToRespawn.Length; i++)
+        {
+            enemiesToRespawn[i].gameObject.SetActive(true);
+        }
 
         Animator temp = player.GetComponent<Animator>();
         temp.speed = 0f;

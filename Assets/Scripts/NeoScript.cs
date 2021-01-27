@@ -266,7 +266,6 @@ public class NeoScript : MonoBehaviour
         sr.color = newColor;
         speedX /= speedDivisorAfterDamaged;
         speedY /= speedDivisorAfterDamaged;
-        print(speedY);
         yield return new WaitForSeconds(timeSpeedReducedAfterDamaged);
         sr.color = Color.white;
         speedX *= speedDivisorAfterDamaged;
@@ -277,10 +276,11 @@ public class NeoScript : MonoBehaviour
 
     public IEnumerator OnDeath()
     {
+        yield return null;
         SFXManager.instance.PlaySFX(onEnemyHit);
         Instantiate(GameController.instance.enemyDeath, transform.position, Quaternion.identity);
         if(Random.value < chanceToSpawnEnergy) Instantiate(GameController.instance.energyPrefab, transform.position, Quaternion.identity);
         this.gameObject.SetActive(false);
-        yield return null;
+        
     }
 }
