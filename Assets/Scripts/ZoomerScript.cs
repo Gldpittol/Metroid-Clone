@@ -75,6 +75,7 @@ public class ZoomerScript : MonoBehaviour
         {
             i = Target.Length - 1;
             direction = -1;
+
         }
         else
         {
@@ -154,7 +155,7 @@ public class ZoomerScript : MonoBehaviour
 
     public void MoveToTarget()
     {
-        transform.position = Vector2.MoveTowards(transform.position, Target[i].transform.position, speed);
+        transform.position = Vector2.MoveTowards(transform.position, Target[i].transform.position, speed*Time.deltaTime);
     }
 
     public void FindNewTarget()

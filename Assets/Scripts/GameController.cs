@@ -46,8 +46,8 @@ public class GameController : MonoBehaviour
         instance = this;
         QualitySettings.vSyncCount = 1;
         Application.targetFrameRate = 60;
-        StartCoroutine(InitialCutscene());
-        //StartCoroutine(InitialCutsceneDebug());
+        //  StartCoroutine(InitialCutscene());
+        StartCoroutine(InitialCutsceneDebug());
     }
 
     private void Update()

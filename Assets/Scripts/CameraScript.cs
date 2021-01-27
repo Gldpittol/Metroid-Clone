@@ -39,10 +39,10 @@ public class CameraScript : MonoBehaviour
             tempX = player.position.x;
             tempY = player.position.y;
 
-            if (player.position.x >= maxX) tempX = maxX;
-            if (player.position.x <= minX) tempX = minX;
-            if (player.position.y >= maxY) tempY = maxY;
-            if (player.position.y <= minY) tempY = minY;
+            //if (player.position.x >= maxX) tempX = maxX;
+            //if (player.position.x <= minX) tempX = minX;
+            //if (player.position.y >= maxY) tempY = maxY;
+            //if (player.position.y <= minY) tempY = minY;
 
             Vector3 temp = new Vector3(tempX, tempY, -10);
             transform.position = temp;

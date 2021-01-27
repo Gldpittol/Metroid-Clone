@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eZoomerType: 0
-  speed: 0.1
+  speed: 3
   Targets: {fileID: 2574605349205745151}
   Target:
   - {fileID: 2574605350052902237}
@@ -66,8 +66,8 @@ MonoBehaviour:
   chanceToSpawn: 0.5
   chanceInvertSideAfterSpawn: 0.5
   health: 2
-  chanceToSpawnEnergy: 0
-  damageToPlayer: 3
+  chanceToSpawnEnergy: 0.4
+  damageToPlayer: 8
   newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   timeSpeedReducedAfterDamaged: 0.2
   speedDivisorAfterDamaged: 500000
@@ -111,9 +111,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2192450021786810173, guid: 03b2d87810133fa458210a3a28f09b50,
+  m_Sprite: {fileID: 4024229356039960941, guid: fe1af43370420604ebcf7479032e7182,
     type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -180,7 +180,7 @@ Animator:
   m_GameObject: {fileID: 2574605348877108257}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d848e64077da7d84d99ca4ed7b8bd520, type: 2}
+  m_Controller: {fileID: 9100000, guid: 035366e1abaac034ebb981c2a8d3f70c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -213,7 +213,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2574605349205745151}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -18.492188}
+  m_LocalPosition: {x: -1, y: 0, z: -18.492188}
   m_LocalScale: {x: 3.333333, y: 2.5, z: 1}
   m_Children:
   - {fileID: 2574605350052902236}
