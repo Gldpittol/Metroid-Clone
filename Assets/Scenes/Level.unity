@@ -2130,7 +2130,7 @@ MonoBehaviour:
   newPlayerPosition1: {x: 31.75, y: 3.665974, z: 0}
   newPlayerPosition2: {x: 29.5, y: 3.665974, z: 0}
   moveSpeed: 3
-  delayBeforeEnteringDoor: 0.5
+  delayBeforeEnteringDoor: 0.25
   flipPlayer: 1
   otherDoor: {fileID: 910889273}
   enemiesToRespawn:
@@ -2707,7 +2707,7 @@ MonoBehaviour:
   newPlayerPosition1: {x: 111.7, y: 3.665974, z: 0}
   newPlayerPosition2: {x: 113.7, y: 3.665974, z: 0}
   moveSpeed: 3
-  delayBeforeEnteringDoor: 0.5
+  delayBeforeEnteringDoor: 0.25
   flipPlayer: 0
   otherDoor: {fileID: 562146180}
   enemiesToRespawn:
@@ -3307,6 +3307,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zoomer1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6898377177863664369, guid: 308e875ef9e5f974085933cf940a13f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6898377177863664371, guid: 308e875ef9e5f974085933cf940a13f6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3632,7 +3637,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: -10}
+  m_LocalPosition: {x: -0.5, y: 3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2090990579}
@@ -4103,7 +4108,7 @@ MonoBehaviour:
   newPlayerPosition1: {x: 111.7, y: 3.665974, z: 0}
   newPlayerPosition2: {x: 109.7, y: 3.665974, z: 0}
   moveSpeed: 3
-  delayBeforeEnteringDoor: 0.5
+  delayBeforeEnteringDoor: 0.25
   flipPlayer: 1
   otherDoor: {fileID: 440465617}
   enemiesToRespawn:
@@ -4444,7 +4449,7 @@ MonoBehaviour:
   newPlayerPosition1: {x: 47.7, y: 3.665974, z: 0}
   newPlayerPosition2: {x: 49.8, y: 3.665974, z: 0}
   moveSpeed: 3
-  delayBeforeEnteringDoor: 0.5
+  delayBeforeEnteringDoor: 0.25
   flipPlayer: 0
   otherDoor: {fileID: 673372261}
   enemiesToRespawn:
@@ -4673,7 +4678,7 @@ MonoBehaviour:
   newPlayerPosition1: {x: 47.7, y: 3.665974, z: 0}
   newPlayerPosition2: {x: 45.7, y: 3.665974, z: 0}
   moveSpeed: 3
-  delayBeforeEnteringDoor: 0.5
+  delayBeforeEnteringDoor: 0.25
   flipPlayer: 1
   otherDoor: {fileID: 630050814}
   enemiesToRespawn:
@@ -6471,7 +6476,7 @@ MonoBehaviour:
   newPlayerPosition1: {x: 31.75, y: 3.665974, z: 0}
   newPlayerPosition2: {x: 34, y: 3.665974, z: 0}
   moveSpeed: 3
-  delayBeforeEnteringDoor: 0.5
+  delayBeforeEnteringDoor: 0.25
   flipPlayer: 0
   otherDoor: {fileID: 381047929}
   enemiesToRespawn:
@@ -9536,6 +9541,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Zoomer1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6898377177863664369, guid: 308e875ef9e5f974085933cf940a13f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6898377177863664371, guid: 308e875ef9e5f974085933cf940a13f6,
         type: 3}

@@ -61,7 +61,7 @@ public class PlayerAnimations : MonoBehaviour
         playerShoot = GetComponent<PlayerShoot>();
         anim = GetComponent<Animation>();
 
-        sr.sprite = starting;
+        //sr.sprite = starting;
     }
 
 

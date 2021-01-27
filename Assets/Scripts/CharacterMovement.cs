@@ -56,7 +56,7 @@ public class CharacterMovement : MonoBehaviour
 
             if (playerAnim.eAnimState != EAnimState.Crouch)
             {
-                if ((Input.GetKey(KeyCode.LeftShift)) && GroundCheck.instance.canJump && !hasJumped && PlayerEnemyCollision.instance.canMoveHorizontally)
+                if ((Input.GetKey(KeyCode.X)) && GroundCheck.instance.canJump && !hasJumped && PlayerEnemyCollision.instance.canMoveHorizontally)
                 {
                     currentDelay += Time.deltaTime;
                     if (currentDelay >= doubleHeightDelay)
@@ -74,7 +74,7 @@ public class CharacterMovement : MonoBehaviour
                     }
                 }
 
-                if (Input.GetKeyUp(KeyCode.LeftShift) && PlayerEnemyCollision.instance.canMoveHorizontally)
+                if (Input.GetKeyUp(KeyCode.X) && PlayerEnemyCollision.instance.canMoveHorizontally)
                 {
                     if (currentDelay < doubleHeightDelay && GroundCheck.instance.canJump && !hasJumped)
                     {

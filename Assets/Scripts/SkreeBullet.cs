@@ -7,7 +7,7 @@ public class SkreeBullet : MonoBehaviour
     public float speed = 1f;
     public Rigidbody2D rb;
     public float lifeSpan;
-
+    public int damageToPlayer = 8;
     private void Start()
     {
          rb = GetComponent<Rigidbody2D>();
@@ -18,7 +18,7 @@ public class SkreeBullet : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-            PlayerEnemyCollision.instance.DamagePlayer(4, gameObject);
+            PlayerEnemyCollision.instance.DamagePlayer(damageToPlayer, gameObject);
         }
     }
 

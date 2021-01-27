@@ -75,13 +75,10 @@ public class DoorScript : MonoBehaviour
             GetComponentInParent<Animator>().Play("DoorOpen");
             audSource.PlayOneShot(doorClip);
             interactionState = 9;
+            GetComponent<Collider2D>().enabled = false;
+            GetComponent<Collider2D>().enabled = true;
         }
 
-
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
         if (collision.CompareTag("Player") && interactionState == 9)
         {
             interactionState = 1;
@@ -89,6 +86,8 @@ public class DoorScript : MonoBehaviour
             StartCoroutine(DoorCutscene());
         }
     }
+
+
 
     //private void OnTriggerExit2D(Collider2D collision)
     //{
@@ -100,21 +99,26 @@ public class DoorScript : MonoBehaviour
 
     public IEnumerator DoorCutscene()
     {
+
         GameController.instance.eGameState = EGameState.Cutscene;
+
+        //while (!GroundCheck.instance.canJump) yield return null;
+
         for (int i = 0; i < enemiesToRespawn.Length; i++)
         {
+            enemiesToRespawn[i].gameObject.SetActive(false);
             enemiesToRespawn[i].gameObject.SetActive(true);
         }
 
         Animator temp = player.GetComponent<Animator>();
         temp.speed = 0f;
 
-        
+        player.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
 
+        player.GetComponent<Rigidbody2D>().gravityScale = 0;
         yield return new WaitForSeconds(delayBeforeEnteringDoor);
 
         player.GetComponent<BoxCollider2D>().isTrigger = true;
-        player.GetComponent<Rigidbody2D>().gravityScale = 0;
 
         if(flipPlayer)
         {
@@ -125,12 +129,15 @@ public class DoorScript : MonoBehaviour
             player.transform.localScale = new Vector3(1f, 1f, 1f);
         }
 
+
+        newPlayerPosition1 = new Vector2(newPlayerPosition1.x, player.transform.position.y);
+        newPlayerPosition2 = new Vector2(newPlayerPosition2.x, player.transform.position.y);
+
         while (player.transform.position.x != newPlayerPosition1.x)
         {
             player.transform.position = Vector3.MoveTowards(player.transform.position, newPlayerPosition1, moveSpeed * Time.deltaTime);
             yield return null;
         }
-
 
 
         StartCoroutine(CameraScript.instance.MoveCameraCutscene(newCameraPosition));
