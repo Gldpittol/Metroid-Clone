@@ -57,7 +57,7 @@ public class PlayerEnemyCollision : MonoBehaviour
             if (!GroundCheck.instance.canJump)
             {
                 rb.velocity = new Vector2(rb.velocity.x, 0);
-                tempImpulseVector = new Vector2(GameController.instance.playerImpulseVector.x * 1.3f, 0);
+                tempImpulseVector = new Vector2(GameController.instance.playerImpulseVector.x * 1f, 0);
             }
 
             rb.AddForce(tempImpulseVector, ForceMode2D.Impulse);
@@ -72,7 +72,7 @@ public class PlayerEnemyCollision : MonoBehaviour
             if (!GroundCheck.instance.canJump)
             {
                 rb.velocity = new Vector2(rb.velocity.x, 0);
-                tempImpulseVector = new Vector2(-GameController.instance.playerImpulseVector.x * 1.3f , 0.5f);
+                tempImpulseVector = new Vector2(-GameController.instance.playerImpulseVector.x * 1f , 0.5f);
             }
 
             rb.AddForce(tempImpulseVector, ForceMode2D.Impulse);

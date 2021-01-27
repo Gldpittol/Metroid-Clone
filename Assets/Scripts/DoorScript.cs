@@ -77,15 +77,18 @@ public class DoorScript : MonoBehaviour
             interactionState = 9;
         }
 
-        if(collision.CompareTag("Player") && interactionState == 9)
+
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player") && interactionState == 9)
         {
             interactionState = 1;
             canInteract = false;
             StartCoroutine(DoorCutscene());
         }
     }
-
-
 
     //private void OnTriggerExit2D(Collider2D collision)
     //{
@@ -160,7 +163,7 @@ public class DoorScript : MonoBehaviour
         yield return null;
 
         player.GetComponent<BoxCollider2D>().isTrigger = false;
-        player.GetComponent<Rigidbody2D>().gravityScale = 1;
+        player.GetComponent<Rigidbody2D>().gravityScale = 1.3f;
         temp.speed = 1f;
 
         otherDoor.GetComponentInParent<Animator>().Play("DoorStill");
