@@ -32,22 +32,21 @@ public class PlayerShoot : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            holdingUp = true;
+        }
 
-        if(GameController.instance.eGameState == EGameState.GamePlay)
+        if (Input.GetKeyUp(KeyCode.UpArrow))
+        {
+            holdingUp = false;
+        }
+
+        if (GameController.instance.eGameState == EGameState.GamePlay)
         {
             horizontal = Input.GetAxisRaw("Horizontal");
 
             currentDelay += Time.deltaTime;
-
-            if (Input.GetKeyDown(KeyCode.UpArrow))
-            {
-                holdingUp = true;
-            }
-
-            if (Input.GetKeyUp(KeyCode.UpArrow))
-            {
-                holdingUp = false;
-            }
 
             if (playerAnim.eAnimState != EAnimState.Crouch)
             {
@@ -110,4 +109,6 @@ public class PlayerShoot : MonoBehaviour
             }
         }   
     }
+
+
 }

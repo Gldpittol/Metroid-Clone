@@ -360,6 +360,11 @@ PrefabInstance:
       propertyPath: damageToPlayer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 9045372967314135534, guid: 5e3d924c25dc5bf4891f3e266a0fb6e7,
+        type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 9045372967935777112, guid: 5e3d924c25dc5bf4891f3e266a0fb6e7,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -2086,7 +2091,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1645832, y: 3.1066723}
+  m_Size: {x: 0.7, y: 3.1066723}
   m_EdgeRadius: 0
 --- !u!50 &381047932
 Rigidbody2D:
@@ -2663,7 +2668,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1645832, y: 3.1066723}
+  m_Size: {x: 0.7, y: 3.1066723}
   m_EdgeRadius: 0
 --- !u!50 &440465620
 Rigidbody2D:
@@ -4064,7 +4069,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1645832, y: 3.1066723}
+  m_Size: {x: 0.7, y: 3.1066723}
   m_EdgeRadius: 0
 --- !u!50 &562146184
 Rigidbody2D:
@@ -4405,7 +4410,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1645832, y: 3.1066723}
+  m_Size: {x: 0.7, y: 3.1066723}
   m_EdgeRadius: 0
 --- !u!50 &630050817
 Rigidbody2D:
@@ -4634,7 +4639,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1645832, y: 3.1066723}
+  m_Size: {x: 0.7, y: 3.1066723}
   m_EdgeRadius: 0
 --- !u!50 &673372265
 Rigidbody2D:
@@ -6432,7 +6437,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1645832, y: 3.1066723}
+  m_Size: {x: 0.7, y: 3.1066723}
   m_EdgeRadius: 0
 --- !u!50 &910889276
 Rigidbody2D:
