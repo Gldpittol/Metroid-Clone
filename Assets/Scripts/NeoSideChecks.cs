@@ -13,11 +13,11 @@ public class NeoSideChecks : MonoBehaviour
         Bottom
     }
 
-    public ESide side;
     public bool canGoRight = true;
     public bool canGoLeft = true;
     public bool canGoDown = true;
     public bool canGoUp = false;
+    public ESide side;
 
     private void Awake()
     {

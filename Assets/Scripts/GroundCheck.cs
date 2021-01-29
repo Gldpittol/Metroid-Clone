@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class GroundCheck : MonoBehaviour
 {
-    public bool canJump = false;
     public static GroundCheck instance;
+
     public float cooldown = 0;
+    public bool canJump = false;
 
     private void Awake()
     {

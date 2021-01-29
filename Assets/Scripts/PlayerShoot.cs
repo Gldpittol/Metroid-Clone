@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour
 {
+    public static PlayerShoot instance;
+
+    [Header("Parameters")]
+    public float delayBetweenShots;
+    private float currentDelay;
+    private float horizontal;
+    public bool holdingUp;
+    public bool isShooting;
+
+    [Header("References")]
     public GameObject playerBulletPrefab;
     public GameObject bulletDestruction;
     public GameObject playerWeapon;
@@ -11,19 +21,8 @@ public class PlayerShoot : MonoBehaviour
     public GameObject playerWeaponUp;
     public GameObject playerWeaponJumping;
     public GameObject playerWeaponJumpingUp;
-
-
-    public float delayBetweenShots;
-    private float currentDelay;
-
-    public bool holdingUp;
-    public bool isShooting;
-
-    private float horizontal;
-
     private PlayerAnimations playerAnim;
 
-    public static PlayerShoot instance;
     private void Awake()
     {
         instance = this;

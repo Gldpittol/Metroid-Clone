@@ -4,10 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class IntroScript : MonoBehaviour
 {
-    public GameObject startContinue;
     public bool isStartContinue;
 
-    // Update is called once per frame
+    public GameObject startContinue;
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Return) && !isStartContinue)

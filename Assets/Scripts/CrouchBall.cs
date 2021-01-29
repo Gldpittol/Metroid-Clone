@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class CrouchBall : MonoBehaviour
 {
-    private bool firstTouch = true;
     public float animationDuration = 2f;
+
+    private bool firstTouch = true;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (firstTouch && collision.CompareTag("Player"))
@@ -31,6 +32,5 @@ public class CrouchBall : MonoBehaviour
         GameController.instance.eGameState = EGameState.GamePlay;
         Camera.main.GetComponent<AudioSource>().Play();
         Destroy(gameObject);
-
     }
 }

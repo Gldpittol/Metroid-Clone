@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class SammusDeath : MonoBehaviour
 {
+    public float delayBetweenRotations;
+
     public Vector2 force;
+
     private Rigidbody2D rb;
 
-    public float delayBetweenRotations;
 
     private void Awake()
     {

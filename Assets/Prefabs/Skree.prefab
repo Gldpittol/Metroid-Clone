@@ -121,7 +121,7 @@ MonoBehaviour:
   health: 3
   chanceToSpawnEnergy: 0.4
   damageToPlayer: 8
-  speed: 0.14
+  speed: 10
   AIFinished: 0
   vision: {fileID: 7474058816533413112}
   firstFallMinY: 2.5

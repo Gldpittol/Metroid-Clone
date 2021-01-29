@@ -12,32 +12,31 @@ public class NeoScript : MonoBehaviour
         Idle
     }
 
-    [SerializeField]private ENeoState eNeoState;
-    private bool canMove;
+    [Header("Parameters")]
+    public int damageToPlayer = 20;
     public float speedX, speedY;
-    private Rigidbody2D rb;
-    public bool isGoingRight = true;
     public float delayBeforeDowning;
-    public bool isStarting = true;
-    private float originalSpeedX, originalSpeedY;
-    private Vector2 tempPlayerPos;
-    private bool firstUp = false;
-
-    public NeoSideChecks rightSide, leftSide, topSide, bottomSide;
-
-    private float timeSinceLastReset = 0;
-
-    public Color newColor;
     public float timeSpeedReducedAfterDamaged;
     public float speedDivisorAfterDamaged;
-    private float originalHealth;
-    private SpriteRenderer sr;
     public float health = 4;
+    private float originalSpeedX, originalSpeedY;
+    private float timeSinceLastReset = 0;
+    private float originalHealth;
     public float chanceToSpawnEnergy;
-    public int damageToPlayer = 20;
-    private Vector2 originalPosition;
+    public bool isGoingRight = true;
+    public bool isStarting = true;
+    private bool canMove;
+    private bool firstUp = false;
     private bool beingDamaged = false;
+    private Vector2 tempPlayerPos;
+    private Vector2 originalPosition;
+    [SerializeField]private ENeoState eNeoState;
 
+    [Header("References")]
+    public Color newColor;
+    public NeoSideChecks rightSide, leftSide, topSide, bottomSide;
+    private Rigidbody2D rb;
+    private SpriteRenderer sr;
     public AudioClip onEnemyHit;
 
     private void Awake()
@@ -61,7 +60,6 @@ public class NeoScript : MonoBehaviour
         beingDamaged = false;
         if (sr) sr.color = Color.white;
         eNeoState = ENeoState.Downing;
-
     }
 
     private void OnDisable()
@@ -137,6 +135,7 @@ public class NeoScript : MonoBehaviour
                 else if (!isGoingRight && !leftSide.canGoLeft)
                     rb.velocity = new Vector2(0, 0);
             }
+
             if (eNeoState == ENeoState.GoingUp)
             {
                 if (isGoingRight && rightSide.canGoRight)
@@ -149,6 +148,7 @@ public class NeoScript : MonoBehaviour
                     rb.velocity = new Vector2(0, speedY);
 
             }
+
             if (eNeoState == ENeoState.Idle)
             {
                 rb.velocity = Vector2.zero;
@@ -162,8 +162,8 @@ public class NeoScript : MonoBehaviour
         {
             eNeoState = ENeoState.OnGround;
             GetComponent<Animator>().SetFloat("speedMultiplier", 1);
-
         }
+
         if (collision.CompareTag("Ground") && eNeoState == ENeoState.GoingUp)
         {
             StartCoroutine(DelayBeforeDowning());
@@ -191,8 +191,7 @@ public class NeoScript : MonoBehaviour
                 {
                     StartCoroutine(OnDamaged());
                 }
-            }
-               
+            }        
         }
     }
 

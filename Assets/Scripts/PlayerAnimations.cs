@@ -21,15 +21,14 @@ public enum EAnimState
 }
 public class PlayerAnimations : MonoBehaviour
 {
-    private Animator animator;
-    private SpriteRenderer sr;
+    [Header("Parameters")]
+    public float startFlashingIntensity;
+    private float horizontal;
+    private float vertical;
+    private float frame;
     public EAnimState eAnimState;
-    private CharacterMovement charMovement;
-    private PlayerShoot playerShoot;
-    private Animation anim;
 
-    private Animation startAnimation;
-    public Sprite starting;
+    [Header("Strings")]
     private string idle = "Idle";
     private string idleUp = "IdleGunUp";
     private string idleForward = "IdleGunSideways";
@@ -40,18 +39,20 @@ public class PlayerAnimations : MonoBehaviour
     private string jumpSideways = "JumpSideways";
     private string jumpShootUp = "JumpShootUp";
     private string jumpShootStraight = "JumpShootStraight";
-
-    private Animation fall;
     private string crouch = "StartCrouch";
+
+    [Header("References")]
+    public Sprite starting;
+    private SpriteRenderer sr;
+    private Animator animator;
+    private Animation fall;
     private Animation death;
-
-    private float horizontal;
-    private float vertical;
-    private float frame;
-
+    private Animation anim;
+    private Animation startAnimation;
+    private CharacterMovement charMovement;
+    private PlayerShoot playerShoot;
     public static PlayerAnimations instance;
 
-    public float startFlashingIntensity;
     void Awake()
     {
         instance = this;
@@ -60,7 +61,6 @@ public class PlayerAnimations : MonoBehaviour
         charMovement = GetComponent<CharacterMovement>();
         playerShoot = GetComponent<PlayerShoot>();
         anim = GetComponent<Animation>();
-
         //sr.sprite = starting;
     }
 
@@ -69,7 +69,6 @@ public class PlayerAnimations : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
-
 
         frame = animator.GetCurrentAnimatorStateInfo(0).normalizedTime % 1;
 
@@ -391,8 +390,6 @@ public class PlayerAnimations : MonoBehaviour
 
         switch (size)
         {
-
-
             case "Crouch":
                 GetComponent<BoxCollider2D>().size = new Vector2(0.7294931f, 0.8070598f);
                 GetComponent<BoxCollider2D>().offset = new Vector2(-0.2203183f, -0.7474638f);

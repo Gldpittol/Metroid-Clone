@@ -4,42 +4,32 @@ using UnityEngine;
 
 public class DoorScript : MonoBehaviour
 {
+    [Header("Config Parameters")]
     public float minX;
     public float maxX;
     public float minY;
     public float maxY;
-
-    public bool canInteract = false;
-
+    public float moveSpeed;
+    public float delayBeforeEnteringDoor = 0.5f;
+    public float doorCountdown = 4f;
+    [HideInInspector] public int interactionState = 0;
+    [HideInInspector] public bool canInteract = false;
     public Vector3 newCameraPosition;
     public Vector3 newPlayerPosition1;
     public Vector3 newPlayerPosition2;
-
-    public float moveSpeed;
-
-    public float delayBeforeEnteringDoor = 0.5f;
-
-
-    private GameObject player;
-
     public bool flipPlayer;
 
+    [Header("References")]
     public GameObject otherDoor;
-
     public GameObject[] enemiesToRespawn;
-
-    public AudioClip doorClip;
+    private GameObject player;
     private AudioSource audSource;
+    public AudioClip doorClip;
 
-    public float doorCountdown = 4f;
-    public int interactionState = 0;
     private void Start()
     {
         audSource = GetComponent<AudioSource>();
-
-        player = CharacterMovement.instance.gameObject;
-
-        
+        player = CharacterMovement.instance.gameObject;     
     }
 
     private void Update()
@@ -129,7 +119,6 @@ public class DoorScript : MonoBehaviour
             player.transform.localScale = new Vector3(1f, 1f, 1f);
         }
 
-
         newPlayerPosition1 = new Vector2(newPlayerPosition1.x, player.transform.position.y);
         newPlayerPosition2 = new Vector2(newPlayerPosition2.x, player.transform.position.y);
 
@@ -139,14 +128,12 @@ public class DoorScript : MonoBehaviour
             yield return null;
         }
 
-
         StartCoroutine(CameraScript.instance.MoveCameraCutscene(newCameraPosition));
 
         while(!CameraScript.instance.routineFinished)
         {
             yield return null;
         }
-
 
         CameraScript.instance.maxX = maxX;
         CameraScript.instance.minX = minX;
@@ -157,7 +144,6 @@ public class DoorScript : MonoBehaviour
 
         otherDoor.GetComponentInParent<Animator>().Play("DoorOpen"); 
         audSource.PlayOneShot(doorClip);
-
 
         //yield return new WaitForSeconds(0.5f);
 

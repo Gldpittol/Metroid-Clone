@@ -5,9 +5,13 @@ using UnityEngine;
 public class PlayerEnemyCollision : MonoBehaviour
 {
     public static PlayerEnemyCollision instance;
+
+    [HideInInspector] public bool canMoveHorizontally = true;
+
     private bool isInvulnerable;
-    public bool canMoveHorizontally = true;
+
     public SpriteRenderer sr;
+
     private Coroutine flashRoutine;
     private void Awake()
     {

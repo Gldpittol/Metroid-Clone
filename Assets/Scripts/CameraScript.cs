@@ -4,19 +4,21 @@ using UnityEngine;
 
 public class CameraScript : MonoBehaviour
 {
+    public static CameraScript instance;
+
+    [Header("Config Parameters")]
     public float minX;
     public float maxX;
     public float minY;
     public float maxY;
-
-    public Transform player;
-
-    public Transform newCameraPosition;
     public float cameraTransitionSpeed;
+    [HideInInspector] public bool routineFinished;
 
-    public static CameraScript instance;
+    [Header("Object References")]
+    public Transform player;
+    public Transform newCameraPosition;
 
-    public bool routineFinished;
+
     private void Awake()
     {
         instance = this;

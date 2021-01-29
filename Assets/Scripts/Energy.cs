@@ -7,8 +7,8 @@ public class Energy : MonoBehaviour
     public int energyToAdd = 5;
     private bool canAddEnergy = true;
 
-    public AudioClip energyPickUpClip;
     public AudioSource audSource;
+    public AudioClip energyPickUpClip;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player") && canAddEnergy)

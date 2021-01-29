@@ -1644,11 +1644,12 @@ MonoBehaviour:
   playerHealth: 24
   playerDamage: 1
   playerInvulnDuration: 1
+  delayBeforeGameOver: 2
+  playerImpulseVector: {x: 5, y: 5}
   eGameState: 0
+  isQuitting: 0
   enemyDeath: {fileID: 4765972698594440457, guid: b13ccf2ecb7e8d749a9ed23d6cb3d233,
     type: 3}
-  playerImpulseVector: {x: 5, y: 5}
-  isQuitting: 0
   energyPrefab: {fileID: 6428678101334084283, guid: e165919afa387434ca725c04f459ee0c,
     type: 3}
   sammusDeathPrefab: {fileID: 1536591950577323808, guid: 9327d6b88ba666c4cbd28e527170dac2,
@@ -1660,7 +1661,7 @@ MonoBehaviour:
   brinstarClip: {fileID: 8300000, guid: fdeb9d5b83548b948b1b0ff489d2a1b5, type: 3}
   playerDeathClip: {fileID: 8300000, guid: a8da9cbce9217f843b367fb624e7b451, type: 3}
   playerHitClip: {fileID: 8300000, guid: af45cd37fb3fdd34bbccd7c3ad882c32, type: 3}
-  delayBeforeGameOver: 2
+  debugMode: 0
 --- !u!4 &317263724
 Transform:
   m_ObjectHideFlags: 0
@@ -2080,7 +2081,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0822916, y: 0.8229189}
+  m_Offset: {x: -0.3432824, y: 0.8229189}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2091,7 +2092,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 3.1066723}
+  m_Size: {x: 1.2219816, y: 3.1066723}
   m_EdgeRadius: 0
 --- !u!50 &381047932
 Rigidbody2D:
@@ -2130,12 +2131,14 @@ MonoBehaviour:
   maxX: 23
   minY: 3
   maxY: 3
+  moveSpeed: 3
+  delayBeforeEnteringDoor: 0.25
+  doorCountdown: 4
+  interactionState: 0
   canInteract: 0
   newCameraPosition: {x: 23.4, y: 3, z: -10}
   newPlayerPosition1: {x: 31.75, y: 3.665974, z: 0}
   newPlayerPosition2: {x: 29.5, y: 3.665974, z: 0}
-  moveSpeed: 3
-  delayBeforeEnteringDoor: 0.25
   flipPlayer: 1
   otherDoor: {fileID: 910889273}
   enemiesToRespawn:
@@ -2147,8 +2150,6 @@ MonoBehaviour:
   - {fileID: 1575536767}
   - {fileID: 559626437}
   doorClip: {fileID: 8300000, guid: 212b29daa15ad3c4f968c2c9f5939fb5, type: 3}
-  doorCountdown: 4
-  interactionState: 0
 --- !u!82 &381047934
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2657,7 +2658,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0822916, y: 0.8229189}
+  m_Offset: {x: 0.45708466, y: 0.8229189}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2668,7 +2669,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 3.1066723}
+  m_Size: {x: 1.4307709, y: 3.1066723}
   m_EdgeRadius: 0
 --- !u!50 &440465620
 Rigidbody2D:
@@ -2707,12 +2708,14 @@ MonoBehaviour:
   maxX: 119.5
   minY: 1
   maxY: 113
+  moveSpeed: 3
+  delayBeforeEnteringDoor: 0.25
+  doorCountdown: 4
+  interactionState: 0
   canInteract: 0
   newCameraPosition: {x: 119.5, y: 3, z: -10}
   newPlayerPosition1: {x: 111.7, y: 3.665974, z: 0}
   newPlayerPosition2: {x: 113.7, y: 3.665974, z: 0}
-  moveSpeed: 3
-  delayBeforeEnteringDoor: 0.25
   flipPlayer: 0
   otherDoor: {fileID: 562146180}
   enemiesToRespawn:
@@ -2735,8 +2738,6 @@ MonoBehaviour:
   - {fileID: 211755721}
   - {fileID: 1682892409}
   doorClip: {fileID: 8300000, guid: 212b29daa15ad3c4f968c2c9f5939fb5, type: 3}
-  doorCountdown: 4
-  interactionState: 0
 --- !u!4 &440465622
 Transform:
   m_ObjectHideFlags: 0
@@ -3587,10 +3588,10 @@ MonoBehaviour:
   maxX: 23.4
   minY: 3
   maxY: 3
-  player: {fileID: 1581666094}
-  newCameraPosition: {fileID: 1589345679}
   cameraTransitionSpeed: 7
   routineFinished: 0
+  player: {fileID: 1581666094}
+  newCameraPosition: {fileID: 1589345679}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -4058,7 +4059,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0822916, y: 0.8229189}
+  m_Offset: {x: -0.27368134, y: 0.8229189}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4069,7 +4070,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 3.1066723}
+  m_Size: {x: 1.0827795, y: 3.1066723}
   m_EdgeRadius: 0
 --- !u!50 &562146184
 Rigidbody2D:
@@ -4108,12 +4109,14 @@ MonoBehaviour:
   maxX: 103.5
   minY: 3
   maxY: 3
+  moveSpeed: 3
+  delayBeforeEnteringDoor: 0.25
+  doorCountdown: 4
+  interactionState: 0
   canInteract: 0
   newCameraPosition: {x: 103.5, y: 3, z: -10}
   newPlayerPosition1: {x: 111.7, y: 3.665974, z: 0}
   newPlayerPosition2: {x: 109.7, y: 3.665974, z: 0}
-  moveSpeed: 3
-  delayBeforeEnteringDoor: 0.25
   flipPlayer: 1
   otherDoor: {fileID: 440465617}
   enemiesToRespawn:
@@ -4127,10 +4130,7 @@ MonoBehaviour:
   - {fileID: 895555888}
   - {fileID: 383649349}
   - {fileID: 759399521}
-  - {fileID: 562146180}
   doorClip: {fileID: 8300000, guid: 212b29daa15ad3c4f968c2c9f5939fb5, type: 3}
-  doorCountdown: 4
-  interactionState: 0
 --- !u!1 &593952015
 GameObject:
   m_ObjectHideFlags: 0
@@ -4399,7 +4399,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0822916, y: 0.8229189}
+  m_Offset: {x: 0.19609708, y: 0.8229189}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4410,7 +4410,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 3.1066723}
+  m_Size: {x: 1.2567774, y: 3.1066723}
   m_EdgeRadius: 0
 --- !u!50 &630050817
 Rigidbody2D:
@@ -4449,12 +4449,14 @@ MonoBehaviour:
   maxX: 103.5
   minY: 3
   maxY: 3
+  moveSpeed: 3
+  delayBeforeEnteringDoor: 0.25
+  doorCountdown: 4
+  interactionState: 0
   canInteract: 0
   newCameraPosition: {x: 55.5, y: 3, z: -10}
   newPlayerPosition1: {x: 47.7, y: 3.665974, z: 0}
   newPlayerPosition2: {x: 49.8, y: 3.665974, z: 0}
-  moveSpeed: 3
-  delayBeforeEnteringDoor: 0.25
   flipPlayer: 0
   otherDoor: {fileID: 673372261}
   enemiesToRespawn:
@@ -4469,8 +4471,6 @@ MonoBehaviour:
   - {fileID: 383649349}
   - {fileID: 759399521}
   doorClip: {fileID: 8300000, guid: 212b29daa15ad3c4f968c2c9f5939fb5, type: 3}
-  doorCountdown: 4
-  interactionState: 0
 --- !u!4 &630050819
 Transform:
   m_ObjectHideFlags: 0
@@ -4628,7 +4628,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0822916, y: 0.8229189}
+  m_Offset: {x: -0.3432824, y: 0.8229189}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4639,7 +4639,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 3.1066723}
+  m_Size: {x: 1.2219816, y: 3.1066723}
   m_EdgeRadius: 0
 --- !u!50 &673372265
 Rigidbody2D:
@@ -4678,20 +4678,20 @@ MonoBehaviour:
   maxX: 39.5
   minY: 3
   maxY: 3
+  moveSpeed: 3
+  delayBeforeEnteringDoor: 0.25
+  doorCountdown: 4
+  interactionState: 0
   canInteract: 0
   newCameraPosition: {x: 39.5, y: 3, z: -10}
   newPlayerPosition1: {x: 47.7, y: 3.665974, z: 0}
   newPlayerPosition2: {x: 45.7, y: 3.665974, z: 0}
-  moveSpeed: 3
-  delayBeforeEnteringDoor: 0.25
   flipPlayer: 1
   otherDoor: {fileID: 630050814}
   enemiesToRespawn:
   - {fileID: 1135209174003152801}
   - {fileID: 8715432119943137942}
   doorClip: {fileID: 8300000, guid: 212b29daa15ad3c4f968c2c9f5939fb5, type: 3}
-  doorCountdown: 4
-  interactionState: 0
 --- !u!1 &682827500
 GameObject:
   m_ObjectHideFlags: 0
@@ -5390,29 +5390,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100af882b18b4f498c1d8475e8c53b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eZoomerType: 0
+  damageToPlayer: 8
   speed: 2
+  chanceToSpawn: 0.8
+  chanceInvertSideAfterSpawn: 0.5
+  health: 2
+  chanceToSpawnEnergy: 0.4
+  timeSpeedReducedAfterDamaged: 0.2
+  speedDivisorAfterDamaged: 10000
+  Rotations:
+  - 90
+  - 180
+  - -90
+  - 0
+  isCyclic: 1
+  eZoomerType: 0
+  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   Targets: {fileID: 1020146711}
   Target:
   - {fileID: 1933993415}
   - {fileID: 319707819}
   - {fileID: 682827500}
   - {fileID: 2061306501}
-  Rotations:
-  - 90
-  - 180
-  - -90
-  - 0
   currentTarget: {fileID: 1933993415}
-  isCyclic: 1
-  chanceToSpawn: 0.8
-  chanceInvertSideAfterSpawn: 0.5
-  health: 2
-  chanceToSpawnEnergy: 0.4
-  damageToPlayer: 8
-  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
-  timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 10000
   onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!1001 &759399519
 PrefabInstance:
@@ -5675,8 +5675,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100af882b18b4f498c1d8475e8c53b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eZoomerType: 0
+  damageToPlayer: 8
   speed: 2
+  chanceToSpawn: 0.8
+  chanceInvertSideAfterSpawn: 0.5
+  health: 2
+  chanceToSpawnEnergy: 0.4
+  timeSpeedReducedAfterDamaged: 0.2
+  speedDivisorAfterDamaged: 10000
+  Rotations:
+  - -90
+  - 180
+  - -90
+  - 0
+  - -90
+  - 180
+  - -90
+  - 180
+  - -90
+  - 180
+  - -90
+  - 180
+  - 90
+  - 180
+  - 90
+  - 180
+  - -90
+  - 180
+  - -90
+  - 180
+  - 90
+  - 180
+  - -90
+  - -90
+  isCyclic: 0
+  eZoomerType: 0
+  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   Targets: {fileID: 205109916}
   Target:
   - {fileID: 1812799010}
@@ -5703,41 +5737,7 @@ MonoBehaviour:
   - {fileID: 1141430905}
   - {fileID: 167380774}
   - {fileID: 1832058932}
-  Rotations:
-  - -90
-  - 180
-  - -90
-  - 0
-  - -90
-  - 180
-  - -90
-  - 180
-  - -90
-  - 180
-  - -90
-  - 180
-  - 90
-  - 180
-  - 90
-  - 180
-  - -90
-  - 180
-  - -90
-  - 180
-  - 90
-  - 180
-  - -90
-  - -90
   currentTarget: {fileID: 1812799010}
-  isCyclic: 0
-  chanceToSpawn: 0.8
-  chanceInvertSideAfterSpawn: 0.5
-  health: 2
-  chanceToSpawnEnergy: 0.4
-  damageToPlayer: 8
-  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
-  timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 10000
   onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!1001 &789185424
 PrefabInstance:
@@ -6426,7 +6426,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0822916, y: 0.8229189}
+  m_Offset: {x: 0.16129845, y: 0.8229189}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6437,7 +6437,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 3.1066723}
+  m_Size: {x: 1.1871802, y: 3.1066723}
   m_EdgeRadius: 0
 --- !u!50 &910889276
 Rigidbody2D:
@@ -6476,20 +6476,20 @@ MonoBehaviour:
   maxX: 39.5
   minY: 3
   maxY: 3
+  moveSpeed: 3
+  delayBeforeEnteringDoor: 0.25
+  doorCountdown: 4
+  interactionState: 0
   canInteract: 0
   newCameraPosition: {x: 39.5, y: 3, z: -10}
   newPlayerPosition1: {x: 31.75, y: 3.665974, z: 0}
   newPlayerPosition2: {x: 34, y: 3.665974, z: 0}
-  moveSpeed: 3
-  delayBeforeEnteringDoor: 0.25
   flipPlayer: 0
   otherDoor: {fileID: 381047929}
   enemiesToRespawn:
   - {fileID: 1135209174003152801}
   - {fileID: 8715432119943137942}
   doorClip: {fileID: 8300000, guid: 212b29daa15ad3c4f968c2c9f5939fb5, type: 3}
-  doorCountdown: 4
-  interactionState: 0
 --- !u!82 &910889278
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6970,29 +6970,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100af882b18b4f498c1d8475e8c53b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eZoomerType: 0
+  damageToPlayer: 8
   speed: 2
+  chanceToSpawn: 0.8
+  chanceInvertSideAfterSpawn: 0.5
+  health: 2
+  chanceToSpawnEnergy: 0.4
+  timeSpeedReducedAfterDamaged: 0.2
+  speedDivisorAfterDamaged: 10000
+  Rotations:
+  - 90
+  - 180
+  - -90
+  - 0
+  isCyclic: 1
+  eZoomerType: 0
+  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   Targets: {fileID: 1637054572}
   Target:
   - {fileID: 13634265}
   - {fileID: 1945991986}
   - {fileID: 1886756617}
   - {fileID: 841357086}
-  Rotations:
-  - 90
-  - 180
-  - -90
-  - 0
   currentTarget: {fileID: 13634265}
-  isCyclic: 1
-  chanceToSpawn: 0.8
-  chanceInvertSideAfterSpawn: 0.5
-  health: 2
-  chanceToSpawnEnergy: 0.4
-  damageToPlayer: 8
-  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
-  timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 10000
   onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!1 &927771583
 GameObject:
@@ -8492,29 +8492,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100af882b18b4f498c1d8475e8c53b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eZoomerType: 0
+  damageToPlayer: 8
   speed: 2
+  chanceToSpawn: 0.8
+  chanceInvertSideAfterSpawn: 0.5
+  health: 2
+  chanceToSpawnEnergy: 0.4
+  timeSpeedReducedAfterDamaged: 0.2
+  speedDivisorAfterDamaged: 10000
+  Rotations:
+  - 90
+  - 180
+  - -90
+  - 0
+  isCyclic: 1
+  eZoomerType: 0
+  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   Targets: {fileID: 63015039}
   Target:
   - {fileID: 711671363}
   - {fileID: 159593781}
   - {fileID: 1639948089}
   - {fileID: 1015312823}
-  Rotations:
-  - 90
-  - 180
-  - -90
-  - 0
   currentTarget: {fileID: 711671363}
-  isCyclic: 1
-  chanceToSpawn: 0.8
-  chanceInvertSideAfterSpawn: 0.5
-  health: 2
-  chanceToSpawnEnergy: 0.4
-  damageToPlayer: 8
-  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
-  timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 10000
   onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!1 &1187001319
 GameObject:
@@ -26685,29 +26685,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100af882b18b4f498c1d8475e8c53b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eZoomerType: 0
+  damageToPlayer: 8
   speed: 2
+  chanceToSpawn: 0.8
+  chanceInvertSideAfterSpawn: 1
+  health: 2
+  chanceToSpawnEnergy: 0.4
+  timeSpeedReducedAfterDamaged: 0.2
+  speedDivisorAfterDamaged: 10000
+  Rotations:
+  - 90
+  - 180
+  - 90
+  - 0
+  isCyclic: 0
+  eZoomerType: 0
+  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   Targets: {fileID: 1064691535}
   Target:
   - {fileID: 241663223}
   - {fileID: 223622891}
   - {fileID: 1853390733}
   - {fileID: 162363043}
-  Rotations:
-  - 90
-  - 180
-  - 90
-  - 0
   currentTarget: {fileID: 241663223}
-  isCyclic: 0
-  chanceToSpawn: 0.8
-  chanceInvertSideAfterSpawn: 1
-  health: 2
-  chanceToSpawnEnergy: 0.4
-  damageToPlayer: 8
-  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
-  timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 10000
   onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!1 &1581666090
 GameObject:
@@ -26798,15 +26798,15 @@ MonoBehaviour:
   highJumpForce: 12
   horizontal: 0
   doubleHeightDelay: 0.12
+  delayBetweenMovementClips: 0.1
+  canCrouch: 1
   hasJumped: 0
   jumped: 0
   jumpedSideways: 0
-  canCrouch: 1
   gotCrouchBall: 0
   canStart: 0
   movementClip: {fileID: 8300000, guid: 4191fcc9fe0a41148ac5cab7658df8f7, type: 3}
   jumpClip: {fileID: 8300000, guid: 2d62c98fd2257a14f8ce7ec4fd43e258, type: 3}
-  delayBetweenMovementClips: 0.1
 --- !u!4 &1581666094
 Transform:
   m_ObjectHideFlags: 0
@@ -26905,6 +26905,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f20c10f437b82fb46907d32751d8b067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBetweenShots: 0.15
+  holdingUp: 0
+  isShooting: 0
   playerBulletPrefab: {fileID: 7451822671765558842, guid: 6459edc9399b3ca47a6099327752c6ae,
     type: 3}
   bulletDestruction: {fileID: 516215828949125839, guid: 430738fe76fefe04f9566f31e9ca8114,
@@ -26914,9 +26917,6 @@ MonoBehaviour:
   playerWeaponUp: {fileID: 537757585}
   playerWeaponJumping: {fileID: 1866006364}
   playerWeaponJumpingUp: {fileID: 103771065}
-  delayBetweenShots: 0.15
-  holdingUp: 0
-  isShooting: 0
 --- !u!95 &1581666098
 Animator:
   serializedVersion: 3
@@ -26948,10 +26948,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49df6a7cf61a96546966bfafaafe87ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startFlashingIntensity: 0.5
   eAnimState: 0
   starting: {fileID: 4929225421756943335, guid: 835f852360822bd428603757fae8956c,
     type: 3}
-  startFlashingIntensity: 0.5
 --- !u!82 &1581666100
 AudioSource:
   m_ObjectHideFlags: 0
@@ -27433,8 +27433,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100af882b18b4f498c1d8475e8c53b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eZoomerType: 0
+  damageToPlayer: 8
   speed: 2
+  chanceToSpawn: 0.8
+  chanceInvertSideAfterSpawn: 0.5
+  health: 2
+  chanceToSpawnEnergy: 0.4
+  timeSpeedReducedAfterDamaged: 0.2
+  speedDivisorAfterDamaged: 10000
+  Rotations:
+  - -90
+  - 180
+  - -90
+  - 0
+  - -90
+  - 180
+  - -90
+  - 180
+  - -90
+  - 180
+  - -90
+  - 180
+  - 90
+  - 180
+  - 90
+  - 180
+  - -90
+  - 180
+  - -90
+  - 180
+  - 90
+  - 180
+  - -90
+  - -90
+  isCyclic: 0
+  eZoomerType: 0
+  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   Targets: {fileID: 229868309}
   Target:
   - {fileID: 489608356}
@@ -27461,41 +27495,7 @@ MonoBehaviour:
   - {fileID: 1536255775}
   - {fileID: 103869730}
   - {fileID: 2024708275}
-  Rotations:
-  - -90
-  - 180
-  - -90
-  - 0
-  - -90
-  - 180
-  - -90
-  - 180
-  - -90
-  - 180
-  - -90
-  - 180
-  - 90
-  - 180
-  - 90
-  - 180
-  - -90
-  - 180
-  - -90
-  - 180
-  - 90
-  - 180
-  - -90
-  - -90
   currentTarget: {fileID: 489608356}
-  isCyclic: 0
-  chanceToSpawn: 0.8
-  chanceInvertSideAfterSpawn: 0.5
-  health: 2
-  chanceToSpawnEnergy: 0.4
-  damageToPlayer: 8
-  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
-  timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 10000
   onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!1 &1668082565
 GameObject:
@@ -27662,29 +27662,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100af882b18b4f498c1d8475e8c53b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eZoomerType: 0
+  damageToPlayer: 8
   speed: 2
+  chanceToSpawn: 0.8
+  chanceInvertSideAfterSpawn: 0.5
+  health: 2
+  chanceToSpawnEnergy: 0.4
+  timeSpeedReducedAfterDamaged: 0.2
+  speedDivisorAfterDamaged: 10000
+  Rotations:
+  - 90
+  - 180
+  - -90
+  - 0
+  isCyclic: 1
+  eZoomerType: 0
+  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   Targets: {fileID: 1529240560}
   Target:
   - {fileID: 1212761624}
   - {fileID: 1241206839}
   - {fileID: 457771244}
   - {fileID: 446759024}
-  Rotations:
-  - 90
-  - 180
-  - -90
-  - 0
   currentTarget: {fileID: 1212761624}
-  isCyclic: 1
-  chanceToSpawn: 0.8
-  chanceInvertSideAfterSpawn: 0.5
-  health: 2
-  chanceToSpawnEnergy: 0.4
-  damageToPlayer: 8
-  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
-  timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 10000
   onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!1 &1672126711
 GameObject:
@@ -28061,25 +28061,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100af882b18b4f498c1d8475e8c53b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eZoomerType: 0
+  damageToPlayer: 8
   speed: 2
-  Targets: {fileID: 1012097073}
-  Target:
-  - {fileID: 2004946649}
-  - {fileID: 1631362392}
-  Rotations:
-  - 0
-  - 0
-  currentTarget: {fileID: 2004946649}
-  isCyclic: 1
   chanceToSpawn: 0.8
   chanceInvertSideAfterSpawn: 0.5
   health: 2
   chanceToSpawnEnergy: 0.4
-  damageToPlayer: 8
-  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   timeSpeedReducedAfterDamaged: 0.2
   speedDivisorAfterDamaged: 10000
+  Rotations:
+  - 0
+  - 0
+  isCyclic: 1
+  eZoomerType: 0
+  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
+  Targets: {fileID: 1012097073}
+  Target:
+  - {fileID: 2004946649}
+  - {fileID: 1631362392}
+  currentTarget: {fileID: 2004946649}
   onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!1 &1694525262
 GameObject:
@@ -28608,8 +28608,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 010992a500e5bd1478f1fd7cef6ab5d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canJump: 0
   cooldown: 0
+  canJump: 0
 --- !u!1 &1763926727
 GameObject:
   m_ObjectHideFlags: 0
@@ -29996,29 +29996,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100af882b18b4f498c1d8475e8c53b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eZoomerType: 0
+  damageToPlayer: 8
   speed: 2
+  chanceToSpawn: 0.8
+  chanceInvertSideAfterSpawn: 0.5
+  health: 2
+  chanceToSpawnEnergy: 0.4
+  timeSpeedReducedAfterDamaged: 0.2
+  speedDivisorAfterDamaged: 10000
+  Rotations:
+  - 90
+  - 180
+  - -90
+  - 0
+  isCyclic: 1
+  eZoomerType: 0
+  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   Targets: {fileID: 1304765251}
   Target:
   - {fileID: 1849048842}
   - {fileID: 1401605630}
   - {fileID: 2079858270}
   - {fileID: 1230738195}
-  Rotations:
-  - 90
-  - 180
-  - -90
-  - 0
   currentTarget: {fileID: 1849048842}
-  isCyclic: 1
-  chanceToSpawn: 0.8
-  chanceInvertSideAfterSpawn: 0.5
-  health: 2
-  chanceToSpawnEnergy: 0.4
-  damageToPlayer: 8
-  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
-  timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 10000
   onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!1 &2046907770
 GameObject:
@@ -31063,29 +31063,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100af882b18b4f498c1d8475e8c53b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eZoomerType: 0
+  damageToPlayer: 8
   speed: 2
+  chanceToSpawn: 0.8
+  chanceInvertSideAfterSpawn: 0.5
+  health: 2
+  chanceToSpawnEnergy: 0.4
+  timeSpeedReducedAfterDamaged: 0.2
+  speedDivisorAfterDamaged: 10000
+  Rotations:
+  - 90
+  - 180
+  - -90
+  - 0
+  isCyclic: 1
+  eZoomerType: 0
+  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   Targets: {fileID: 1135209174703207260}
   Target:
   - {fileID: 1135209174986020842}
   - {fileID: 1135209173369473535}
   - {fileID: 1135209175210284297}
   - {fileID: 1135209173688293377}
-  Rotations:
-  - 90
-  - 180
-  - -90
-  - 0
   currentTarget: {fileID: 1135209174986020842}
-  isCyclic: 1
-  chanceToSpawn: 0.8
-  chanceInvertSideAfterSpawn: 0.5
-  health: 2
-  chanceToSpawnEnergy: 0.4
-  damageToPlayer: 8
-  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
-  timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 10000
   onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!61 &1135209174003152829
 BoxCollider2D:
@@ -31494,8 +31494,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100af882b18b4f498c1d8475e8c53b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eZoomerType: 0
+  damageToPlayer: 8
   speed: 2
+  chanceToSpawn: 0.8
+  chanceInvertSideAfterSpawn: 0.5
+  health: 2
+  chanceToSpawnEnergy: 0.4
+  timeSpeedReducedAfterDamaged: 0.2
+  speedDivisorAfterDamaged: 10000
+  Rotations:
+  - 0
+  - -90
+  - 0
+  - -90
+  - 90
+  - 0
+  - 0
+  - -90
+  - 90
+  - 0
+  - 90
+  - 0
+  - 0
+  isCyclic: 0
+  eZoomerType: 0
+  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   Targets: {fileID: 1628263554210707864}
   Target:
   - {fileID: 1517809891}
@@ -31511,30 +31534,7 @@ MonoBehaviour:
   - {fileID: 430038195}
   - {fileID: 1445553842}
   - {fileID: 1149215627}
-  Rotations:
-  - 0
-  - -90
-  - 0
-  - -90
-  - 90
-  - 0
-  - 0
-  - -90
-  - 90
-  - 0
-  - 90
-  - 0
-  - 0
   currentTarget: {fileID: 1628263554426412334}
-  isCyclic: 0
-  chanceToSpawn: 0.8
-  chanceInvertSideAfterSpawn: 0.5
-  health: 2
-  chanceToSpawnEnergy: 0.4
-  damageToPlayer: 8
-  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
-  timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 10000
   onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!61 &1628263553259257209
 BoxCollider2D:
@@ -31986,8 +31986,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100af882b18b4f498c1d8475e8c53b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eZoomerType: 0
+  damageToPlayer: 8
   speed: 2
+  chanceToSpawn: 1
+  chanceInvertSideAfterSpawn: 1
+  health: 2
+  chanceToSpawnEnergy: 0.4
+  timeSpeedReducedAfterDamaged: 0.2
+  speedDivisorAfterDamaged: 10000
+  Rotations:
+  - 90
+  - 0
+  - 90
+  - 180
+  - -90
+  - 0
+  isCyclic: 1
+  eZoomerType: 0
+  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   Targets: {fileID: 4335732984612863756}
   Target:
   - {fileID: 4335732985404300218}
@@ -31996,23 +32012,7 @@ MonoBehaviour:
   - {fileID: 4335732985611244625}
   - {fileID: 7444002415215992268}
   - {fileID: 7444002416325693892}
-  Rotations:
-  - 90
-  - 0
-  - 90
-  - 180
-  - -90
-  - 0
   currentTarget: {fileID: 4335732985404300218}
-  isCyclic: 1
-  chanceToSpawn: 1
-  chanceInvertSideAfterSpawn: 1
-  health: 2
-  chanceToSpawnEnergy: 0.4
-  damageToPlayer: 8
-  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
-  timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 10000
   onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!61 &4335732986629667821
 BoxCollider2D:
@@ -32659,8 +32659,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1100af882b18b4f498c1d8475e8c53b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eZoomerType: 0
+  damageToPlayer: 8
   speed: 2
+  chanceToSpawn: 1
+  chanceInvertSideAfterSpawn: 1
+  health: 2
+  chanceToSpawnEnergy: 0.4
+  timeSpeedReducedAfterDamaged: 0.2
+  speedDivisorAfterDamaged: 10000
+  Rotations:
+  - -90
+  - 0
+  - -90
+  - 180
+  - 90
+  - 0
+  isCyclic: 1
+  eZoomerType: 0
+  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
   Targets: {fileID: 6585941524102692085}
   Target:
   - {fileID: 6585941524253382723}
@@ -32669,23 +32685,7 @@ MonoBehaviour:
   - {fileID: 6585941525101074344}
   - {fileID: 695262773}
   - {fileID: 1868010045}
-  Rotations:
-  - -90
-  - 0
-  - -90
-  - 180
-  - 90
-  - 0
   currentTarget: {fileID: 6585941524253382723}
-  isCyclic: 1
-  chanceToSpawn: 1
-  chanceInvertSideAfterSpawn: 1
-  health: 2
-  chanceToSpawnEnergy: 0.4
-  damageToPlayer: 8
-  newColor: {r: 0.79607844, g: 0.26666668, b: 0, a: 1}
-  timeSpeedReducedAfterDamaged: 0.2
-  speedDivisorAfterDamaged: 10000
   onEnemyHit: {fileID: 8300000, guid: aada931c56a19614e9ac1f94403d98fa, type: 3}
 --- !u!50 &6585941525290072087
 Rigidbody2D:

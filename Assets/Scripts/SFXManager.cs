@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class SFXManager : MonoBehaviour
 {
+    public static SFXManager instance;
+
     public AudioSource audSource;
     public AudioSource shootSource;
 
-    public static SFXManager instance;
 
     private void Awake()
     {
@@ -16,9 +17,8 @@ public class SFXManager : MonoBehaviour
     public void PlaySFX(AudioClip audClip)
     {
         audSource.PlayOneShot(audClip);
-    }
-    
-        public void PlayShoot(AudioClip audClip)
+    }    
+    public void PlayShoot(AudioClip audClip)
     {
         shootSource.PlayOneShot(audClip);
     }

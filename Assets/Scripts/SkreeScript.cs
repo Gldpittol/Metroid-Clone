@@ -4,31 +4,31 @@ using UnityEngine;
 
 public class SkreeScript : MonoBehaviour
 {
+    [Header("Parameters")]
+    public int damageToPlayer = 20;
     public float health = 4;
     public float chanceToSpawnEnergy;
-    public int damageToPlayer = 20;
     public float speed;
-    private Transform playerLocation;
-    public bool AIFinished = false;
-    public GameObject vision;
-    private Vector2 originalPosition;
-    private bool canCollide = false;
-
-
     public float firstFallMinY = 2f;
     public float distanceToSecondPhase = 1.5f;
     public float amountBelowPlayer = 5f;
-    public Color newColor;
     public float timeSpeedReducedAfterDamaged;
     public float speedDivisorAfterDamaged;
     private float originalHealth;
     private float originalSpeed;
-    private SpriteRenderer sr;
+    public bool AIFinished = false;
     private bool beingDamaged = false;
+    private bool canCollide = false;
+    private Vector2 originalPosition;
 
+    [Header("References")]
+    public Color newColor;
+    private SpriteRenderer sr;
+    private Transform playerLocation;
+    public GameObject vision;
     public GameObject skreeDeathSpawn;
-
     public AudioClip onEnemyHit;
+
     private void Awake()
     {
         originalPosition = transform.position;
@@ -87,20 +87,20 @@ public class SkreeScript : MonoBehaviour
                 {
                     while (Mathf.Abs(transform.position.x - initialPlayerPos.x) > distanceToSecondPhase && isFirstStage)
                     {
-                        transform.position = Vector2.MoveTowards(transform.position, new Vector2(initialPlayerPos.x, transform.position.y - firstFallMinY), speed);
+                        transform.position = Vector2.MoveTowards(transform.position, new Vector2(initialPlayerPos.x, transform.position.y - firstFallMinY), speed * Time.deltaTime);
                         yield return null;
                     }
 
                     isFirstStage = false;
 
-                    transform.position = Vector2.MoveTowards(transform.position, new Vector2(playerLocation.position.x, playerLocation.position.y - amountBelowPlayer), speed);
+                    transform.position = Vector2.MoveTowards(transform.position, new Vector2(playerLocation.position.x, playerLocation.position.y - amountBelowPlayer), speed * Time.deltaTime);
                     yield return null;
                 }
             }
 
             if (CharacterMovement.instance == null || transform.position.y <= playerLocation.transform.position.y)
             {
-                transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x, transform.position.y - 1000), speed);
+                transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x, transform.position.y - 1000), speed * Time.deltaTime);
                 yield return null;
             }
 

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CeilingCheck : MonoBehaviour
 {
-    public bool canGetUp = true;
     public static CeilingCheck instance;
+    [HideInInspector] public bool canGetUp = true;
     private Vector3 offset;
     private void Awake()
     {

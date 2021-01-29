@@ -13,41 +13,38 @@ public class GameController : MonoBehaviour
 {
     public static GameController instance;
 
+    [Header("Config Pamaterers")]
     public int playerHealth = 10;
     public float playerDamage;
     public float playerInvulnDuration;
-
-    public EGameState eGameState;
-
-    public GameObject enemyDeath;
-
+    public float delayBeforeGameOver = 2f;
     public Vector2 playerImpulseVector;
+    public EGameState eGameState;
+    private bool audioSourceOn = false;
+    [HideInInspector] public bool isQuitting;
 
-    [HideInInspector]public bool isQuitting;
-
+    [Header("References")]
+    public GameObject enemyDeath;
     public GameObject energyPrefab;
     public GameObject sammusDeathPrefab;
-
     public GameObject zoomerRight;
     public GameObject zoomerLeft;
-
     public GameObject gameOverImage;
-
     public AudioClip startOSTClip;
     public AudioClip brinstarClip;
     public AudioClip playerDeathClip;
     public AudioClip playerHitClip;
 
-    public float delayBeforeGameOver = 2f;
+    [Header("Debug")]
+    public bool debugMode = false;
 
-    private bool audioSourceOn = false;
     private void Awake()
     {
         instance = this;
         QualitySettings.vSyncCount = 1;
         Application.targetFrameRate = 60;
-        StartCoroutine(InitialCutscene());
-        //StartCoroutine(InitialCutsceneDebug());
+        if(!debugMode)StartCoroutine(InitialCutscene());
+        else StartCoroutine(InitialCutsceneDebug());
     }
 
     private void Update()

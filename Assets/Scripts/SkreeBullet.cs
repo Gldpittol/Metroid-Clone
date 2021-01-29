@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class SkreeBullet : MonoBehaviour
 {
-    public float speed = 1f;
-    public Rigidbody2D rb;
-    public float lifeSpan;
     public int damageToPlayer = 8;
+    public float speed = 1f;
+    public float lifeSpan;
+
+    public Rigidbody2D rb;
     private void Start()
     {
          rb = GetComponent<Rigidbody2D>();

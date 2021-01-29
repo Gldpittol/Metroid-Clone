@@ -11,41 +11,35 @@ public enum EZoomerType
 }
 public class ZoomerScript : MonoBehaviour
 {
-    public EZoomerType eZoomerType;
-
-    //[TextArea(3,9)]
-    //public string ZoomerTutorial = "Ângulos para usar em ''Rotations'', cada rotação para seu respectivo Target: \n0: Agarrado na parte de cima\n90:Agarrado na parede da esquerda\n180:Agarrado na parte de baixo\n270: Agarrado na parede da direita";
-    public float speed = 10;
+    [Header("Parameters")]
+    public int damageToPlayer = 3;
     private int i = 0;
-
-    public GameObject Targets;
-    public GameObject[] Target;
-    public float[] Rotations;
-    public GameObject currentTarget;
-
-    public bool isCyclic;
     private int direction;
-
-    private float initialPosX = 0;
-    private float initialPosY = 0;
-    private float originalSpeed;
-    private float originalHealth;
-    private Quaternion originalRotation;
-
+    public float speed = 10;
     public float chanceToSpawn; //entre 0 e 1
     public float chanceInvertSideAfterSpawn; //entre 0 e 1
     public float health;
     public float chanceToSpawnEnergy;
-    public int damageToPlayer = 3;
-    public Color newColor;
-    private Color originalColor;
     public float timeSpeedReducedAfterDamaged;
     public float speedDivisorAfterDamaged;
-
+    public float[] Rotations;
+    private float initialPosX = 0;
+    private float initialPosY = 0;
+    private float originalSpeed;
+    private float originalHealth;
+    public bool isCyclic;
     private bool beingDamaged = false;
-    private SpriteRenderer sr;
+    public EZoomerType eZoomerType;
 
+    [Header("References")]
+    public Color newColor;
+    private Color originalColor;
+    private Quaternion originalRotation;
+    public GameObject Targets;
+    public GameObject[] Target;
+    public GameObject currentTarget;
     public AudioClip onEnemyHit;
+    private SpriteRenderer sr;
 
     private void Awake()
     {
@@ -84,6 +78,8 @@ public class ZoomerScript : MonoBehaviour
         }
 
         beingDamaged = false;
+
+        if (eZoomerType == EZoomerType.Ripper || eZoomerType == EZoomerType.RedRipper) sr.flipX = false;
     }
     private void Start()
     {

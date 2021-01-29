@@ -4,34 +4,30 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
+    public static CharacterMovement instance;
+
+    [Header("Config Parameters")]
     public float playerSpeed;
     public float jumpForce;
     public float highJumpForce;
-    private Rigidbody2D rb;
-
     public float horizontal;
-
-    public static CharacterMovement instance;
-
     public float doubleHeightDelay;
+    public float delayBetweenMovementClips;
     private float currentDelay = 0;
+    private float currentDelayBetweenClips;
+    [HideInInspector] public bool canCrouch = true;
     [HideInInspector] public bool hasJumped = false;
     [HideInInspector] public bool jumped;
     [HideInInspector] public bool jumpedSideways;
+    [HideInInspector] public bool gotCrouchBall = false;
+    [HideInInspector] public bool canStart = false;
 
-    public bool canCrouch = true;
-
+    [Header("References")]
+    private Rigidbody2D rb;
     private PlayerAnimations playerAnim;
-
-    public bool gotCrouchBall = false;
-
-    public bool canStart = false;
-
+    private AudioSource audSource;
     public AudioClip movementClip;
     public AudioClip jumpClip;
-    public float delayBetweenMovementClips;
-    private float currentDelayBetweenClips;
-    private AudioSource audSource;
 
     private void Awake()
     {
@@ -46,13 +42,10 @@ public class CharacterMovement : MonoBehaviour
 
     private void Update()
     {
-
         if (GameController.instance.eGameState == EGameState.GamePlay)
         {
            if(GroundCheck.instance.canJump) horizontal = Input.GetAxisRaw("Horizontal");
             else horizontal = Input.GetAxis("Horizontal");
-
-
 
             if (playerAnim.eAnimState != EAnimState.Crouch)
             {
@@ -97,7 +90,6 @@ public class CharacterMovement : MonoBehaviour
                 }
             }
 
-
             if(playerAnim.eAnimState != EAnimState.JumpSideways)
             {
                 if (horizontal < 0)
@@ -114,7 +106,6 @@ public class CharacterMovement : MonoBehaviour
                 }
             }
         }
-
     }
 
 
@@ -149,7 +140,6 @@ public class CharacterMovement : MonoBehaviour
                     currentDelayBetweenClips = 0;
                     audSource.PlayOneShot(movementClip);
                 }
-
             }
         }
     }

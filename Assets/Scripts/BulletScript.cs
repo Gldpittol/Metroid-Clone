@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
+    [Header("Config Parameters")]
     public float bulletSpeed;
-    public Rigidbody2D bulletRb;
-    public bool isBulletGoingUp;
     public float timeUntilDestruction;
+    [HideInInspector] public bool isBulletGoingUp;
+    [HideInInspector] public bool hasCollided = false;
 
-    public bool hasCollided = false;
-
+    [Header("Object References")]
+    public Rigidbody2D bulletRb;
     public AudioClip shootClip;
     private void Start()
     {
